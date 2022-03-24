@@ -71,7 +71,7 @@ const App = ({ Component, pageProps }: AppProps) => (
       <meta name="twitter:image" content="https://img1.wsimg.com/isteam/stock/uENxzPOagDu35BQJA" />
       <meta name="twitter:image:alt" content="Marketing Inteligente" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap" rel="stylesheet" />
     </Head>
     <GlobalStyle />
