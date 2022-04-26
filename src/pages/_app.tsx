@@ -30,7 +30,6 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="/variables.css"/>
         <link rel="stylesheet" href="/index.css"/>
-        <link rel="manifest" href="https://inteligente.marketing/manifest.webmanifest" />
         <link rel="apple-touch-icon" sizes="57x57"
               href="https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m" />
         <link rel="apple-touch-icon" sizes="60x60"
@@ -59,7 +58,7 @@ const App = ({ Component, pageProps }: AppProps) => {
               content="Aumente o faturamento do seu negócio com anúncios inteligentes" />
         <meta name="twitter:image" content="https://img1.wsimg.com/isteam/stock/uENxzPOagDu35BQJA" />
         <meta name="twitter:image:alt" content="Marketing Inteligente" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/manifest.webmanifest" />
       </Head>
       <Component {...pageProps} />
     </>
