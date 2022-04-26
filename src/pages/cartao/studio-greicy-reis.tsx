@@ -34,7 +34,7 @@ export default function VirtualCard() {
 }
 
 const Text2 = styled.div`
-  background: #FBD820;
+  background: #FBD82055;
   position: absolute;
   bottom: -10px;
   padding: 10px;
@@ -46,16 +46,17 @@ const Text2 = styled.div`
 const Text1 = styled.div`
   position: absolute;
   bottom: 70px;
-  right: 0;
-  max-width: 50vw;
+  right: -10px;
+  max-width: 180px;
   background: #973E45;
   color: #FFCC99;
   padding: 10px;
   height: 80px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  text-align: left;
 
   .upper {
     text-transform: uppercase;
@@ -72,6 +73,10 @@ const Text1 = styled.div`
     border-color: transparent #973E45 transparent transparent;
     left: -20px;
     top: 0;
+  }
+  @media (max-width: 360px){
+    font-size: 0.9em;
+    max-width: 160px;
   }
 `
 
