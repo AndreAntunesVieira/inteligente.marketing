@@ -1,33 +1,5 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { createGlobalStyle } from 'styled-components';
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: 'League Spartan', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  a, a:hover, a:visited{
-    color: inherit;
-    text-decoration: none;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
-  .btn{
-    border-radius: 8px;
-    padding: 8px;
-    background-color: #016666;
-    color: white;
-    text-decoration: none;
-  }
-  .container{
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 8px;
-  }
-`;
 
 
 const App = ({ Component, pageProps }: AppProps) => (
@@ -41,6 +13,11 @@ const App = ({ Component, pageProps }: AppProps) => (
       <title>Marketing Inteligente</title>
       <meta name="author" content="Marketing Inteligente" />
       <meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 8.0.0000" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="crossorigin"/>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="/variables.css"/>
+      <link rel="stylesheet" href="/index.css"/>
       <link rel="manifest" href="https://inteligente.marketing/manifest.webmanifest" />
       <link rel="apple-touch-icon" sizes="57x57"
             href="https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m" />
@@ -70,11 +47,7 @@ const App = ({ Component, pageProps }: AppProps) => (
             content="Aumente o faturamento do seu negócio com anúncios inteligentes" />
       <meta name="twitter:image" content="https://img1.wsimg.com/isteam/stock/uENxzPOagDu35BQJA" />
       <meta name="twitter:image:alt" content="Marketing Inteligente" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap" rel="stylesheet" />
     </Head>
-    <GlobalStyle />
     <Component {...pageProps} />
   </>
 );

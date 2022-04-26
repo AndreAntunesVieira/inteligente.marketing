@@ -1,52 +1,45 @@
 import styled from 'styled-components'
 
 const SplashSection = () => (
-  <Container>
-    <menu>
-      <div className="container">
-        <div>
-          <a href="/">Agência Marketing Inteligente</a>
-          {/*<img src="/logo-social-media.png"/>*/}
-        </div>
-        <ul>
-          <li>
-            <a>Página principal</a>
-          </li>
-          <li>
-            <a>Serviços</a>
-          </li>
-          <li>
-            <a>Contato</a>
-          </li>
-        </ul>
-      </div>
-    </menu>
+  <Container style={{backgroundImage: `url(/pexels-caio-67112.jpeg)`}}>
     <main>
       <div className="container">
 
-        <h1>
-          Aumente o faturamento do seu negócio com anúncios inteligentes
+        <h1 className="font-light">
+          Marketing Inteligente
         </h1>
-        <a className="btn" href="/">
+        <h2 className="font-size-small">
+          Aumente o faturamento do seu negócio com anúncios inteligentes
+        </h2>
+        <a className="btn btn1" href="/">
           Entre em contato
         </a>
       </div>
     </main>
-
   </Container>
 )
 
 const Container = styled.section`
-min-height: 80vh;
+  position: relative;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid;
-  background-image: url("/splash-fundo.jpeg");
   background-size: cover;
   background-position: center 20%;
+  color: white;
+  z-index: 0;
+  &:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: -1;
+  }
+  
   menu{
     display: flex;
-    color: white;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5em;
@@ -68,6 +61,7 @@ min-height: 80vh;
         display: inline-flex;
         padding: 8px;
         cursor: pointer;
+        text-transform: uppercase;
       }
     }
   }
@@ -76,7 +70,6 @@ min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
     font-size: 2em;
     .container{
       justify-content: center;
@@ -86,6 +79,8 @@ min-height: 80vh;
       text-align: center;
       flex-grow: 1;
     }
+    h1{margin-bottom: 0}
+    h2{margin-top: 0}
   }
 `
 export default SplashSection
