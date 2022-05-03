@@ -4,9 +4,7 @@ export default function VirtualCard() {
   return (
     <>
       <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
-        <div>
-          <h1>Studio Greicy Reis</h1>
-        </div>
+        <h1>Studio Greicy Reis</h1>
         <MainButtons>
           <div className="Buttons1">
             <div className="Buttons2">
@@ -120,6 +118,8 @@ const MainButtons = styled.div`
         top: 0;
         right: 100px;
       }
+    }
+    @media (max-height: 510px){
       &:nth-child(2){
         position: absolute;
         top: 100px;
@@ -138,8 +138,9 @@ const MainButtons = styled.div`
 const Container = styled.div`
   background-size: cover;
   background-position: top center;
-  position: relative;
   height: 100vh;
+  width: 100vw;
+  position: fixed;
   display: flex;
   flex-direction: column;
 
