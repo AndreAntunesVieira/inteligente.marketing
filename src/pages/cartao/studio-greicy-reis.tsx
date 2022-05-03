@@ -1,44 +1,52 @@
 import styled from 'styled-components'
+import Head from 'next/head'
 
 export default function VirtualCard() {
   return (
-    <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
-      <h1>Studio Greicy Reis</h1>
-      <MainButtons>
-        <div className="Buttons1">
-          <div className="Buttons2">
-            <Text1>
-              <div>Referência em Cílios e Micropigmentação.</div>
-              <div className="upper">Cursos e Mentorias</div>
-            </Text1>
+    <>
+    <Head>
+      <meta property="og:title" content="Studio Greicy Reis"/>
+      <meta property="og:image" content="/cards/studio-greicy-reis/background.png"/>
+    </Head>
+      <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
+        <h1>Studio Greicy Reis</h1>
+        <MainButtons>
+          <div className="Buttons1">
+            <div className="Buttons2">
+              <Text1>
+                <div>Referência em Cílios e Micropigmentação.</div>
+                <div className="upper">Cursos e Mentorias</div>
+              </Text1>
+            </div>
+            <div className="ButtonsContainer">
+              <a href="https://bit.ly/3MrQDES">
+                <img src="/cards/studio-greicy-reis/7.png" />
+                Serviços
+              </a>
+              <a href="https://bit.ly/3s66jG0">
+                <img src="/cards/studio-greicy-reis/3.png" />
+                Whatsapp
+              </a>
+              <a href="https://bit.ly/3kBvHzk">
+                <img src="/cards/studio-greicy-reis/2.png" />
+                Instagram
+              </a>
+              <a href="https://bit.ly/3MrQDES">
+                <img src="/cards/studio-greicy-reis/8.png" />
+                Cursos
+              </a>
+              <a href="https://bit.ly/38EKuXn">
+                <img src="/cards/studio-greicy-reis/5.png" />
+                Localização
+              </a>
+            </div>
           </div>
-          <div className="ButtonsContainer">
-            <a href="https://bit.ly/3MrQDES">
-              <img src="/cards/studio-greicy-reis/7.png" />
-              Serviços
-            </a>
-            <a href="https://bit.ly/3s66jG0">
-              <img src="/cards/studio-greicy-reis/3.png" />
-              Whatsapp
-            </a>
-            <a href="https://bit.ly/3kBvHzk">
-              <img src="/cards/studio-greicy-reis/2.png" />
-              Instagram
-            </a>
-            <a href="https://bit.ly/3MrQDES">
-              <img src="/cards/studio-greicy-reis/8.png" />
-              Cursos
-            </a>
-            <a href="https://bit.ly/38EKuXn">
-              <img src="/cards/studio-greicy-reis/5.png" />
-              Localização
-            </a>
-          </div>
-        </div>
 
-        <small className="Text2">Clique nos ícones para interagir</small>
-      </MainButtons>
-    </Container>
+          <small className="Text2">Clique nos ícones para interagir</small>
+        </MainButtons>
+      </Container>
+    </>
+
   )
 }
 
