@@ -39,12 +39,12 @@ export default function VirtualCard() {
 
 const Text2 = styled.div`
   background: #FBD82055;
-  position: absolute;
-  bottom: -10px;
-  padding: 10px;
   border-radius: 10px 10px 0 0;
   width: 260px;
   right: calc(50% - 130px);
+  position: fixed;
+  bottom: 0;
+  padding: 10px 10px 5px 10px;
 `
 
 const Text1 = styled.div`
@@ -105,7 +105,6 @@ const MainButtons = styled.div`
   a {
     margin-bottom: 10px;
     display: inline-flex;
-    align-items: flex-end;
     color: #fdeb97;
     background-size: contain;
     flex-direction: column;
@@ -115,11 +114,24 @@ const MainButtons = styled.div`
       height: 60px;
       width: 60px;
     }
+    @media (max-height: 580px){
+      &:nth-child(1){
+        position: absolute;
+        top: 0;
+        right: 100px;
+      }
+      &:nth-child(2){
+        position: absolute;
+        top: 60px;
+        right: 100px;
+      }
+    }
   }
 
   .ButtonsContainer {
     display: flex;
     flex-direction: column;
+    padding: 0 0 20px 0;
   }
 `
 
