@@ -2,53 +2,50 @@ import styled from 'styled-components'
 
 export default function VirtualCard() {
   return (
-    <>
-      <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
-        <h1>Studio Greicy Reis</h1>
-        <MainButtons>
-          <div className="Buttons1">
-            <div className="Buttons2">
-              <Text1>
-                <div>Referência em Cílios e Micropigmentação.</div>
-                <div className="upper">Cursos e Mentorias</div>
-              </Text1>
-            </div>
-            <div className="ButtonsContainer">
-              <a href="https://www.instagram.com/studiogreicyreis"
-              ><img src="/cards/studio-greicy-reis/7.png" />Serviços</a>
-              <a href="https://wa.me/5551992894493"
-              ><img src="/cards/studio-greicy-reis/3.png" />Whatsapp</a>
-              <a href="https://www.instagram.com/studiogreicyreis"
-              ><img src="/cards/studio-greicy-reis/2.png" />Instagram</a>
-              <a href="tel:051992894493"><img src="/cards/studio-greicy-reis/8.png" />Cursos</a>
-              <a href="https://maps.google.com/?q=Avenida Assis Brasil, 3966, Jardim Lindoia, Porto Alegre"
-              ><img src="/cards/studio-greicy-reis/5.png" />Localização</a>
-            </div>
+    <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
+      <h1>Studio Greicy Reis</h1>
+      <MainButtons>
+        <div className="Buttons1">
+          <div className="Buttons2">
+            <Text1>
+              <div>Referência em Cílios e Micropigmentação.</div>
+              <div className="upper">Cursos e Mentorias</div>
+            </Text1>
           </div>
+          <div className="ButtonsContainer">
+            <a href="https://bit.ly/3MrQDES">
+              <img src="/cards/studio-greicy-reis/7.png" />
+              Serviços
+            </a>
+            <a href="https://bit.ly/3s66jG0">
+              <img src="/cards/studio-greicy-reis/3.png" />
+              Whatsapp
+            </a>
+            <a href="https://bit.ly/3kBvHzk">
+              <img src="/cards/studio-greicy-reis/2.png" />
+              Instagram
+            </a>
+            <a href="https://bit.ly/3MrQDES">
+              <img src="/cards/studio-greicy-reis/8.png" />
+              Cursos
+            </a>
+            <a href="https://bit.ly/38EKuXn">
+              <img src="/cards/studio-greicy-reis/5.png" />
+              Localização
+            </a>
+          </div>
+        </div>
 
-          <Text2>
-            Clique nos ícones para interagir
-          </Text2>
-        </MainButtons>
-      </Container>
-    </>
+        <small className="Text2">Clique nos ícones para interagir</small>
+      </MainButtons>
+    </Container>
   )
 }
-
-const Text2 = styled.div`
-  background: #FBD82055;
-  border-radius: 10px 10px 0 0;
-  width: 260px;
-  right: calc(50% - 130px);
-  position: fixed;
-  bottom: 0;
-  padding: 10px 10px 5px 10px;
-`
 
 const Text1 = styled.div`
   max-width: 180px;
   background: #782116;
-  color: #FFCC99;
+  color: #ffcc99;
   padding: 10px;
   height: 80px;
   display: flex;
@@ -108,21 +105,23 @@ const MainButtons = styled.div`
     flex-direction: column;
     padding: 0 10px;
     align-items: center;
+
     img {
       height: 60px;
       width: 60px;
     }
-    @media (max-height: 580px){
-      &:nth-child(1){
+
+    @media (max-height: 590px) {
+      &:nth-child(1) {
         position: absolute;
         top: 0;
         right: 100px;
       }
     }
-    @media (max-height: 510px){
-      &:nth-child(2){
+    @media (max-height: 510px) {
+      &:nth-child(2) {
         position: absolute;
-        top: 100px;
+        top: 90px;
         right: 100px;
       }
     }
@@ -143,6 +142,17 @@ const Container = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
+
+  .Text2 {
+    background: #fbd82055;
+    border-radius: 10px 10px 0 0;
+    width: 260px;
+    right: calc(50% - 130px);
+    position: fixed;
+    bottom: 0;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+  }
 
   .logo {
     display: flex;

@@ -3,41 +3,47 @@ import styled from 'styled-components'
 const ServicesSection = () => (
   <Container>
     <div className="container">
-
       <h2>Serviços Oferecidos</h2>
       <div className="serives">
-
         <div>
-          <img width={30}
-            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png" />
+          <img
+            width={30}
+            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png"
+          />
           <h3>Gestão de redes sociais</h3>
         </div>
 
         <div>
-          <img width={30}
-            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png" />
+          <img
+            width={30}
+            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png"
+          />
           <h3>Anúncios Pagos</h3>
           <p>Google Ads + Facebook Ads</p>
         </div>
         <div>
-          <img width={30}
-            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png" />
+          <img
+            width={30}
+            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png"
+          />
           <h3>Google Ads</h3>
-          <p>Seja encontrado por pessoas que precisam de você. Sua empresa nas primeiras posições de buscas no
-            Google.</p>
+          <p>
+            Seja encontrado por pessoas que precisam de você. Sua empresa nas primeiras posições de buscas no Google.
+          </p>
         </div>
         <div>
-          <img width={30}
-            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png" />
+          <img
+            width={30}
+            src="https://cdn-bpmjd.nitrocdn.com/hYZKWztTpnUwvsNUnifELwSjXhiJqZdC/assets/static/optimized/rev-3116aeb/wp-content/uploads/2021/05/Design-sem-nome-24.png"
+          />
           <h3>Marketing De Conteúdo</h3>
-          <p>Conteúdos que engajam e divertem seu público é a nova forma de criar relacionamento nos dias de hoje. Nós
-            criamos tudo para você.</p>
+          <p>
+            Conteúdos que engajam e divertem seu público é a nova forma de criar relacionamento nos dias de hoje. Nós
+            criamos tudo para você.
+          </p>
         </div>
-
-
       </div>
     </div>
-
   </Container>
 )
 

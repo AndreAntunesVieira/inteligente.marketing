@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export default function VirtualCard() {
   return (
     <>
-      <Container style={{backgroundImage: 'url(/cards/background1.jpeg)'}}>
+      <Container style={{ backgroundImage: 'url(/cards/background1.jpeg)' }}>
         <div className="logo">
           <img src="/cards/logo1.png" />
         </div>
@@ -20,9 +20,7 @@ export default function VirtualCard() {
   )
 }
 
-const MainButtons = styled.div`
-
-`
+const MainButtons = styled.div``
 
 const Container = styled.div`
   background-size: cover;
@@ -30,26 +28,26 @@ const Container = styled.div`
   background-position: center center;
   padding: 24px;
   position: relative;
-  .logo{
+  .logo {
     display: flex;
     justify-content: center;
     padding: 24px;
-    img{
+    img {
       width: 50vw;
     }
   }
-  h1{
+  h1 {
     color: white;
     padding: 24px;
     font-size: 1.7em;
     text-align: center;
   }
-  &:before{
+  &:before {
     width: calc(100vw - 48px);
     height: calc(100vh - 48px);
     position: absolute;
     content: '';
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 24px;
   }
 

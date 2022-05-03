@@ -3,14 +3,11 @@ import ServicesSection from '../components/sections/ServicesSection'
 import Sidebar from '../components/sections/Sidebar'
 import styled from 'styled-components'
 
-const data = [
-  { component: 'SplashSection' },
-  { component: 'ServicesSection' },
-
-]
+const data = [{ component: 'SplashSection' }, { component: 'ServicesSection' }]
 
 const sections: any = {
-  SplashSection, ServicesSection
+  SplashSection,
+  ServicesSection,
 }
 
 export default function Home() {
@@ -19,7 +16,7 @@ export default function Home() {
       <Sidebar />
       <div className="main">
         {data.map(({ component, ...props }: any, i: number) => {
-          const Component = sections[ component ]
+          const Component = sections[component]
           return <Component {...props} key={`${component}-${i}`} />
         })}
       </div>
@@ -29,7 +26,7 @@ export default function Home() {
 
 const Container = styled.div`
   display: flex;
-  .main{
+  .main {
     flex-grow: 1;
   }
 `

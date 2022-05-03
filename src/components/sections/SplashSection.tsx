@@ -1,16 +1,11 @@
 import styled from 'styled-components'
 
 const SplashSection = () => (
-  <Container style={{backgroundImage: `url(/pexels-caio-67112.jpeg)`}}>
+  <Container style={{ backgroundImage: `url(/pexels-caio-67112.jpeg)` }}>
     <main>
       <div className="container">
-
-        <h1 className="font-light">
-          Marketing Inteligente
-        </h1>
-        <h2 className="font-size-small">
-          Aumente o faturamento do seu negócio com anúncios inteligentes
-        </h2>
+        <h1 className="font-light">Marketing Inteligente</h1>
+        <h2 className="font-size-small">Aumente o faturamento do seu negócio com anúncios inteligentes</h2>
         <a className="btn btn1" href="/">
           Entre em contato
         </a>
@@ -29,35 +24,35 @@ const Container = styled.section`
   background-position: center 20%;
   color: white;
   z-index: 0;
-  &:before{
+  &:before {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     z-index: -1;
   }
-  
-  menu{
+
+  menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5em;
-    .container{
+    .container {
       border-bottom: 1px solid #333;
       align-items: center;
       justify-content: space-between;
       display: flex;
       height: 65px;
     }
-    ul{
+    ul {
       display: flex;
       align-items: center;
       justify-content: flex-end;
       padding: 0;
       margin: 0;
       list-style: none;
-      li>a{
+      li > a {
         display: inline-flex;
         padding: 8px;
         cursor: pointer;
@@ -65,13 +60,13 @@ const Container = styled.section`
       }
     }
   }
-  main{
+  main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 2em;
-    .container{
+    .container {
       justify-content: center;
       display: flex;
       flex-direction: column;
@@ -79,8 +74,12 @@ const Container = styled.section`
       text-align: center;
       flex-grow: 1;
     }
-    h1{margin-bottom: 0}
-    h2{margin-top: 0}
+    h1 {
+      margin-bottom: 0;
+    }
+    h2 {
+      margin-top: 0;
+    }
   }
 `
 export default SplashSection
