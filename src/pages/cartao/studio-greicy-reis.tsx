@@ -139,7 +139,7 @@ const Container = styled.div`
   background-size: cover;
   background-position: top center;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -161,5 +161,8 @@ const Container = styled.div`
     background-position: center center;
     padding: 16px 0;
     background-repeat: no-repeat;
+    position: fixed;
+    top: 20px;
+    width: 100vw;
   }
 `
