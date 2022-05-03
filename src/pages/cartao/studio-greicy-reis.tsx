@@ -122,7 +122,7 @@ const MainButtons = styled.div`
       }
       &:nth-child(2){
         position: absolute;
-        top: 60px;
+        top: 100px;
         right: 100px;
       }
     }
@@ -137,7 +137,7 @@ const MainButtons = styled.div`
 
 const Container = styled.div`
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   position: relative;
   min-height: 100vh;
   display: flex;
