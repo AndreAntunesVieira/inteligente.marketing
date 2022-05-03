@@ -4,26 +4,30 @@ export default function VirtualCard() {
   return (
     <>
       <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
-        <div className="logo">
-          <img src="/cards/studio-greicy-reis/image.png" />
-        </div>
         <div>
           <h1>Studio Greicy Reis</h1>
         </div>
         <MainButtons>
-          <a href="https://www.instagram.com/studiogreicyreis"
-             style={{ backgroundImage: `url(/cards/studio-greicy-reis/1.png)` }}>a</a>
-          <a href="https://www.instagram.com/studiogreicyreis"
-             style={{ backgroundImage: `url(/cards/studio-greicy-reis/2.png)` }}>a</a>
-          <a href="https://wa.me/5551992894493"
-             style={{ backgroundImage: `url(/cards/studio-greicy-reis/3.png)` }}>a</a>
-          <a href="tel:051992894493" style={{ backgroundImage: `url(/cards/studio-greicy-reis/4.png)` }}>a</a>
-          <a href="https://maps.google.com/?q=Avenida Assis Brasil, 3966, Jardim Lindoia, Porto Alegre"
-             style={{ backgroundImage: `url(/cards/studio-greicy-reis/5.png)` }}>a</a>
-          <Text1>
-            <div>Referência em Cílios e Micropigmentação.</div>
-            <div className="upper">Cursos e Mentorias</div>
-          </Text1>
+          <div className="Buttons1">
+            <div className="Buttons2">
+              <Text1>
+                <div>Referência em Cílios e Micropigmentação.</div>
+                <div className="upper">Cursos e Mentorias</div>
+              </Text1>
+            </div>
+            <div className="ButtonsContainer">
+              <a href="https://www.instagram.com/studiogreicyreis"
+              ><img src="/cards/studio-greicy-reis/7.png" />Serviços</a>
+              <a href="https://wa.me/5551992894493"
+              ><img src="/cards/studio-greicy-reis/3.png" />Whatsapp</a>
+              <a href="https://www.instagram.com/studiogreicyreis"
+              ><img src="/cards/studio-greicy-reis/2.png" />Instagram</a>
+              <a href="tel:051992894493"><img src="/cards/studio-greicy-reis/8.png" />Cursos</a>
+              <a href="https://maps.google.com/?q=Avenida Assis Brasil, 3966, Jardim Lindoia, Porto Alegre"
+              ><img src="/cards/studio-greicy-reis/5.png" />Localização</a>
+            </div>
+          </div>
+
           <Text2>
             Clique nos ícones para interagir
           </Text2>
@@ -44,11 +48,8 @@ const Text2 = styled.div`
 `
 
 const Text1 = styled.div`
-  position: absolute;
-  bottom: 70px;
-  right: -10px;
   max-width: 180px;
-  background: #973E45;
+  background: #782116;
   color: #FFCC99;
   padding: 10px;
   height: 80px;
@@ -57,6 +58,8 @@ const Text1 = styled.div`
   align-items: flex-start;
   justify-content: center;
   text-align: left;
+  flex-grow: 1;
+  position: relative;
 
   .upper {
     text-transform: uppercase;
@@ -69,56 +72,54 @@ const Text1 = styled.div`
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 40px 20px 40px 0;
-    border-color: transparent #973E45 transparent transparent;
-    left: -20px;
+    border-width: 40px 0 40px 20px;
+    border-color: transparent transparent transparent #782116;
+    right: -20px;
     top: 0;
   }
-  @media (max-width: 360px){
+
+  @media (max-width: 360px) {
     font-size: 0.9em;
     max-width: 160px;
   }
 `
 
 const MainButtons = styled.div`
-  position: relative;
-  width: calc(100vw - 20px);
-  min-height: 300px;
-  flex-grow: 1;
-  margin: 10px;
+  display: flex;
+
+  .Buttons1 {
+    display: flex;
+    padding-right: 10px;
+    position: fixed;
+    width: 100vw;
+    bottom: 20px;
+  }
+
+  .Buttons2 {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
 
   a {
-    height: 60px;
-    width: 60px;
-    display: inline-block;
-    color: transparent;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: flex-end;
+    color: #fdeb97;
     background-size: contain;
-    position: absolute;
-    right: 0;
-
-    &:nth-child(1) {
-      bottom: 280px;
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: center;
+    img {
+      height: 60px;
+      width: 60px;
     }
+  }
 
-    &:nth-child(2) {
-      right: calc(45vw - 80px);
-      bottom: 240px;
-    }
-
-    &:nth-child(3) {
-      right: calc(65vw - 80px);
-      bottom: 180px;
-    }
-
-    &:nth-child(4) {
-      right: calc(85vw - 80px);
-      bottom: 100px;
-    }
-
-    &:nth-child(5) {
-      right: calc(100vw - 80px);
-      bottom: 30px;
-    }
+  .ButtonsContainer {
+    display: flex;
+    flex-direction: column;
   }
 `
 
@@ -143,5 +144,10 @@ const Container = styled.div`
     color: white;
     text-align: center;
     margin: 16px 0;
+    background: url(/cards/studio-greicy-reis/name-background.png);
+    background-size: contain;
+    background-position: center center;
+    padding: 16px 0;
+    background-repeat: no-repeat;
   }
 `
