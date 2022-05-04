@@ -123,7 +123,7 @@ const Container = styled.div`
   }
 
   h1 {
-    color: white;
+    color: #FBD820;
     text-align: center;
     margin: 16px 0;
     background: url(/cards/studio-greicy-reis/name-background.png);
@@ -134,6 +134,7 @@ const Container = styled.div`
     position: fixed;
     top: 20px;
     width: 100vw;
+    font-family: Arial, sans-serif;
     @media screen and (min-resolution: 2dppx){
       padding: 20pt 0;
     }

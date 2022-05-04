@@ -25,10 +25,6 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 8.0.0000" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="crossorigin" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap"
-          rel="stylesheet"
-        />
         <link rel="stylesheet" href="/variables.css" />
         <link rel="stylesheet" href="/index.css" />
         <link

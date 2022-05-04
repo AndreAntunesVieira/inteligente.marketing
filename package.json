@@ -4,6 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "prettier --write \"src/**/*.{ts,tsx,js}\"",
     "lint:check": "prettier -l \"src/**/*.{ts,tsx,js}\""
   },
