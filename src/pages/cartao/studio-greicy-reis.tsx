@@ -8,7 +8,7 @@ export default function VirtualCard() {
       <meta property="og:title" content="Studio Greicy Reis"/>
       <meta property="og:image" content="/cards/studio-greicy-reis/background.png"/>
     </Head>
-      <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
+      <Container>
         <h1>Studio Greicy Reis</h1>
         <div className="MainButtons">
           <div className="Buttons1">
@@ -19,7 +19,7 @@ export default function VirtualCard() {
               </div>
             </div>
             <div className="ButtonsContainer">
-              <a href="https://bit.ly/3MrQDES">
+              <a href="/cards/studio-greicy-reis/catalogo-de-servicos-studio-greicy-reis.pdf">
                 <img src="/cards/studio-greicy-reis/7.png" />
                 Serviços
               </a>
@@ -57,6 +57,7 @@ const Container = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
+  background-image: url(/cards/studio-greicy-reis/background-720.jpg);
 
   .Text2 {
     background: #fbd82055;
@@ -102,21 +103,6 @@ const Container = styled.div`
       img {
         height: 60px;
         width: 60px;
-      }
-
-      @media (max-height: 590px) {
-        &:nth-child(1) {
-          position: absolute;
-          top: 0;
-          right: 100px;
-        }
-      }
-      @media (max-height: 510px) {
-        &:nth-child(2) {
-          position: absolute;
-          top: 90px;
-          right: 100px;
-        }
       }
     }
 
@@ -188,5 +174,8 @@ const Container = styled.div`
       font-size: 0.9em;
       max-width: 160px;
     }
+  }
+  @media (max-width: 360px){
+    background-image: url(/cards/studio-greicy-reis/background-360.jpg);
   }
 `
