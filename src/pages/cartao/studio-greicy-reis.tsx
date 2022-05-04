@@ -10,13 +10,13 @@ export default function VirtualCard() {
     </Head>
       <Container style={{ backgroundImage: 'url(/cards/studio-greicy-reis/background.png)' }}>
         <h1>Studio Greicy Reis</h1>
-        <MainButtons>
+        <div className="MainButtons">
           <div className="Buttons1">
             <div className="Buttons2">
-              <Text1>
+              <div className="Text1">
                 <div>Referência em Cílios e Micropigmentação.</div>
                 <div className="upper">Cursos e Mentorias</div>
-              </Text1>
+              </div>
             </div>
             <div className="ButtonsContainer">
               <a href="https://bit.ly/3MrQDES">
@@ -31,10 +31,10 @@ export default function VirtualCard() {
                 <img src="/cards/studio-greicy-reis/2.png" />
                 Instagram
               </a>
-              <a href="https://bit.ly/3MrQDES">
-                <img src="/cards/studio-greicy-reis/8.png" />
-                Cursos
-              </a>
+              {/*<a href="https://bit.ly/3MrQDES">*/}
+              {/*  <img src="/cards/studio-greicy-reis/8.png" />*/}
+              {/*  Cursos*/}
+              {/*</a>*/}
               <a href="https://bit.ly/38EKuXn">
                 <img src="/cards/studio-greicy-reis/5.png" />
                 Localização
@@ -43,109 +43,12 @@ export default function VirtualCard() {
           </div>
 
           <small className="Text2">Clique nos ícones para interagir</small>
-        </MainButtons>
+        </div>
       </Container>
     </>
 
   )
 }
-
-const Text1 = styled.div`
-  max-width: 180px;
-  background: #782116;
-  color: #FBD820;
-  padding: 10px;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: left;
-  flex-grow: 1;
-  position: relative;
-
-  .upper {
-    text-transform: uppercase;
-    font-size: 0.8em;
-  }
-
-  &:before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 40px 0 40px 20px;
-    border-color: transparent transparent transparent #782116;
-    right: -20px;
-    top: 0;
-  }
-
-  @media (max-width: 360px) {
-    font-size: 0.9em;
-    max-width: 160px;
-  }
-`
-
-const MainButtons = styled.div`
-  display: flex;
-
-  .Buttons1 {
-    display: flex;
-    padding-right: 10px;
-    position: fixed;
-    width: 100vw;
-    bottom: 20px;
-  }
-
-  .Buttons2 {
-    flex-grow: 1;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 20px;
-  }
-
-  a {
-    margin-bottom: 10px;
-    display: inline-flex;
-    color: #FFDE59;
-    text-transform: uppercase;
-    background-size: contain;
-    flex-direction: column;
-    padding: 0 10px;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 0.8em;
-
-    img {
-      height: 60px;
-      width: 60px;
-    }
-
-    @media (max-height: 590px) {
-      &:nth-child(1) {
-        position: absolute;
-        top: 0;
-        right: 100px;
-      }
-    }
-    @media (max-height: 510px) {
-      &:nth-child(2) {
-        position: absolute;
-        top: 90px;
-        right: 100px;
-      }
-    }
-  }
-
-  .ButtonsContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 20px 0;
-  }
-`
-
 const Container = styled.div`
   background-size: cover;
   background-position: top center;
@@ -164,6 +67,64 @@ const Container = styled.div`
     bottom: 0;
     padding: 10px 10px 5px 10px;
     text-align: center;
+  }
+  .MainButtons{
+    display: flex;
+
+    .Buttons1 {
+      display: flex;
+      padding-right: 10px;
+      position: fixed;
+      width: 100vw;
+      bottom: 20px;
+    }
+
+    .Buttons2 {
+      flex-grow: 1;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 20px;
+    }
+
+    a {
+      margin-bottom: 10px;
+      display: inline-flex;
+      color: #FFDE59;
+      text-transform: uppercase;
+      background-size: contain;
+      flex-direction: column;
+      padding: 0 10px;
+      align-items: center;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: lighter;
+      font-size: 0.8em;
+
+      img {
+        height: 60px;
+        width: 60px;
+      }
+
+      @media (max-height: 590px) {
+        &:nth-child(1) {
+          position: absolute;
+          top: 0;
+          right: 100px;
+        }
+      }
+      @media (max-height: 510px) {
+        &:nth-child(2) {
+          position: absolute;
+          top: 90px;
+          right: 100px;
+        }
+      }
+    }
+
+    .ButtonsContainer {
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 20px 0;
+    }
   }
 
   .logo {
@@ -187,5 +148,45 @@ const Container = styled.div`
     position: fixed;
     top: 20px;
     width: 100vw;
+    @media screen and (min-resolution: 2dppx){
+      padding: 20pt 0;
+    }
+  }
+  .Text1{
+    max-width: 180px;
+    background: #782116;
+    color: #FBD820;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-grow: 1;
+    position: relative;
+    bottom: 50px;
+
+    .upper {
+      text-transform: uppercase;
+      font-size: 0.8em;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 40px 0 40px 20px;
+      border-color: transparent transparent transparent #782116;
+      right: -20px;
+      top: 0;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 0.9em;
+      max-width: 160px;
+    }
   }
 `
