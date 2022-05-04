@@ -53,7 +53,7 @@ export default function VirtualCard() {
 const Text1 = styled.div`
   max-width: 180px;
   background: #782116;
-  color: #ffcc99;
+  color: #FBD820;
   padding: 10px;
   height: 80px;
   display: flex;
@@ -108,11 +108,15 @@ const MainButtons = styled.div`
   a {
     margin-bottom: 10px;
     display: inline-flex;
-    color: #fdeb97;
+    color: #FFDE59;
+    text-transform: uppercase;
     background-size: contain;
     flex-direction: column;
     padding: 0 10px;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
 
     img {
       height: 60px;
@@ -178,7 +182,7 @@ const Container = styled.div`
     background: url(/cards/studio-greicy-reis/name-background.png);
     background-size: contain;
     background-position: center center;
-    padding: 16px 0;
+    padding: 16pt 0;
     background-repeat: no-repeat;
     position: fixed;
     top: 20px;
