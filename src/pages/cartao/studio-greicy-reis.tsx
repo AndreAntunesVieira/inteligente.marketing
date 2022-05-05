@@ -64,6 +64,20 @@ export default function VirtualCard() {
   )
 }
 
+const clickOutAnimation = keyframes`
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+`
+
 const colorAnimation = keyframes`
   0% {
     background: #802218;
@@ -132,6 +146,10 @@ const Container: any = styled.div`
         height: 60px;
         width: 60px;
       }
+      
+      &:active{
+        animation: 1s ${clickOutAnimation} ease;
+      }
     }
 
     .ButtonsContainer {
@@ -160,6 +178,11 @@ const Container: any = styled.div`
     top: 20px;
     width: 100%;
     font-family: Arial, sans-serif;
+    background: url(/cards/studio-greicy-reis/name-background.png);
+    margin: 0;
+    padding: 14px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
     > div{
       display: inline-flex;
       justify-content: center;
@@ -167,7 +190,7 @@ const Container: any = styled.div`
       border: 2px solid #c2050f;
       transition: all ease 300ms;
       animation: 4s ${colorAnimation} infinite linear;
-      padding: 8px;
+      padding: 12px;
     }
     
     
@@ -192,6 +215,7 @@ const Container: any = styled.div`
     position: relative;
     bottom: 50px;
     transition: all ease 300ms;
+    background-color: #782116;
 
     .upper {
       text-transform: uppercase;
