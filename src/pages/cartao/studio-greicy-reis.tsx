@@ -60,7 +60,7 @@ export default function VirtualCard() {
 
   )
 }
-const Container = styled.div`
+const Container: any = styled.div`
   background-size: cover;
   background-position: top center;
   height: 100vh;
@@ -143,14 +143,14 @@ const Container = styled.div`
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 16pt 0;
+    padding: 20pt 0;
     position: fixed;
     top: 20px;
     width: 100vw;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    gap: 8pt;
+    gap: 4pt;
     span{
       transition: all ease 300ms;
       transform: translate(0, -60px);
