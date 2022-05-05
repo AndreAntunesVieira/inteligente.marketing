@@ -301,11 +301,14 @@ const Container = styled.div`
   }
   @media (max-height: 380px){
     background-position: center 30%;
+    .Text1{
+      bottom: 20px;
+    }
     .MainButtons a{
       &:nth-child(1){
         position: absolute;
-        top: 0;
-        right: 120px;
+        top: 90px;
+        right: 220px;
       }
       &:nth-child(2){
         position: absolute;
