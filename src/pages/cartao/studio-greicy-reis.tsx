@@ -13,10 +13,20 @@ export default function VirtualCard() {
   return (
     <>
     <Head>
+      <meta name="description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
+      <meta property="og:url" content="https://dbgipmeljyjb5.cloudfront.net/cartao/studio-greicy-reis.html/"/>
+      <meta property="og:type" content="website"/>
       <meta property="og:title" content="Studio Greicy Reis"/>
-      <meta property="og:image" content="/cards/studio-greicy-reis/background.png"/>
+      <meta property="og:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
+      <meta property="og:image" content="/cards/studio-greicy-reis/background-720.jpg"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta property="twitter:domain" content="inteligente.marketing"/>
+      <meta property="twitter:url" content="https://dbgipmeljyjb5.cloudfront.net/cartao/studio-greicy-reis.html/"/>
+      <meta name="twitter:title" content="Studio Greicy Reis"/>
+      <meta name="twitter:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
+      <meta name="twitter:image" content="/cards/studio-greicy-reis/background-720.jpg"/>
     </Head>
-      <Container className={ready ? 'ready' : null}>
+      <Container className={ready ? 'ready' : ''}>
         <h1>
           <div>
             <span>Studio</span>
@@ -33,26 +43,18 @@ export default function VirtualCard() {
               </div>
             </div>
             <div className="ButtonsContainer">
-              <a href="/cards/studio-greicy-reis/catalogo-de-servicos-studio-greicy-reis.pdf">
-                <img src="/cards/studio-greicy-reis/7.png" />
+              <Button image="/cards/studio-greicy-reis/7.png" href="/cards/studio-greicy-reis/catalogo-de-servicos-studio-greicy-reis.pdf">
                 Serviços
-              </a>
-              <a href="https://bit.ly/3s66jG0">
-                <img src="/cards/studio-greicy-reis/3.png" />
+              </Button>
+              <Button image="/cards/studio-greicy-reis/3.png" href="https://bit.ly/3s66jG0">
                 Whatsapp
-              </a>
-              <a href="https://bit.ly/3kBvHzk">
-                <img src="/cards/studio-greicy-reis/2.png" />
+              </Button>
+              <Button image="/cards/studio-greicy-reis/2.png" href="https://bit.ly/3kBvHzk">
                 Instagram
-              </a>
-              {/*<a href="https://bit.ly/3MrQDES">*/}
-              {/*  <img src="/cards/studio-greicy-reis/8.png" />*/}
-              {/*  Cursos*/}
-              {/*</a>*/}
-              <a href="https://bit.ly/38EKuXn">
-                <img src="/cards/studio-greicy-reis/5.png" />
+              </Button>
+              <Button href="https://bit.ly/38EKuXn" image="/cards/studio-greicy-reis/5.png" >
                 Localização
-              </a>
+              </Button>
             </div>
           </div>
 
@@ -61,6 +63,17 @@ export default function VirtualCard() {
       </Container>
     </>
 
+  )
+}
+
+const Button = ({ children, href, image }: any) => {
+  const [active, setActive] = useState(false)
+
+  return (
+    <a href={href} onClick={() => setActive(active => !active)} className={active?'active':''}>
+      <img src={image} />
+      {children}
+    </a>
   )
 }
 
@@ -89,7 +102,7 @@ const colorAnimation = keyframes`
     background: #802218;
   }
 `
-const Container: any = styled.div`
+const Container = styled.div`
   background-size: cover;
   background-position: top center;
   height: 100vh;
@@ -147,7 +160,7 @@ const Container: any = styled.div`
         width: 60px;
       }
       
-      &:active{
+      &.active{
         animation: 1s ${clickOutAnimation} ease;
       }
     }
