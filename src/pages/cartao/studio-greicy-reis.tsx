@@ -1,15 +1,26 @@
 import styled from 'styled-components'
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
 
 export default function VirtualCard() {
+  const [ready, setReady] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setReady(true)
+    }, 1000)
+  }, [])
   return (
     <>
     <Head>
       <meta property="og:title" content="Studio Greicy Reis"/>
       <meta property="og:image" content="/cards/studio-greicy-reis/background.png"/>
     </Head>
-      <Container>
-        <h1>Studio Greicy Reis</h1>
+      <Container className={ready ? 'ready' : null}>
+        <h1>
+          <span>Studio</span>
+          <span>Greicy</span>
+          <span>Reis</span></h1>
         <div className="MainButtons">
           <div className="Buttons1">
             <div className="Buttons2">
@@ -99,6 +110,8 @@ const Container = styled.div`
       font-family: 'Open Sans', sans-serif;
       font-weight: lighter;
       font-size: 0.8em;
+      transition: all ease 300ms;
+      transform: translateX(200px);
 
       img {
         height: 60px;
@@ -129,12 +142,21 @@ const Container = styled.div`
     background: url(/cards/studio-greicy-reis/name-background.png);
     background-size: contain;
     background-position: center center;
-    padding: 16pt 0;
     background-repeat: no-repeat;
+    padding: 16pt 0;
     position: fixed;
     top: 20px;
     width: 100vw;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 8pt;
+    span{
+      transition: all ease 300ms;
+      transform: translate(0, -60px);
+      opacity: 0;
+      
+    }
     @media screen and (min-resolution: 2dppx){
       padding: 20pt 0;
     }
@@ -153,6 +175,8 @@ const Container = styled.div`
     flex-grow: 1;
     position: relative;
     bottom: 50px;
+    transition: all ease 300ms;
+    transform: translateX(-100%);
 
     .upper {
       text-transform: uppercase;
@@ -178,5 +202,44 @@ const Container = styled.div`
   }
   @media (max-width: 360px){
     background-image: url(/cards/studio-greicy-reis/background-360.jpg);
+  }
+  &.ready {
+    .Text1{
+    transform: translateX(0);
+      
+    }
+    h1 span{
+      transform: translate(0px, 0);
+      opacity: 1;
+      &:nth-child(1){
+        transition-delay: 100ms;
+      }
+      &:nth-child(2){
+        transition-delay: 150ms;
+      }
+      &:nth-child(3){
+        transition-delay: 200ms;
+      }
+    }
+    .MainButtons a{
+      transform: translateX(0);
+
+      &:nth-child(1){
+        transition-delay: 100ms;
+      }
+      &:nth-child(2){
+        transition-delay: 150ms;
+      }
+      &:nth-child(3){
+        transition-delay: 200ms;
+      }
+      &:nth-child(4){
+        transition-delay: 250ms;
+      }
+      &:nth-child(5){
+        transition-delay: 300ms;
+      }
+      
+    }
   }
 `
