@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 
@@ -18,9 +18,12 @@ export default function VirtualCard() {
     </Head>
       <Container className={ready ? 'ready' : null}>
         <h1>
-          <span>Studio</span>
-          <span>Greicy</span>
-          <span>Reis</span></h1>
+          <div>
+            <span>Studio</span>
+            <span>Greicy</span>
+            <span>Reis</span>
+          </div>
+          </h1>
         <div className="MainButtons">
           <div className="Buttons1">
             <div className="Buttons2">
@@ -60,6 +63,18 @@ export default function VirtualCard() {
 
   )
 }
+
+const colorAnimation = keyframes`
+  0% {
+    background: #802218;
+  }
+  50% {
+    background: #6b1b11;
+  }
+  100% {
+    background: #802218;
+  }
+`
 const Container: any = styled.div`
   background-size: cover;
   background-position: top center;
@@ -138,32 +153,33 @@ const Container: any = styled.div`
   h1 {
     color: #FBD820;
     text-align: center;
-    margin: 16px 0;
-    background: url(/cards/studio-greicy-reis/name-background.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 20pt 0;
     position: fixed;
     top: 20px;
-    width: 100vw;
+    width: 100%;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    gap: 4pt;
+    > div{
+      display: inline-flex;
+      justify-content: center;
+      gap: 4pt;
+      border: 2px solid #c2050f;
+      transition: all ease 300ms;
+      animation: 4s ${colorAnimation} infinite linear;
+      padding: 8px;
+    }
+    
+    
     span{
       transition: all ease 300ms;
       transform: translate(0, -60px);
       opacity: 0;
       
     }
-    @media screen and (min-resolution: 2dppx){
-      padding: 20pt 0;
-    }
   }
   .Text1{
     max-width: 180px;
-    background: #782116;
     color: #FBD820;
     padding: 10px;
     height: 80px;
@@ -176,7 +192,6 @@ const Container: any = styled.div`
     position: relative;
     bottom: 50px;
     transition: all ease 300ms;
-    transform: translateX(-100%);
 
     .upper {
       text-transform: uppercase;
@@ -193,6 +208,9 @@ const Container: any = styled.div`
       border-color: transparent transparent transparent #782116;
       right: -20px;
       top: 0;
+      background: linear-gradient(90deg, rgba(153,47,33,1) 0%, rgba(120,33,22,1) 35%, rgba(105,24,14,1) 100%);
+      transform: translateX(-100%);
+      animation-name: example;
     }
 
     @media (max-width: 360px) {
