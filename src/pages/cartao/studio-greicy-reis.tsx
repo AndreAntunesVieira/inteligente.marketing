@@ -25,6 +25,9 @@ export default function VirtualCard() {
       <meta name="twitter:title" content="Studio Greicy Reis"/>
       <meta name="twitter:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
       <meta name="twitter:image" content="/cards/studio-greicy-reis/background-720.jpg"/>
+      <style jsx>{`
+      body{background-color: #48281e;}
+      `}</style>
     </Head>
       <Container className={ready ? 'ready' : ''}>
         <h1>
@@ -229,6 +232,8 @@ const Container = styled.div`
     bottom: 50px;
     transition: all ease 300ms;
     background-color: #782116;
+    transform: translateX(calc(-100% - 40px));
+    animation-name: example;
 
     .upper {
       text-transform: uppercase;
@@ -245,9 +250,6 @@ const Container = styled.div`
       border-color: transparent transparent transparent #782116;
       right: -20px;
       top: 0;
-      background: linear-gradient(90deg, rgba(153,47,33,1) 0%, rgba(120,33,22,1) 35%, rgba(105,24,14,1) 100%);
-      transform: translateX(-100%);
-      animation-name: example;
     }
 
     @media (max-width: 360px) {
@@ -295,6 +297,21 @@ const Container = styled.div`
         transition-delay: 300ms;
       }
       
+    }
+  }
+  @media (max-height: 380px){
+    background-position: center 30%;
+    .MainButtons a{
+      &:nth-child(1){
+        position: absolute;
+        top: 0;
+        right: 120px;
+      }
+      &:nth-child(2){
+        position: absolute;
+        top: 90px;
+        right: 120px;
+      }
     }
   }
 `
