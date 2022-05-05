@@ -157,6 +157,7 @@ const Container = styled.div`
       font-size: 0.8em;
       transition: all ease 300ms;
       transform: translateX(200px);
+      opacity: 0;
 
       img {
         height: 60px;
@@ -280,6 +281,7 @@ const Container = styled.div`
     }
     .MainButtons a{
       transform: translateX(0);
+      opacity: 1;
 
       &:nth-child(1){
         transition-delay: 100ms;
