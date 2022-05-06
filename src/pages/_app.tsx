@@ -67,17 +67,9 @@ const App = ({ Component, pageProps }: AppProps) => {
           sizes="180x180"
           href="https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
         />
-        <meta property="og:url" content="https://inteligente.marketing/" />
-        <meta property="og:site_name" content="Marketing Inteligente" />
-        <meta property="og:title" content="Aumente o faturamento do seu negócio com anúncios inteligentes" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://img1.wsimg.com/isteam/stock/uENxzPOagDu35BQJA" />
-        <meta property="og:locale" content="pt_BR" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Marketing Inteligente" />
-        <meta name="twitter:description" content="Aumente o faturamento do seu negócio com anúncios inteligentes" />
-        <meta name="twitter:image" content="https://img1.wsimg.com/isteam/stock/uENxzPOagDu35BQJA" />
-        <meta name="twitter:image:alt" content="Marketing Inteligente" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60724303-4" />
+        <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-60724303-4');`}}/>
         <link rel="manifest" href="/manifest.webmanifest" />
       </Head>
       <Component {...pageProps} />

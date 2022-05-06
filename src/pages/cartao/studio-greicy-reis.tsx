@@ -13,18 +13,18 @@ export default function VirtualCard() {
   return (
     <>
     <Head>
-      <meta name="description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
-      <meta property="og:url" content="https://dbgipmeljyjb5.cloudfront.net/cartao/studio-greicy-reis.html/"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:title" content="Studio Greicy Reis"/>
-      <meta property="og:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
-      <meta property="og:image" content="/cards/studio-greicy-reis/background-720.jpg"/>
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta property="twitter:domain" content="inteligente.marketing"/>
-      <meta property="twitter:url" content="https://dbgipmeljyjb5.cloudfront.net/cartao/studio-greicy-reis.html/"/>
-      <meta name="twitter:title" content="Studio Greicy Reis"/>
-      <meta name="twitter:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias"/>
-      <meta name="twitter:image" content="/cards/studio-greicy-reis/background-720.jpg"/>
+      <meta name="description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias" />
+      <meta property="og:url" content="https://inteligente.marketing/cartao/studio-greicy-reis.html" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Studio Greicy Reis" />
+      <meta property="og:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias" />
+      <meta property="og:image" content="https://inteligente.marketing/cards/studio-greicy-reis/background-720.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content="inteligente.marketing" />
+      <meta property="twitter:url" content="https://inteligente.marketing/cartao/studio-greicy-reis.html" />
+      <meta name="twitter:title" content="Studio Greicy Reis" />
+      <meta name="twitter:description" content="Referência em Cílios e Micropigmentação | Cursos e Mentorias" />
+      <meta name="twitter:image" content="https://inteligente.marketing/cards/studio-greicy-reis/background-720.jpg" />
       <style jsx>{`
       body{background-color: #48281e;}
       `}</style>
@@ -46,7 +46,7 @@ export default function VirtualCard() {
               </div>
             </div>
             <div className="ButtonsContainer">
-              <Button image="/cards/studio-greicy-reis/7.png" href="/cards/studio-greicy-reis/catalogo-de-servicos-studio-greicy-reis.pdf">
+              <Button image="/cards/studio-greicy-reis/7.png" href="/cartao/studio-greicy-reis/catalogo-de-servicos.html">
                 Serviços
               </Button>
               <Button image="/cards/studio-greicy-reis/3.png" href="https://bit.ly/3s66jG0">
