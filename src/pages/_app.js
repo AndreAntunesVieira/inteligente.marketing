@@ -15,6 +15,12 @@ function MyApp({ Component, pageProps }) {
       window.WOW = require("wowjs");
     }
     new WOW.WOW().init();
+
+    // if ('serviceWorker' in navigator) {
+    //   navigator.serviceWorker
+    //     .register('/service-worker.js')
+    //     .catch(err => console.log('Erro ao carregar o service worker', err))
+    // }
   }, []);
   return (
     <VideoState>
@@ -25,6 +31,15 @@ function MyApp({ Component, pageProps }) {
           type="image/x-icon"
           href="/demo/images/icons/favicon.ico"
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60724303-4" />
+        <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-60724303-4');`}}/>
+        <link rel="manifest" href="/manifest.webmanifest" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta charSet="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Marketing Inteligente</title>
+        <meta name="author" content="Marketing Inteligente" />
       </Head>
       {preloader && <PreLoader />}
       <Component {...pageProps} />
