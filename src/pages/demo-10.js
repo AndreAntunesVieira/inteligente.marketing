@@ -7,7 +7,7 @@ import ContentImageRightSection from "../components/sections/ContentImageRightSe
 import Content5Section from "../components/sections/Content5Section";
 import Content6Section from "../components/olmo/demo10/Content6Section";
 import HighlightCard3Section from "../components/olmo/demo10/Content4Section";
-import Cta11Section from "../components/olmo/demo10/Cta11Section";
+import Cta11Section from "../components/sections/Cta11Section";
 import Features4Section from "../components/sections/Features4Section";
 import HeroWithVideoSection from "../components/sections/HeroWithVideoSection";
 import Demo10newsletter2 from "../components/olmo/demo10/Demo10newsletter2";

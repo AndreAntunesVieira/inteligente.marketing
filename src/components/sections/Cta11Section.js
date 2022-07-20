@@ -1,6 +1,6 @@
-import ButtonLink from "../../atoms/ButtonLink";
+import ButtonLink from "../atoms/ButtonLink";
 
-const Cta11Section = ({title, text, image}) => {
+const Cta11Section = ({title, text, image, href}) => {
   return (
     <section id="cta-11" className="bg-snow cta-section division wide-60">
       <div className="container">
@@ -12,7 +12,7 @@ const Cta11Section = ({title, text, image}) => {
                 <p className="p-lg">
                   {text}
                 </p>
-                <ButtonLink href="/contatos" color="green">
+                <ButtonLink href={href} color="green">
                   Entre em contato
                 </ButtonLink>
               </div>
