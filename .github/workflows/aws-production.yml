@@ -39,17 +39,22 @@ jobs:
           aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
-      - name: Build, tag, and push image to Amazon ECR
+      - name: Install
         id: build-image
         env:
-          IMAGE_TAG: ${{ steps.localvars.outputs.IMAGE_TAG }}
+          NODE_ENV: development
+        run: |
+          npm install
+
+      - name: Build, and export
+        id: build-image
+        env:
           NODE_ENV: production
         run: |
-          NODE_ENV=development npm install --legacy-peer-deps
           npm run build
           npm run export
 
       - name: AWS CLI Upload version file
         run: |
           aws s3 cp homepage s3://${{ env.AWS_S3_BUCKET }}/homepage --recursive
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT }} --paths "/*"
+#          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT }} --paths "/*"

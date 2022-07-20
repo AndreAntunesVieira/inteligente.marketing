@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { scroll } from "../utils/utils";
-import Image from 'next/image'
 
 const Header = ({
   navLight,
@@ -35,7 +34,7 @@ const Header = ({
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
-            <Image src="/logo/colorido-transparente-semborda-520.png" alt="mobile-logo" height={50} width={50} />
+            <img src="/logo/colorido-transparente-semborda-520.png" alt="mobile-logo" height={50} width={50} />
           </span>
           <a
             id="wsnavtoggle"
@@ -52,7 +51,7 @@ const Header = ({
             <div className="desktoplogo">
               <Link href="/">
                 <a className="logo-black">
-                  <Image src="/logo/colorido-transparente-semborda-520.png" alt="mobile-logo" height={50} width={50} />
+                  <img src="/logo/colorido-transparente-semborda-520.png" alt="mobile-logo" height={50} width={50} />
                   Marketing Inteligente
                 </a>
               </Link>
