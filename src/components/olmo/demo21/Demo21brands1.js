@@ -1,4 +1,4 @@
-import Slider from "react-slick";
+import Slider from 'react-slick'
 
 const Demo21brands1 = () => {
   let setting = {
@@ -32,7 +32,7 @@ const Demo21brands1 = () => {
         },
       },
     ],
-  };
+  }
   return (
     <div id="brands-1" className="pt-60 pb-100 brands-section division">
       <div className="container">
@@ -40,9 +40,7 @@ const Demo21brands1 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="brands-title text-center">
-              <p className="p-xl">
-                Over 2000+ companies are already using OLMO every day.
-              </p>
+              <p className="p-xl">Over 2000+ companies are already using OLMO every day.</p>
             </div>
           </div>
         </div>
@@ -52,84 +50,48 @@ const Demo21brands1 = () => {
             <Slider {...setting} className="owl-carousel brands-carousel">
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-1.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-2.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-3.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-4.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-5.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-6.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-6.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-7.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-7.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-8.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-8.png" alt="brand-logo" />
               </div>
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
-                <img
-                  className="img-fluid"
-                  src="/images/brand-9.png"
-                  alt="brand-logo"
-                />
+                <img className="img-fluid" src="/images/brand-9.png" alt="brand-logo" />
               </div>
             </Slider>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End Brands Carousel */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </div>
-  );
-};
+  )
+}
 
-export default Demo21brands1;
+export default Demo21brands1

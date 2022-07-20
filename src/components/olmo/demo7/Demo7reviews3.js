@@ -1,9 +1,6 @@
 const Demo7reviews3 = () => {
   return (
-    <section
-      id="reviews-3"
-      className="bg-snow wide-70 reviews-section division"
-    >
+    <section id="reviews-3" className="bg-snow wide-70 reviews-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TESTIMONIALS COLUMN */}
@@ -27,10 +24,7 @@ const Demo7reviews3 = () => {
                     </h6>
                   </div>
                   {/* Text */}
-                  <p className="p-lg">
-                    Sapien sem at sagittis congue augue massa varius an egestas
-                    suscipit
-                  </p>
+                  <p className="p-lg">Sapien sem at sagittis congue augue massa varius an egestas suscipit</p>
                 </div>
               </div>
               {/* END TESTIMONIAL #1 */}
@@ -53,8 +47,7 @@ const Demo7reviews3 = () => {
                   </div>
                   {/* Text */}
                   <p className="p-lg">
-                    Mauris donec magnis sapien congue an augue egestas undo
-                    vitae purus cursus integer a congue magna
+                    Mauris donec magnis sapien congue an augue egestas undo vitae purus cursus integer a congue magna
                   </p>
                 </div>
               </div>
@@ -77,10 +70,7 @@ const Demo7reviews3 = () => {
                     </h6>
                   </div>
                   {/* Text */}
-                  <p className="p-lg">
-                    Augue massa varius egestas suscipit magna a tempus aliquet
-                    blandit
-                  </p>
+                  <p className="p-lg">Augue massa varius egestas suscipit magna a tempus aliquet blandit</p>
                 </div>
               </div>
               {/* END TESTIMONIAL #3 */}
@@ -91,19 +81,14 @@ const Demo7reviews3 = () => {
           <div className="col-lg-6 order-first order-lg-2">
             <div className="txt-block left-column pl-30 mb-40 wow fadeInRight">
               {/* Section ID */}
-              <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">
-                What People Say
-              </span>
+              <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">What People Say</span>
               {/* Title */}
-              <h2 className="h2-xs">
-                {` You're in good hands. See what our clients say about OLMO.`}
-              </h2>
+              <h2 className="h2-xs">{` You're in good hands. See what our clients say about OLMO.`}</h2>
               {/* Text */}
               <p className="p-lg">
-                Quaerat sodales sapien euismod blandit vitae ipsum primis undo
-                and cubilia laoreet augue and luctus magna dolor luctus egestas
-                sapien vitae nemo egestas volute and turpis dolores aliquam
-                quaerat sodales a sapien
+                Quaerat sodales sapien euismod blandit vitae ipsum primis undo and cubilia laoreet augue and luctus
+                magna dolor luctus egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a
+                sapien
               </p>
               {/* Button */}
               <a href="#" className="btn btn-tra-grey pink-hover">
@@ -117,7 +102,7 @@ const Demo7reviews3 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo7reviews3;
+export default Demo7reviews3

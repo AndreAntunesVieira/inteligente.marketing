@@ -17,9 +17,7 @@ const Demo13features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">Cross-Platform</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
@@ -35,9 +33,7 @@ const Demo13features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">Powerful Options</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
@@ -53,9 +49,7 @@ const Demo13features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">Extremely Flexible</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
@@ -71,19 +65,17 @@ const Demo13features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">Easy to Embed</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-1 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo13features1;
+export default Demo13features1

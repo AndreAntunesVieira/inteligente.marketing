@@ -1,11 +1,8 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo6statistic1 = () => {
   return (
-    <div
-      id="statistic-1"
-      className="bg-01 pt-70 pb-70 statistic-section division"
-    >
+    <div id="statistic-1" className="bg-01 pt-70 pb-70 statistic-section division">
       <div className="container white-color">
         {/* STATISTIC-1 WRAPPER */}
         <div className="statistic-1-wrapper">
@@ -22,8 +19,7 @@ const Demo6statistic1 = () => {
                 <h5 className="h5-lg">Faster Access</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Enim nullam tempor at sapien gravida donec a blandit integer
-                  posuere porta justo velna
+                  Enim nullam tempor at sapien gravida donec a blandit integer posuere porta justo velna
                 </p>
               </div>
             </div>
@@ -38,8 +34,7 @@ const Demo6statistic1 = () => {
                 <h5 className="h5-lg">Productivity</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Enim nullam tempor at sapien gravida donec a blandit integer
-                  posuere porta justo velna
+                  Enim nullam tempor at sapien gravida donec a blandit integer posuere porta justo velna
                 </p>
               </div>
             </div>
@@ -54,8 +49,7 @@ const Demo6statistic1 = () => {
                 <h5 className="h5-lg">Secure Access</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Enim nullam tempor at sapien gravida donec a blandit integer
-                  posuere porta justo velna
+                  Enim nullam tempor at sapien gravida donec a blandit integer posuere porta justo velna
                 </p>
               </div>
             </div>
@@ -65,7 +59,7 @@ const Demo6statistic1 = () => {
       </div>
       {/* End container */}
     </div>
-  );
-};
+  )
+}
 
-export default Demo6statistic1;
+export default Demo6statistic1

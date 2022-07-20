@@ -1,11 +1,8 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Demo14content10 = () => {
   return (
-    <section
-      id="content-10"
-      className="content-10 pb-100 content-section division"
-    >
+    <section id="content-10" className="content-10 pb-100 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -14,14 +11,11 @@ const Demo14content10 = () => {
               {/* Section ID */}
               <span className="section-id txt-upcase">Premium on Security</span>
               {/* Title */}
-              <h2 className="h2-xs">
-                Send money &amp; make purchases at approved merchants
-              </h2>
+              <h2 className="h2-xs">Send money &amp; make purchases at approved merchants</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                dolor primis libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -30,11 +24,7 @@ const Demo14content10 = () => {
         <div className="row">
           <div className="col">
             <div className="img-block text-center wow fadeInUp">
-              <img
-                className="img-fluid"
-                src="/images/world-map.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/world-map.png" alt="content-image" />
             </div>
           </div>
         </div>
@@ -61,10 +51,10 @@ const Demo14content10 = () => {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo14content10;
+export default Demo14content10

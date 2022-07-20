@@ -1,4 +1,4 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Demo26hero1 = () => {
   return (
@@ -9,21 +9,15 @@ const Demo26hero1 = () => {
           <div className="col-md-7 col-lg-6">
             <div className="hero-1-txt white-color wow fadeInRight">
               {/* Title */}
-              <h2 className="h2-md">
-                مشاركة النصوص والصوت والصور ومقاطع الفيديو وملفات GIF مجانًا
-              </h2>
+              <h2 className="h2-md">مشاركة النصوص والصوت والصور ومقاطع الفيديو وملفات GIF مجانًا</h2>
               {/* Text */}
               <p className="p-xl">
-                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                العشوائية إلى النص.
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                النوادر أو الكلمات العشوائية إلى النص.
               </p>
               {/* Buttons Group */}
               <div className="btns-group mb-20">
-                <a
-                  href="#content-3"
-                  className="btn btn-orange-red tra-white-hover mr-15"
-                >
+                <a href="#content-3" className="btn btn-orange-red tra-white-hover mr-15">
                   يتعلم أكثر
                 </a>
                 <VideoWithBtn
@@ -41,21 +35,17 @@ const Demo26hero1 = () => {
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
           {/* HERO IMAGE */}
           <div className="col-md-5 col-lg-6">
             <div className="hero-1-img wow fadeInLeft">
-              <img
-                className="img-fluid"
-                src="/images/hero-1-img.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/hero-1-img.png" alt="hero-image" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
       {/* WAVE SHAPE BOTTOM */}
       <div className="wave-shape-bottom">
@@ -68,7 +58,7 @@ const Demo26hero1 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo26hero1;
+export default Demo26hero1

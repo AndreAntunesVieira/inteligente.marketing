@@ -13,8 +13,7 @@ const Ftabs2 = () => {
                   <h5 className="h5-md">Perfect Integration</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Semper lacus cursus porta feugiat primis a luctus ultrice
-                    tellus potenti neque dolor in primis
+                    Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti neque dolor in primis
                   </p>
                 </li>
                 {/* TAB-2 LINK */}
@@ -23,8 +22,7 @@ const Ftabs2 = () => {
                   <h5 className="h5-md">Speed Optimized</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Semper lacus cursus porta feugiat primis a luctus ultrice
-                    tellus potenti neque dolor in primis
+                    Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti neque dolor in primis
                   </p>
                 </li>
                 {/* TAB-3 LINK */}
@@ -33,13 +31,12 @@ const Ftabs2 = () => {
                   <h5 className="h5-md">Advanced Security</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Semper lacus cursus porta feugiat primis a luctus ultrice
-                    tellus potenti neque dolor in primis
+                    Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti neque dolor in primis
                   </p>
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TABS NAVIGATION */}
           {/* IMAGE BLOCK */}
           <div className="col">
@@ -47,38 +44,26 @@ const Ftabs2 = () => {
               <div className="tabs-content">
                 {/* TAB #1 IMAGE */}
                 <div id="tab-1" className="tab-content current">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-06.png"
-                    alt="tab-image"
-                  />
+                  <img className="img-fluid" src="/images/img-06.png" alt="tab-image" />
                 </div>
                 {/* TAB #2 IMAGE */}
                 <div id="tab-2" className="tab-content">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-10.png"
-                    alt="tab-preview"
-                  />
+                  <img className="img-fluid" src="/images/img-10.png" alt="tab-preview" />
                 </div>
                 {/* TAB #3 IMAGE */}
                 <div id="tab-3" className="tab-content">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-14.png"
-                    alt="tab-image"
-                  />
+                  <img className="img-fluid" src="/images/img-14.png" alt="tab-image" />
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END IMAGE BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Ftabs2;
+export default Ftabs2

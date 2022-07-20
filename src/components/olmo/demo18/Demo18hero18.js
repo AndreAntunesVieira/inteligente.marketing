@@ -7,15 +7,9 @@ const Demo18hero18 = () => {
           <div className="col-md-7 col-lg-6">
             <div id="hero-18-form">
               {/* Title */}
-              <h2 className="h2-sm">
-                Get more sales with SEO, PPC, and Email Marketing
-              </h2>
+              <h2 className="h2-sm">Get more sales with SEO, PPC, and Email Marketing</h2>
               {/* Form */}
-              <form
-                name="requestForm"
-                className="row request-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="requestForm" className="row request-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Input */}
                 <div className="col-md-12">
                   <input
@@ -40,10 +34,7 @@ const Demo18hero18 = () => {
                 </div>
                 {/* Form Button */}
                 <div className="col-md-12 form-btn mt-15">
-                  <button
-                    type="submit"
-                    className="btn btn-md btn-skyblue tra-grey-hover submit"
-                  >
+                  <button type="submit" className="btn btn-md btn-skyblue tra-grey-hover submit">
                     Get Started Now
                   </button>
                 </div>
@@ -64,26 +55,22 @@ const Demo18hero18 = () => {
                   <p>No Fees</p>
                 </li>
               </ul>
-            </div>{" "}
+            </div>{' '}
             {/* END FORM */}
-          </div>{" "}
+          </div>{' '}
           {/* END HERO REQUEST FORM */}
           {/* HERO IMAGE */}
           <div className="col-md-5 col-lg-6">
             <div className="hero-18-img wow fadeInLeft">
-              <img
-                className="img-fluid"
-                src="/images/hero-18-img.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/hero-18-img.png" alt="hero-image" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo18hero18;
+export default Demo18hero18

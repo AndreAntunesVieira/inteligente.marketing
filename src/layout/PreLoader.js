@@ -10,7 +10,7 @@ const PreLoader = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PreLoader;
+export default PreLoader

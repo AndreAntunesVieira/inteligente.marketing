@@ -8,9 +8,8 @@ const Demo15features5 = () => {
             <div className="section-title title-01 mb-80">
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                dolor primis libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -29,8 +28,7 @@ const Demo15features5 = () => {
                 <h5 className="h5-md">Cross-Platform</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -45,8 +43,7 @@ const Demo15features5 = () => {
                 <h5 className="h5-md">Extremely Flexible</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -61,19 +58,18 @@ const Demo15features5 = () => {
                 <h5 className="h5-md">Easy to Embed</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-5 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo15features5;
+export default Demo15features5

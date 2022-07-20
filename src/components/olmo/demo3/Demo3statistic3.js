@@ -1,4 +1,4 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo3statistic3 = () => {
   return (
@@ -73,7 +73,7 @@ const Demo3statistic3 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo3statistic3;
+export default Demo3statistic3

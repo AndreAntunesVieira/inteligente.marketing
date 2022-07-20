@@ -1,4 +1,4 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Demo1Hero1 = () => {
   return (
@@ -9,20 +9,14 @@ const Demo1Hero1 = () => {
           <div className="col-md-7 col-lg-6">
             <div className="hero-1-txt white-color wow fadeInRight">
               {/* Title */}
-              <h2 className="h2-md">
-                Share text, voice, photos, videos and GIFs files for free
-              </h2>
+              <h2 className="h2-md">Share text, voice, photos, videos and GIFs files for free</h2>
               {/* Text */}
               <p className="p-xl">
-                Feugiat primis a ligula undo auctor mauris auctor laoreet and
-                pretium augue an egestas cubilia
+                Feugiat primis a ligula undo auctor mauris auctor laoreet and pretium augue an egestas cubilia
               </p>
               {/* Buttons Group */}
               <div className="btns-group mb-20">
-                <a
-                  href="#content-3"
-                  className="btn btn-orange-red tra-white-hover mr-15"
-                >
+                <a href="#content-3" className="btn btn-orange-red tra-white-hover mr-15">
                   Learn More
                 </a>
                 <VideoWithBtn />
@@ -42,11 +36,7 @@ const Demo1Hero1 = () => {
           {/* HERO IMAGE */}
           <div className="col-md-5 col-lg-6">
             <div className="hero-1-img wow fadeInLeft">
-              <img
-                className="img-fluid"
-                src="/images/hero-1-img.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/hero-1-img.png" alt="hero-image" />
             </div>
           </div>
         </div>
@@ -64,7 +54,7 @@ const Demo1Hero1 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo1Hero1;
+export default Demo1Hero1

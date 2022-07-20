@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Demo13cta6 = () => {
   return (
     <section id="cta-6" className="bg-04 pt-70 pb-70 cta-section division">
@@ -8,20 +8,14 @@ const Demo13cta6 = () => {
           <div className="col col-lg-8">
             <div className="cta-6-txt white-color text-center">
               {/* Title */}
-              <h2 className="h2-sm">
-                Get started with OLMO today and improve your workflow
-              </h2>
+              <h2 className="h2-sm">Get started with OLMO today and improve your workflow</h2>
               {/* Buttons Group */}
               <div className="btns-group mb-30">
                 <Link href="/download">
-                  <a className="btn btn-md btn-violet-red tra-white-hover mr-15">
-                    Start Free Trial
-                  </a>
+                  <a className="btn btn-md btn-violet-red tra-white-hover mr-15">Start Free Trial</a>
                 </Link>
                 <Link href="/pricing">
-                  <a className="btn btn-md btn-tra-white white-hover">
-                    View Pricing
-                  </a>
+                  <a className="btn btn-md btn-tra-white white-hover">View Pricing</a>
                 </Link>
               </div>
               {/* Advantages List */}
@@ -37,14 +31,14 @@ const Demo13cta6 = () => {
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END BANNER TEXT */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo13cta6;
+export default Demo13cta6

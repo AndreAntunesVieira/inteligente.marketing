@@ -10,9 +10,8 @@ const Demo3features8 = () => {
               <h2 className="h2-md">Optimized Business Platform</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -25,18 +24,14 @@ const Demo3features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-24.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-24.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Extremely Flexible</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -45,18 +40,14 @@ const Demo3features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-22.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-22.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Easy To Customize</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -65,18 +56,14 @@ const Demo3features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-23.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-23.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Concrete Security</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -87,7 +74,7 @@ const Demo3features8 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo3features8;
+export default Demo3features8

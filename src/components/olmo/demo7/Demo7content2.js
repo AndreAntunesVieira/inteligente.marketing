@@ -1,20 +1,14 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo7content2 = () => {
   return (
-    <section
-      id="content-2"
-      className="content-2 bg-whitesmoke-gradient wide-60 content-section division"
-    >
+    <section id="content-2" className="content-2 bg-whitesmoke-gradient wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* IMAGE BLOCK */}
           <div className="col-md-5 col-lg-6">
             <div className="rel img-block left-column video-preview wow fadeInRight">
-              <VideoImage
-                img="images/img-09.png"
-                extraClass="video-btn video-btn-xl bg-pink ico-90"
-              />
+              <VideoImage img="images/img-09.png" extraClass="video-btn video-btn-xl bg-pink ico-90" />
             </div>
           </div>
           {/* TEXT BLOCK */}
@@ -28,14 +22,13 @@ const Demo7content2 = () => {
                 <ul className="simple-list">
                   <li className="list-item">
                     <p className="p-lg">
-                      Fringilla risus, luctus mauris auctor euismod an iaculis
-                      luctus magna purus pretium ligula purus and quaerat
+                      Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus
+                      and quaerat
                     </p>
                   </li>
                   <li className="list-item">
                     <p className="p-lg">
-                      Nemo ipsam egestas volute turpis dolores undo ultrice
-                      aliquam quaerat at sodales sapien purus
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
                     </p>
                   </li>
                 </ul>
@@ -46,9 +39,8 @@ const Demo7content2 = () => {
                 <h5 className="h5-lg">Front-End Development</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                  undo and cubilia laoreet augue and luctus magna dolor luctus
-                  at egestas sapien vitae nemo egestas
+                  Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus at egestas sapien vitae nemo egestas
                 </p>
                 {/* Tools List */}
                 <div className="tools-list ico-40 mt-30">
@@ -70,7 +62,7 @@ const Demo7content2 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo7content2;
+export default Demo7content2

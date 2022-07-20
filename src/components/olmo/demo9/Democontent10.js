@@ -1,25 +1,19 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Democontent10 = () => {
   return (
-    <section
-      id="content-10"
-      className="content-10 pb-100 content-section division"
-    >
+    <section id="content-10" className="content-10 pb-100 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-8">
             <div className="section-title title-02 mb-60">
               {/* Title */}
-              <h3 className="h3-xl">
-                Get more sales with SEO, PPC, and Email Marketing
-              </h3>
+              <h3 className="h3-xl">Get more sales with SEO, PPC, and Email Marketing</h3>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                dolor primis libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -28,11 +22,7 @@ const Democontent10 = () => {
         <div className="row">
           <div className="col">
             <div className="img-block text-center wow fadeInUp">
-              <img
-                className="img-fluid"
-                src="/images/startup.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/startup.png" alt="content-image" />
             </div>
           </div>
         </div>
@@ -59,10 +49,10 @@ const Democontent10 = () => {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Democontent10;
+export default Democontent10

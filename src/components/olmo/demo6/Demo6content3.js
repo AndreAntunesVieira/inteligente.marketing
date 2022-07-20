@@ -1,11 +1,8 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo6content3 = () => {
   return (
-    <section
-      id="content-3"
-      className="bg-snow content-3 wide-60 content-section division"
-    >
+    <section id="content-3" className="bg-snow content-3 wide-60 content-section division">
       <div className="container">
         {/* TOP ROW */}
         <div className="top-row pb-50">
@@ -13,11 +10,7 @@ const Demo6content3 = () => {
             {/* IMAGE BLOCK */}
             <div className="col-md-5 col-lg-6">
               <div className="img-block left-column wow fadeInRight">
-                <img
-                  className="img-fluid"
-                  src="/images/img-09.png"
-                  alt="content-image"
-                />
+                <img className="img-fluid" src="/images/img-09.png" alt="content-image" />
               </div>
             </div>
             {/* TEXT BLOCK */}
@@ -29,16 +22,14 @@ const Demo6content3 = () => {
                 <h2 className="h2-xs">Work smarter with powerful features</h2>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit purus a purus ipsum
-                  primis in cubilia laoreet augue luctus magna dolor luctus and
-                  egestas sapien egestas vitae nemo volute
+                  Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus
+                  magna dolor luctus and egestas sapien egestas vitae nemo volute
                 </p>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                  undo and cubilia laoreet augue and luctus magna dolor luctus
-                  at egestas sapien vitae nemo egestas volute and turpis dolores
-                  aliquam quaerat sodales a sapien
+                  Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat
+                  sodales a sapien
                 </p>
               </div>
             </div>
@@ -58,10 +49,9 @@ const Demo6content3 = () => {
                   <h5 className="h5-lg">Advanced Performance Made Easy</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                    undo and cubilia laoreet augue and luctus magna dolor luctus
-                    at egestas sapien vitae nemo egestas volute and turpis
-                    dolores aliquam quaerat sodales a sapien
+                    Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and
+                    luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam
+                    quaerat sodales a sapien
                   </p>
                 </div>
                 {/* TEXT BOX */}
@@ -72,14 +62,13 @@ const Demo6content3 = () => {
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Fringilla risus, luctus mauris auctor euismod an iaculis
-                        luctus magna purus pretium ligula purus and quaerat
+                        Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus
+                        and quaerat
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Nemo ipsam egestas volute turpis dolores undo ultrice
-                        aliquam quaerat at sodales sapien purus
+                        Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
                       </p>
                     </li>
                   </ul>
@@ -104,7 +93,7 @@ const Demo6content3 = () => {
                     <p className="p-md mt-5 ico-10">
                       <span className="green-color">
                         <span className="flaticon-" /> 4.6%
-                      </span>{" "}
+                      </span>{' '}
                       vs last 7 days
                     </p>
                   </div>
@@ -113,16 +102,10 @@ const Demo6content3 = () => {
                   <div className="cb-single-box">
                     <ul className="simple-list">
                       <li className="list-item">
-                        <p className="p-md">
-                          Fringilla risus luctus mauris auctor and purus euismod
-                          purus
-                        </p>
+                        <p className="p-md">Fringilla risus luctus mauris auctor and purus euismod purus</p>
                       </li>
                       <li className="list-item">
-                        <p className="p-md">
-                          Nemo ipsam volute turpis dolores ut quaerat sodales
-                          sapien
-                        </p>
+                        <p className="p-md">Nemo ipsam volute turpis dolores ut quaerat sodales sapien</p>
                       </li>
                     </ul>
                   </div>
@@ -135,19 +118,11 @@ const Demo6content3 = () => {
                 {/* END CB HOLDER */}
                 {/* CB SHAPE */}
                 <div className="cb-shape-1">
-                  <img
-                    className="img-fluid"
-                    src="/images/bg-shape-1.png"
-                    alt="content-image"
-                  />
+                  <img className="img-fluid" src="/images/bg-shape-1.png" alt="content-image" />
                 </div>
                 {/* CB SHAPE */}
                 <div className="cb-shape-2">
-                  <img
-                    className="img-fluid"
-                    src="/images/bg-shape-2.png"
-                    alt="content-image"
-                  />
+                  <img className="img-fluid" src="/images/bg-shape-2.png" alt="content-image" />
                 </div>
               </div>
             </div>
@@ -158,7 +133,7 @@ const Demo6content3 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo6content3;
+export default Demo6content3

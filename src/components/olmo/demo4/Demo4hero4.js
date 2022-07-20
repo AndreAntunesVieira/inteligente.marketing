@@ -7,22 +7,18 @@ const Demo4hero4 = () => {
           <div className="col-md-6">
             <div className="hero-4-txt white-color">
               {/* Title */}
-              <h2 className="h2-lg">
-                Create your unique website with OLMO in just few hours
-              </h2>
+              <h2 className="h2-lg">Create your unique website with OLMO in just few hours</h2>
               {/* List */}
               <ul className="simple-list">
                 <li className="list-item">
                   <p className="p-xl">
-                    Fringilla risus, luctus mauris orci auctor purus a ligula
-                    undo euismod pretium purus pretium rutrum tempor sapien
-                    ligula undo auctor mauris
+                    Fringilla risus, luctus mauris orci auctor purus a ligula undo euismod pretium purus pretium rutrum
+                    tempor sapien ligula undo auctor mauris
                   </p>
                 </li>
                 <li className="list-item">
                   <p className="p-xl">
-                    Nemo ipsam egestas volute turpis dolores aliquam quaerat
-                    sodales sapien undo pretium a purus
+                    Nemo ipsam egestas volute turpis dolores aliquam quaerat sodales sapien undo pretium a purus
                   </p>
                 </li>
               </ul>
@@ -34,27 +30,14 @@ const Demo4hero4 = () => {
             <div id="hero-4-form">
               {/* Small Logo */}
               <div className="hero-logo-sm mb-20">
-                <img
-                  className="img-fluid"
-                  src="/images/logo-01.png"
-                  alt="hero-logo"
-                />
+                <img className="img-fluid" src="/images/logo-01.png" alt="hero-logo" />
               </div>
               {/* Title */}
-              <h4 className="h4-xs">
-                Convert your ideas into workable solutions
-              </h4>
+              <h4 className="h4-xs">Convert your ideas into workable solutions</h4>
               {/* Text */}
-              <p className="p-lg">
-                Feugiat primis ligula risus auctor purus laoreet augue mauris
-                viverra tortor
-              </p>
+              <p className="p-lg">Feugiat primis ligula risus auctor purus laoreet augue mauris viverra tortor</p>
               {/* Form */}
-              <form
-                name="requestForm"
-                className="row request-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="requestForm" className="row request-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Input */}
                 <div className="col-md-12">
                   <input
@@ -79,10 +62,7 @@ const Demo4hero4 = () => {
                 </div>
                 {/* Form Button */}
                 <div className="col-md-12 form-btn mt-10">
-                  <button
-                    type="submit"
-                    className="btn btn-md btn-pink tra-grey-hover submit"
-                  >
+                  <button type="submit" className="btn btn-md btn-pink tra-grey-hover submit">
                     Get Started Now
                   </button>
                 </div>
@@ -109,7 +89,7 @@ const Demo4hero4 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo4hero4;
+export default Demo4hero4

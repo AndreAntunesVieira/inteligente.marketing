@@ -1,11 +1,8 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Demo26content10 = () => {
   return (
-    <section
-      id="content-10"
-      className="content-10 wide-100 content-section division"
-    >
+    <section id="content-10" className="content-10 wide-100 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -15,9 +12,8 @@ const Demo26content10 = () => {
               <h2 className="h2-md">شارك اللحظات. شارك الحياة.</h2>
               {/* Text */}
               <p className="p-xl">
-                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
-                ولايزال المعيار للنص الشكلي منذ القرن الخامس
+                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
               </p>
             </div>
           </div>
@@ -26,11 +22,7 @@ const Demo26content10 = () => {
         <div className="row">
           <div className="col">
             <div className="img-block text-center wow fadeInUp">
-              <img
-                className="img-fluid"
-                src="/images/social-networks.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/social-networks.png" alt="content-image" />
             </div>
           </div>
         </div>
@@ -57,10 +49,10 @@ const Demo26content10 = () => {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo26content10;
+export default Demo26content10

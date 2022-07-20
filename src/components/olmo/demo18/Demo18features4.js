@@ -1,9 +1,6 @@
 const Demo18features4 = () => {
   return (
-    <section
-      id="features-4"
-      className="bg-snow wide-50 features-section division"
-    >
+    <section id="features-4" className="bg-snow wide-50 features-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -12,9 +9,7 @@ const Demo18features4 = () => {
               {/* Section ID */}
               <span className="section-id txt-upcase">Market Research</span>
               {/* Title */}
-              <h3 className="h3-lg">
-                Integrated marketing solutions that fuel business growth
-              </h3>
+              <h3 className="h3-lg">Integrated marketing solutions that fuel business growth</h3>
             </div>
           </div>
         </div>
@@ -36,9 +31,8 @@ const Demo18features4 = () => {
                   <h5 className="h5-sm">Advanced Analytics Review</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -58,9 +52,8 @@ const Demo18features4 = () => {
                   <h5 className="h5-sm">Email Marketing Campaigns</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -80,9 +73,8 @@ const Demo18features4 = () => {
                   <h5 className="h5-sm">Video Marketing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -102,9 +94,8 @@ const Demo18features4 = () => {
                   <h5 className="h5-sm">Search Engine Optimization (SEO)</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -124,9 +115,8 @@ const Demo18features4 = () => {
                   <h5 className="h5-sm">Pay Per Click (PPC)</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -146,20 +136,19 @@ const Demo18features4 = () => {
                   <h5 className="h5-sm">Content Marketing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-4 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo18features4;
+export default Demo18features4

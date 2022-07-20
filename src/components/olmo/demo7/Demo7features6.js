@@ -10,9 +10,8 @@ const Demo7features6 = () => {
               <h2 className="h2-md">Beautiful Creative Solutions</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -31,8 +30,8 @@ const Demo7features6 = () => {
                 <h5 className="h5-md">Friendly Interface</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus cursus blandit primis ultrice purus euismod
-                  and neque luctus magna dolor luctus vitae
+                  Porta semper lacus cursus blandit primis ultrice purus euismod and neque luctus magna dolor luctus
+                  vitae
                 </p>
                 {/* Link */}
                 <p className="p-lg fbox-6-link text-secondary ico-15">
@@ -50,9 +49,7 @@ const Demo7features6 = () => {
                   <span className="flaticon-layers" />
                 </div>
                 {/* Title */}
-                <h5 className="h5-md">
-                  Beautiful front-end components built for modern startups
-                </h5>
+                <h5 className="h5-md">Beautiful front-end components built for modern startups</h5>
                 {/* Link */}
                 <p className="p-lg fbox-6-link ico-15">
                   <a href="#">
@@ -86,10 +83,7 @@ const Demo7features6 = () => {
                 {/* Title */}
                 <h5 className="h5-md">Quick Access</h5>
                 {/* Text */}
-                <p className="p-lg">
-                  Porta semper lacus cursus blandit primis ultrice purus euismod
-                  neque luctus
-                </p>
+                <p className="p-lg">Porta semper lacus cursus blandit primis ultrice purus euismod neque luctus</p>
                 {/* Link */}
                 <p className="p-md fbox-6-link text-secondary ico-15">
                   <a href="#">
@@ -104,7 +98,7 @@ const Demo7features6 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo7features6;
+export default Demo7features6

@@ -1,11 +1,8 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo26content1 = () => {
   return (
-    <section
-      id="content-1"
-      className="content-1 bg-snow wide-60 content-section division"
-    >
+    <section id="content-1" className="content-1 bg-snow wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
@@ -17,27 +14,22 @@ const Demo26content1 = () => {
               <ul className="simple-list">
                 <li className="list-item">
                   <p className="p-lg">
-                    لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل
-                    وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان
-                    لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
-                    عشر
+                    لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                    ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
                   </p>
                 </li>
                 <li className="list-item">
-                  <p className="p-lg">
-                    وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.
-                  </p>
+                  <p className="p-lg">وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.</p>
                 </li>
                 <li className="list-item">
                   <p className="p-lg">
-                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                    الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                    العشوائية إلى النص.
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                    النوادر أو الكلمات العشوائية إلى النص.
                   </p>
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
           {/* CB WRAPPER */}
           <div className="col-lg-6 order-first order-lg-2">
@@ -54,7 +46,7 @@ const Demo26content1 = () => {
                   <p className="p-md mt-5 ico-10">
                     <span className="violet-red-color">
                       <span className="flaticon-" /> 4.6%
-                    </span>{" "}
+                    </span>{' '}
                     مقابل آخر 7 أيام
                   </p>
                 </div>
@@ -63,16 +55,10 @@ const Demo26content1 = () => {
                 <div className="cb-single-box">
                   <ul className="simple-list">
                     <li className="list-item">
-                      <p className="p-md">
-                        وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على
-                        الإنترنت.
-                      </p>
+                      <p className="p-md">وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.</p>
                     </li>
                     <li className="list-item">
-                      <p className="p-md">
-                        وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على
-                        الإنترنت.
-                      </p>
+                      <p className="p-md">وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.</p>
                     </li>
                   </ul>
                 </div>
@@ -81,33 +67,25 @@ const Demo26content1 = () => {
                   <h4 className="h4-lg">98.245</h4>
                   <p className="p-lg">بعض الأمثلة النصية</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END CB HOLDER */}
               {/* CB SHAPE */}
               <div className="cb-shape-1">
-                <img
-                  className="img-fluid"
-                  src="/images/bg-shape-1.png"
-                  alt="content-image"
-                />
+                <img className="img-fluid" src="/images/bg-shape-1.png" alt="content-image" />
               </div>
               {/* CB SHAPE */}
               <div className="cb-shape-2">
-                <img
-                  className="img-fluid"
-                  src="/images/bg-shape-2.png"
-                  alt="content-image"
-                />
+                <img className="img-fluid" src="/images/bg-shape-2.png" alt="content-image" />
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END CB WRAPPER */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo26content1;
+export default Demo26content1

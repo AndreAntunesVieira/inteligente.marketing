@@ -1,11 +1,8 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo6content10 = () => {
   return (
-    <section
-      id="content-10"
-      className="content-10 wide-100 content-section division"
-    >
+    <section id="content-10" className="content-10 wide-100 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -14,9 +11,7 @@ const Demo6content10 = () => {
               {/* Section ID */}
               <span className="section-id txt-upcase">Extremely Flexible</span>
               {/* Title */}
-              <h2 className="h2-xs">
-                Discover powerful features to boost your productivity
-              </h2>
+              <h2 className="h2-xs">Discover powerful features to boost your productivity</h2>
             </div>
           </div>
         </div>
@@ -33,7 +28,7 @@ const Demo6content10 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo6content10;
+export default Demo6content10

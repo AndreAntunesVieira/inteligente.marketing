@@ -1,9 +1,6 @@
 const Demo18content2 = () => {
   return (
-    <section
-      id="content-2"
-      className="content-2 bg-snow wide-60 content-section division"
-    >
+    <section id="content-2" className="content-2 bg-snow wide-60 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -13,9 +10,8 @@ const Demo18content2 = () => {
               <h2 className="h2-xs">Ready to Grow Your Business?</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -24,11 +20,7 @@ const Demo18content2 = () => {
           {/* IMAGE BLOCK */}
           <div className="col-md-5 col-lg-6">
             <div className="rel img-block left-column wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/seo-05.png"
-                alt="video-preview"
-              />
+              <img className="img-fluid" src="/images/seo-05.png" alt="video-preview" />
             </div>
           </div>
           {/* TEXT BLOCK */}
@@ -40,10 +32,9 @@ const Demo18content2 = () => {
                 <h5 className="h5-md">Right Strategies and Implementations</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                  undo and cubilia laoreet augue and luctus magna dolor luctus
-                  at egestas sapien vitae nemo egestas volute and turpis dolores
-                  aliquam quaerat sodales a sapien
+                  Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat
+                  sodales a sapien
                 </p>
               </div>
               {/* TEXT BOX */}
@@ -54,28 +45,27 @@ const Demo18content2 = () => {
                 <ul className="simple-list">
                   <li className="list-item">
                     <p className="p-lg">
-                      Fringilla risus, luctus mauris auctor euismod an iaculis
-                      luctus magna purus pretium ligula purus and quaerat
+                      Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus
+                      and quaerat
                     </p>
                   </li>
                   <li className="list-item">
                     <p className="p-lg">
-                      Nemo ipsam egestas volute turpis dolores undo ultrice
-                      aliquam quaerat at sodales sapien purus
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
                     </p>
                   </li>
                 </ul>
-              </div>{" "}
+              </div>{' '}
               {/* END TEXT BOX */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo18content2;
+export default Demo18content2

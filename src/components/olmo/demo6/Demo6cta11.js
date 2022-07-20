@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Demo6cta11 = () => {
   return (
     <section id="cta-11" className="cta-section division">
@@ -12,14 +12,12 @@ const Demo6cta11 = () => {
                 <h2 className="h2-xs">Ready to Join OLMO?</h2>
                 {/* Text */}
                 <p className="p-lg">
-                  Donec vel sapien augue integer urna vel turpis cursus porta,
-                  mauris augue luctus dolor velna auctor congue tempus
+                  Donec vel sapien augue integer urna vel turpis cursus porta, mauris augue luctus dolor velna auctor
+                  congue tempus
                 </p>
                 {/* Button */}
                 <Link href="/pricing">
-                  <a className="btn btn-stateblue tra-stateblue-hover">
-                    Get Started Now
-                  </a>
+                  <a className="btn btn-stateblue tra-stateblue-hover">Get Started Now</a>
                 </Link>
               </div>
             </div>
@@ -27,11 +25,7 @@ const Demo6cta11 = () => {
             <div className="col-lg-5">
               <div className="text-end">
                 <div className="cta-11-img text-center">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-25.png"
-                    alt="cta-image"
-                  />
+                  <img className="img-fluid" src="/images/img-25.png" alt="cta-image" />
                 </div>
               </div>
             </div>
@@ -41,7 +35,7 @@ const Demo6cta11 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo6cta11;
+export default Demo6cta11

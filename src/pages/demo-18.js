@@ -1,19 +1,19 @@
-import Demo18brands2 from "../components/olmo/demo18/Demo18brands2";
-import Demo18content1 from "../components/olmo/demo18/Demo18content1";
-import Demo18content10 from "../components/olmo/demo18/Demo18content10";
-import Demo18content2 from "../components/olmo/demo18/Demo18content2";
-import Demo18content3 from "../components/olmo/demo18/Demo18content3";
-import Demo18content5 from "../components/olmo/demo18/Demo18content5";
-import Demo18content6 from "../components/olmo/demo18/Demo18content6";
-import Demo18cta1 from "../components/olmo/demo18/Demo18cta1";
-import Demo18faqs2 from "../components/olmo/demo18/Demo18faqs2";
-import Demo18features1 from "../components/olmo/demo18/Demo18features1";
-import Demo18features4 from "../components/olmo/demo18/Demo18features4";
-import Demo18hero18 from "../components/olmo/demo18/Demo18hero18";
-import Demo18pricing3 from "../components/olmo/demo18/Demo18pricing3";
-import Demo18reviews3 from "../components/olmo/demo18/Demo18reviews3";
-import Demo18statistic4 from "../components/olmo/demo18/Demo18statistic4";
-import Layout from "../layout/Layout";
+import Demo18brands2 from '../components/olmo/demo18/Demo18brands2'
+import Demo18content1 from '../components/olmo/demo18/Demo18content1'
+import Demo18content10 from '../components/olmo/demo18/Demo18content10'
+import Demo18content2 from '../components/olmo/demo18/Demo18content2'
+import Demo18content3 from '../components/olmo/demo18/Demo18content3'
+import Demo18content5 from '../components/olmo/demo18/Demo18content5'
+import Demo18content6 from '../components/olmo/demo18/Demo18content6'
+import Demo18cta1 from '../components/olmo/demo18/Demo18cta1'
+import Demo18faqs2 from '../components/olmo/demo18/Demo18faqs2'
+import Demo18features1 from '../components/olmo/demo18/Demo18features1'
+import Demo18features4 from '../components/olmo/demo18/Demo18features4'
+import Demo18hero18 from '../components/olmo/demo18/Demo18hero18'
+import Demo18pricing3 from '../components/olmo/demo18/Demo18pricing3'
+import Demo18reviews3 from '../components/olmo/demo18/Demo18reviews3'
+import Demo18statistic4 from '../components/olmo/demo18/Demo18statistic4'
+import Layout from '../layout/Layout'
 const Demo18 = () => {
   return (
     <Layout btnCustomHover="btn-skyblue tra-grey-hover">
@@ -35,7 +35,7 @@ const Demo18 = () => {
       <Demo18faqs2 />
       <Demo18cta1 />
     </Layout>
-  );
-};
+  )
+}
 
-export default Demo18;
+export default Demo18

@@ -1,9 +1,6 @@
 const Demo13pricing3 = () => {
   return (
-    <section
-      id="pricing-3"
-      className="bg-lightgrey wide-60 pricing-section division"
-    >
+    <section id="pricing-3" className="bg-lightgrey wide-60 pricing-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -13,9 +10,8 @@ const Demo13pricing3 = () => {
               <h2 className="h2-md">Simple And Flexible Pricing</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -71,7 +67,7 @@ const Demo13pricing3 = () => {
                   Get Started
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END BASIC PLAN */}
             {/* ADVANCED PLAN */}
             <div className="col">
@@ -127,7 +123,7 @@ const Demo13pricing3 = () => {
                   Get Started
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END ADVANCED PLAN */}
             {/* PREMIUM PLAN */}
             <div className="col">
@@ -177,27 +173,26 @@ const Demo13pricing3 = () => {
                   Get Started
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END PREMIUM PLAN */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PRICING TABLES */}
         {/* PRICING NOTICE TEXT */}
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <div className="pricing-notice text-center mb-40">
               <p>
-                The above prices do not include applicable taxes based on your
-                billing address.The final price will be displayed on the
-                checkout page, before the payment is completed
+                The above prices do not include applicable taxes based on your billing address.The final price will be
+                displayed on the checkout page, before the payment is completed
               </p>
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo13pricing3;
+export default Demo13pricing3

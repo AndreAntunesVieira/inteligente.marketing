@@ -1,9 +1,6 @@
 const Demo18reviews3 = () => {
   return (
-    <section
-      id="reviews-3"
-      className="bg-snow wide-70 reviews-section division"
-    >
+    <section id="reviews-3" className="bg-snow wide-70 reviews-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TESTIMONIALS COLUMN */}
@@ -27,12 +24,9 @@ const Demo18reviews3 = () => {
                     </h6>
                   </div>
                   {/* Text */}
-                  <p className="p-lg">
-                    Sapien sem at sagittis congue augue massa varius an egestas
-                    suscipit
-                  </p>
+                  <p className="p-lg">Sapien sem at sagittis congue augue massa varius an egestas suscipit</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TESTIMONIAL #1 */}
               {/* TESTIMONIAL #2 */}
               <div id="rw-3-2" className="review-3 wow fadeInUp">
@@ -53,11 +47,10 @@ const Demo18reviews3 = () => {
                   </div>
                   {/* Text */}
                   <p className="p-lg">
-                    Mauris donec magnis sapien congue an augue egestas undo
-                    vitae purus cursus integer a congue magna
+                    Mauris donec magnis sapien congue an augue egestas undo vitae purus cursus integer a congue magna
                   </p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TESTIMONIAL #2 */}
               {/* TESTIMONIAL #3 */}
               <div id="rw-3-3" className="review-3 wow fadeInUp">
@@ -77,15 +70,12 @@ const Demo18reviews3 = () => {
                     </h6>
                   </div>
                   {/* Text */}
-                  <p className="p-lg">
-                    Augue massa varius egestas suscipit magna a tempus aliquet
-                    blandit
-                  </p>
+                  <p className="p-lg">Augue massa varius egestas suscipit magna a tempus aliquet blandit</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TESTIMONIAL #3 */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TESTIMONIALS COLUMN */}
           {/* TEXT BLOCK */}
           <div className="col-lg-6 order-first order-lg-2">
@@ -93,29 +83,26 @@ const Demo18reviews3 = () => {
               {/* Section ID */}
               <span className="section-id txt-upcase">What People Say</span>
               {/* Title */}
-              <h3 className="h3-lg">
-                {`You're in good hands. See what our clients say about OLMO.`}
-              </h3>
+              <h3 className="h3-lg">{`You're in good hands. See what our clients say about OLMO.`}</h3>
               {/* Text */}
               <p className="p-lg">
-                Quaerat sodales sapien euismod blandit vitae ipsum primis undo
-                and cubilia laoreet augue and luctus magna dolor luctus egestas
-                sapien vitae nemo egestas volute and turpis dolores aliquam
-                quaerat sodales a sapien
+                Quaerat sodales sapien euismod blandit vitae ipsum primis undo and cubilia laoreet augue and luctus
+                magna dolor luctus egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a
+                sapien
               </p>
               {/* Button */}
               <a href="#" className="btn btn-tra-grey skyblue-hover">
                 Read All Reviews
               </a>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo18reviews3;
+export default Demo18reviews3

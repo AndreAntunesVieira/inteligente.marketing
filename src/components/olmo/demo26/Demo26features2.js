@@ -10,11 +10,7 @@ const Demo26features2 = () => {
               <div className="fbox-2 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
-                  <img
-                    className="ico-bkg"
-                    src="/images/ico-bkg.png"
-                    alt="ico-bkg"
-                  />
+                  <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                   <span className="flaticon-double-click" />
                 </div>
                 {/* Text */}
@@ -23,9 +19,8 @@ const Demo26features2 = () => {
                   <h5 className="h5-md">الوصول السريع</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                    الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                    العشوائية إلى النص.
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                    النوادر أو الكلمات العشوائية إلى النص.
                   </p>
                 </div>
               </div>
@@ -35,11 +30,7 @@ const Demo26features2 = () => {
               <div className="fbox-2 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
-                  <img
-                    className="ico-bkg"
-                    src="/images/ico-bkg.png"
-                    alt="ico-bkg"
-                  />
+                  <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                   <span className="flaticon-web-browser" />
                 </div>
                 {/* Text */}
@@ -48,9 +39,8 @@ const Demo26features2 = () => {
                   <h5 className="h5-md">عبر منصة</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                    الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                    العشوائية إلى النص.
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                    النوادر أو الكلمات العشوائية إلى النص.
                   </p>
                 </div>
               </div>
@@ -60,11 +50,7 @@ const Demo26features2 = () => {
               <div className="fbox-2 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
-                  <img
-                    className="ico-bkg"
-                    src="/images/ico-bkg.png"
-                    alt="ico-bkg"
-                  />
+                  <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                   <span className="flaticon-web-programming" />
                 </div>
                 {/* Text */}
@@ -73,20 +59,19 @@ const Demo26features2 = () => {
                   <h5 className="h5-md">سهولة التكامل</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                    الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                    العشوائية إلى النص.
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                    النوادر أو الكلمات العشوائية إلى النص.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-2 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo26features2;
+export default Demo26features2

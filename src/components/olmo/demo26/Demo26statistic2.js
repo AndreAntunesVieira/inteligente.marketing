@@ -1,4 +1,4 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo26statistic2 = () => {
   return (
@@ -36,17 +36,15 @@ const Demo26statistic2 = () => {
           {/* TEXT BLOCK */}
           <div className="col-lg-6 order-first order-lg-2">
             <div className="txt-block right-column wow fadeInLeft">
-              <h3 className="h3-xs">
-                أكثر من 65000 مستخدم حول العالم يستخدمون بالفعل OLMO بنشاط
-              </h3>
+              <h3 className="h3-xs">أكثر من 65000 مستخدم حول العالم يستخدمون بالفعل OLMO بنشاط</h3>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo26statistic2;
+export default Demo26statistic2

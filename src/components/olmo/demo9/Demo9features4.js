@@ -7,14 +7,11 @@ const Demo9features4 = () => {
           <div className="col-md-10 col-lg-8">
             <div className="section-title title-02 mb-85">
               {/* Title */}
-              <h3 className="h3-xl">
-                We have everything you need to convert your ideas into reality
-              </h3>
+              <h3 className="h3-xl">We have everything you need to convert your ideas into reality</h3>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                dolor primis libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -37,9 +34,8 @@ const Demo9features4 = () => {
                   <h5 className="h5-sm">Market Research</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -59,9 +55,8 @@ const Demo9features4 = () => {
                   <h5 className="h5-sm">User Experience</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -81,9 +76,8 @@ const Demo9features4 = () => {
                   <h5 className="h5-sm">Web Development</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -103,9 +97,8 @@ const Demo9features4 = () => {
                   <h5 className="h5-sm">Digital Marketing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -125,9 +118,8 @@ const Demo9features4 = () => {
                   <h5 className="h5-sm">Brand Design Identity</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -147,20 +139,19 @@ const Demo9features4 = () => {
                   <h5 className="h5-sm">SEO &amp; SMM Services</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-4 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo9features4;
+export default Demo9features4

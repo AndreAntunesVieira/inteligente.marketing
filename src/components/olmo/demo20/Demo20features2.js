@@ -10,11 +10,7 @@ const Demo20features2 = () => {
               <div className="fbox-2 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico-center ico-70 shape-ico violet-red-color">
-                  <img
-                    className="ico-bkg"
-                    src="/images/ico-bkg.png"
-                    alt="ico-bkg"
-                  />
+                  <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                   <span className="flaticon-cloud-network" />
                 </div>
                 {/* Text */}
@@ -23,8 +19,8 @@ const Demo20features2 = () => {
                   <h5 className="h5-md">Network</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Feugiat primis ultrice a semper lacus cursus feugiat a
-                    primis ultrice a ligula risus auctor tempus feugiat felis
+                    Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor tempus
+                    feugiat felis
                   </p>
                 </div>
               </div>
@@ -34,11 +30,7 @@ const Demo20features2 = () => {
               <div className="fbox-2 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico-center ico-70 shape-ico violet-red-color">
-                  <img
-                    className="ico-bkg"
-                    src="/images/ico-bkg.png"
-                    alt="ico-bkg"
-                  />
+                  <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                   <span className="flaticon-keyboard" />
                 </div>
                 {/* Text */}
@@ -47,8 +39,8 @@ const Demo20features2 = () => {
                   <h5 className="h5-md">EndUser</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Feugiat primis ultrice a semper lacus cursus feugiat a
-                    primis ultrice a ligula risus auctor tempus feugiat felis
+                    Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor tempus
+                    feugiat felis
                   </p>
                 </div>
               </div>
@@ -58,11 +50,7 @@ const Demo20features2 = () => {
               <div className="fbox-2 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico-center ico-70 shape-ico violet-red-color">
-                  <img
-                    className="ico-bkg"
-                    src="/images/ico-bkg.png"
-                    alt="ico-bkg"
-                  />
+                  <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                   <span className="flaticon-server-2" />
                 </div>
                 {/* Text */}
@@ -71,19 +59,19 @@ const Demo20features2 = () => {
                   <h5 className="h5-md">Server</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Feugiat primis ultrice a semper lacus cursus feugiat a
-                    primis ultrice a ligula risus auctor tempus feugiat felis
+                    Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor tempus
+                    feugiat felis
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-2 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo20features2;
+export default Demo20features2

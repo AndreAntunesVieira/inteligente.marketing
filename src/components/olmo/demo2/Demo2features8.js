@@ -1,9 +1,6 @@
 const Demo2features8 = () => {
   return (
-    <section
-      id="features-8"
-      className="bg-snow wide-60 features-section division"
-    >
+    <section id="features-8" className="bg-snow wide-60 features-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -13,9 +10,8 @@ const Demo2features8 = () => {
               <h2 className="h2-md">Get Ready to Be Surprised</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -28,18 +24,14 @@ const Demo2features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-21.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-21.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Friendly Interface</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -48,18 +40,14 @@ const Demo2features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-22.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-22.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Extremely Flexible</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -68,18 +56,14 @@ const Demo2features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-23.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-23.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Strong Encryption</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -90,7 +74,7 @@ const Demo2features8 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo2features8;
+export default Demo2features8

@@ -16,8 +16,7 @@ const Demo7features5 = () => {
                 <h5 className="h5-md">Cross-Platform</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -32,8 +31,7 @@ const Demo7features5 = () => {
                 <h5 className="h5-md">Extremely Flexible</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -48,8 +46,7 @@ const Demo7features5 = () => {
                 <h5 className="h5-md">Easy to Embed</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -60,7 +57,7 @@ const Demo7features5 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo7features5;
+export default Demo7features5

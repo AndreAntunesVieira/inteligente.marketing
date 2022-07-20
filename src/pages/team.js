@@ -1,16 +1,10 @@
-import Link from "next/dist/client/link";
-import Layout from "../layout/Layout";
+import Link from 'next/dist/client/link'
+import Layout from '../layout/Layout'
 
 const team = () => {
   return (
-    <Layout
-      btnCustomHover="btn btn-skyblue tra-grey-hover last-link"
-      singlePage
-    >
-      <section
-        id="team-1"
-        className="wide-50 inner-page-hero team-section division"
-      >
+    <Layout btnCustomHover="btn btn-skyblue tra-grey-hover last-link" singlePage>
+      <section id="team-1" className="wide-50 inner-page-hero team-section division">
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">
@@ -19,9 +13,7 @@ const team = () => {
                 {/* Section ID */}
                 <span className="section-id txt-upcase">Meet Our Team</span>
                 {/* Title */}
-                <h2 className="h2-xs">
-                  {` You've got passion. We've got stuff to make it profitable`}
-                </h2>
+                <h2 className="h2-xs">{` You've got passion. We've got stuff to make it profitable`}</h2>
               </div>
             </div>
           </div>
@@ -33,11 +25,7 @@ const team = () => {
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-1.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-1.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -50,18 +38,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #1 */}
               {/* TEAM MEMBER #2 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-2.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-2.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -72,18 +56,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #2 */}
               {/* TEAM MEMBER #3 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-3.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-3.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -94,18 +74,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #3 */}
               {/* TEAM MEMBER #4 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-4.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-4.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -116,18 +92,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #4 */}
               {/* TEAM MEMBER #5 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-5.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-5.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -138,18 +110,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #5 */}
               {/* TEAM MEMBER #6 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-6.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-6.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -160,18 +128,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #6 */}
               {/* TEAM MEMBER #7 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-7.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-7.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -182,18 +146,14 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #7 */}
               {/* TEAM MEMBER #8 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
                   {/* Team Member Photo */}
                   <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-8.jpg"
-                      alt="team-member-foto"
-                    />
+                    <img className="img-fluid" src="/images/team-8.jpg" alt="team-member-foto" />
                   </div>
                   {/* Team Member Data */}
                   <div className="team-member-data">
@@ -206,22 +166,19 @@ const team = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END TEAM MEMBER #8 */}
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* TEAM MEMBERS HOLDER */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END TEAM-1 */}
       {/* TESTIMONIALS-3
 			============================================= */}
-      <section
-        id="reviews-3"
-        className="bg-whitesmoke-gradient wide-70 reviews-section division"
-      >
+      <section id="reviews-3" className="bg-whitesmoke-gradient wide-70 reviews-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
             {/* TESTIMONIALS COLUMN */}
@@ -231,10 +188,7 @@ const team = () => {
                 <div id="rw-3-1" className="review-3 wow fadeInUp">
                   {/* Testimonial Avatar */}
                   <div className="review-3-avatar">
-                    <img
-                      src="/images/review-author-3.jpg"
-                      alt="review-avatar"
-                    />
+                    <img src="/images/review-author-3.jpg" alt="review-avatar" />
                   </div>
                   {/* Testimonial Text */}
                   <div className="review-3-txt">
@@ -248,21 +202,15 @@ const team = () => {
                       </h6>
                     </div>
                     {/* Text */}
-                    <p className="p-lg">
-                      Sapien sem at sagittis congue augue massa varius an
-                      egestas suscipit
-                    </p>
+                    <p className="p-lg">Sapien sem at sagittis congue augue massa varius an egestas suscipit</p>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #1 */}
                 {/* TESTIMONIAL #2 */}
                 <div id="rw-3-2" className="review-3 wow fadeInUp">
                   {/* Testimonial Avatar */}
                   <div className="review-3-avatar">
-                    <img
-                      src="/images/review-author-2.jpg"
-                      alt="review-avatar"
-                    />
+                    <img src="/images/review-author-2.jpg" alt="review-avatar" />
                   </div>
                   {/* Testimonial Text */}
                   <div className="review-3-txt">
@@ -277,20 +225,16 @@ const team = () => {
                     </div>
                     {/* Text */}
                     <p className="p-lg">
-                      Mauris donec magnis sapien congue an augue egestas undo
-                      vitae purus cursus integer a congue magna
+                      Mauris donec magnis sapien congue an augue egestas undo vitae purus cursus integer a congue magna
                     </p>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #2 */}
                 {/* TESTIMONIAL #3 */}
                 <div id="rw-3-3" className="review-3 wow fadeInUp">
                   {/* Testimonial Avatar */}
                   <div className="review-3-avatar">
-                    <img
-                      src="/images/review-author-5.jpg"
-                      alt="review-avatar"
-                    />
+                    <img src="/images/review-author-5.jpg" alt="review-avatar" />
                   </div>
                   {/* Testimonial Text */}
                   <div className="review-3-txt">
@@ -304,15 +248,12 @@ const team = () => {
                       </h6>
                     </div>
                     {/* Text */}
-                    <p className="p-lg">
-                      Augue massa varius egestas suscipit magna a tempus aliquet
-                      blandit
-                    </p>
+                    <p className="p-lg">Augue massa varius egestas suscipit magna a tempus aliquet blandit</p>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #3 */}
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TESTIMONIALS COLUMN */}
             {/* TEXT BLOCK */}
             <div className="col-lg-6 order-first order-lg-2">
@@ -320,26 +261,23 @@ const team = () => {
                 {/* Section ID */}
                 <span className="section-id txt-upcase">What People Say</span>
                 {/* Title */}
-                <h3 className="h3-lg">
-                  {`You're in good hands. See what our clients say about OLMO.`}
-                </h3>
+                <h3 className="h3-lg">{`You're in good hands. See what our clients say about OLMO.`}</h3>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit vitae ipsum primis undo
-                  and cubilia laoreet augue and luctus magna dolor luctus
-                  egestas sapien vitae nemo egestas volute and turpis dolores
-                  aliquam quaerat sodales a sapien
+                  Quaerat sodales sapien euismod blandit vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales
+                  a sapien
                 </p>
                 {/* Button */}
                 <a href="src/pages/team#" className="btn btn-tra-grey skyblue-hover">
                   Read All Reviews
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TEXT BLOCK */}
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END TESTIMONIALS-3 */}
@@ -351,9 +289,7 @@ const team = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="brands-title text-center">
-                <p className="p-xl">
-                  Trusted by teams inside these great companies:
-                </p>
+                <p className="p-xl">Trusted by teams inside these great companies:</p>
               </div>
             </div>
           </div>
@@ -364,11 +300,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-1.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -376,11 +308,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-2.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -388,11 +316,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-3.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -400,11 +324,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-4.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -412,11 +332,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-5.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -424,11 +340,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-8.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-8.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -436,11 +348,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-7.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-7.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -448,11 +356,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-5.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -460,11 +364,7 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-8.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-8.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
@@ -472,20 +372,16 @@ const team = () => {
               <div className="col">
                 <div className="brand-logo">
                   <a href="src/pages/team#">
-                    <img
-                      className="img-fluid"
-                      src="/images/brand-2.png"
-                      alt="brand-logo"
-                    />
+                    <img className="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
                   </a>
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END BRANDS-2 WRAPPER */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
-      </div>{" "}
+      </div>{' '}
       {/* END BRANDS-2 */}
       {/* DIVIDER LINE */}
       <hr className="divider" />
@@ -498,13 +394,9 @@ const team = () => {
             <div className="col-md-10 col-lg-8">
               <div className="section-title title-02 mb-75">
                 {/* Section ID */}
-                <span className="section-id txt-upcase">
-                  Frequently Asked Questions
-                </span>
+                <span className="section-id txt-upcase">Frequently Asked Questions</span>
                 {/* Title */}
-                <h2 className="h2-xs">
-                  Everything you need to know before getting started
-                </h2>
+                <h2 className="h2-xs">Everything you need to know before getting started</h2>
               </div>
             </div>
           </div>
@@ -517,54 +409,45 @@ const team = () => {
                   {/* QUESTION #1 */}
                   <div className="question wow fadeInUp">
                     {/* Question */}
-                    <h5 className="h5-sm">
-                      Can I see OLMO in action before purchasing?
-                    </h5>
+                    <h5 className="h5-sm">Can I see OLMO in action before purchasing?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      Etiam amet mauris suscipit in odio integer congue metus
-                      vitae arcu mollis blandit ultrice ligula egestas and magna
-                      suscipit lectus magna suscipit luctus blandit vitae
+                      Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula
+                      egestas and magna suscipit lectus magna suscipit luctus blandit vitae
                     </p>
                   </div>
                   {/* QUESTION #2 */}
                   <div className="question wow fadeInUp">
                     {/* Question */}
-                    <h5 className="h5-sm">
-                      What are the requirements for using OLMO?
-                    </h5>
+                    <h5 className="h5-sm">What are the requirements for using OLMO?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      An enim nullam tempor sapien gravida a donec ipsum enim an
-                      porta justo integer at velna vitae auctor integer congue
-                      undo magna at pretium purus pretium
+                      An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae
+                      auctor integer congue undo magna at pretium purus pretium
                     </p>
                   </div>
                   {/* QUESTION #3 */}
                   <div className="question wow fadeInUp">
                     {/* Question */}
-                    <h5 className="h5-sm">
-                      Can I use OLMO on different devices?
-                    </h5>
+                    <h5 className="h5-sm">Can I use OLMO on different devices?</h5>
                     {/* Answer */}
                     <ul className="simple-list">
                       <li className="list-item">
                         <p className="p-lg">
-                          Fringilla risus, luctus mauris orci auctor purus
-                          ligula euismod pretium purus pretium rutrum tempor
-                          sapien
+                          Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum
+                          tempor sapien
                         </p>
                       </li>
                       <li className="list-item">
                         <p className="p-lg">
-                          Nemo ipsam egestas volute turpis dolores ut aliquam
-                          quaerat sodales sapien undo pretium a purus
+                          Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a
+                          purus
                         </p>
                       </li>
                     </ul>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END QUESTIONS HOLDER */}
               {/* QUESTIONS HOLDER */}
               <div className="col">
@@ -575,9 +458,8 @@ const team = () => {
                     <h5 className="h5-sm">Do you have a free trial?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      Cubilia laoreet augue egestas and luctus donec curabite
-                      diam vitae dapibus libero and quisque gravida donec and
-                      neque. Blandit justo aliquam molestie nunc sapien
+                      Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque
+                      gravida donec and neque. Blandit justo aliquam molestie nunc sapien
                     </p>
                   </div>
                   {/* QUESTION #5 */}
@@ -586,13 +468,13 @@ const team = () => {
                     <h5 className="h5-sm">How does OLMO handle my privacy?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      Etiam amet mauris suscipit sit amet in odio. Integer
-                      congue leo metus. Vitae arcu mollis blandit ultrice ligula
+                      Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit
+                      ultrice ligula
                     </p>
                     {/* Answer */}
                     <p className="p-lg">
-                      An enim nullam tempor sapien gravida donec congue leo
-                      metus. Vitae arcu mollis blandit integer at velna
+                      An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at
+                      velna
                     </p>
                   </div>
                   {/* QUESTION #6 */}
@@ -602,31 +484,28 @@ const team = () => {
                     {/* Answer */}
                     <ul className="simple-list">
                       <li className="list-item">
-                        <p className="p-lg">
-                          Fringilla risus, luctus mauris orci auctor purus
-                        </p>
+                        <p className="p-lg">Fringilla risus, luctus mauris orci auctor purus</p>
                       </li>
                       <li className="list-item">
                         <p className="p-lg">
-                          Quaerat sodales sapien euismod blandit purus and ipsum
-                          primis in cubilia laoreet augue luctus
+                          Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus
                         </p>
                       </li>
                     </ul>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END QUESTIONS HOLDER */}
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* END FAQs-2 QUESTIONS */}
           {/* MORE QUESTIONS BUTTON */}
           <div className="row">
             <div className="col">
               <div className="more-questions">
                 <h5 className="h5-sm">
-                  Have more questions?{" "}
+                  Have more questions?{' '}
                   <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/contatos">
                     <a>Ask your question here</a>
                   </Link>
@@ -634,7 +513,7 @@ const team = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END FAQs-2 */}
@@ -648,10 +527,7 @@ const team = () => {
                 {/* CALL TO ACTION TEXT */}
                 <div className="col-lg-7 col-lg-8">
                   <div className="cta-3-txt">
-                    <h4 className="h4-xl">
-                      Try OLMO free for 14 days. Start your trial now and pick a
-                      plan later
-                    </h4>
+                    <h4 className="h4-xl">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
                   </div>
                 </div>
                 {/* CALL TO ACTION BUTTON */}
@@ -659,9 +535,7 @@ const team = () => {
                   <div className="text-end">
                     <div className="cta-3-btn text-center">
                       <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/pricing">
-                        <a className="btn btn-skyblue tra-grey-hover">
-                          Get Started Now
-                        </a>
+                        <a className="btn btn-skyblue tra-grey-hover">Get Started Now</a>
                       </Link>
                       <p>
                         <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/faqs">
@@ -672,14 +546,14 @@ const team = () => {
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* End container */}
         </div>
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default team;
+export default team

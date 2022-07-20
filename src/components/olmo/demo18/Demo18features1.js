@@ -1,9 +1,6 @@
 const Demo18features1 = () => {
   return (
-    <section
-      id="features-1"
-      className="bg-snow pt-60 pb-60 features-section division"
-    >
+    <section id="features-1" className="bg-snow pt-60 pb-60 features-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -13,9 +10,8 @@ const Demo18features1 = () => {
               <h2 className="h2-xs">Get More Customers Online</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -35,9 +31,7 @@ const Demo18features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">Local SEO</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
@@ -53,9 +47,7 @@ const Demo18features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">E-Commerce SEO</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
@@ -71,9 +63,7 @@ const Demo18features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">Advanced Analytics</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
@@ -89,19 +79,17 @@ const Demo18features1 = () => {
                   {/* Title */}
                   <h5 className="h5-sm">PPC Management</h5>
                   {/* Text */}
-                  <p className="p-lg">
-                    Porta semper lacus cursus feugiat and primis ultrice
-                  </p>
+                  <p className="p-lg">Porta semper lacus cursus feugiat and primis ultrice</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-1 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo18features1;
+export default Demo18features1

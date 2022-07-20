@@ -10,9 +10,8 @@ const Aboutfeatures8 = () => {
               <h2 className="h2-md">What Makes OLMO Different</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -25,18 +24,14 @@ const Aboutfeatures8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-21.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-21.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">One-stop Solutions</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -45,18 +40,14 @@ const Aboutfeatures8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-24.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-24.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Online Marketing</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -65,29 +56,25 @@ const Aboutfeatures8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-25.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-25.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">Design &amp; Development</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-8 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Aboutfeatures8;
+export default Aboutfeatures8

@@ -1,38 +1,38 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from 'react'
 
-let useClickOutside = (handler) => {
-  let domNode = useRef();
+let useClickOutside = handler => {
+  let domNode = useRef()
 
   useEffect(() => {
-    let maybeHandler = (event) => {
+    let maybeHandler = event => {
       if (!domNode.current.contains(event.target)) {
-        handler();
+        handler()
       }
-    };
+    }
 
-    document.addEventListener("mousedown", maybeHandler);
+    document.addEventListener('mousedown', maybeHandler)
 
     return () => {
-      document.removeEventListener("mousedown", maybeHandler);
-    };
-  });
+      document.removeEventListener('mousedown', maybeHandler)
+    }
+  })
 
-  return domNode;
-};
+  return domNode
+}
 
 function App() {
-  let [isOpen, setIsOpen] = useState(false);
+  let [isOpen, setIsOpen] = useState(false)
 
   let domNode = useClickOutside(() => {
-    setIsOpen(false);
-  });
+    setIsOpen(false)
+  })
 
   return (
     <>
       <div ref={domNode}>
-        <button onClick={() => setIsOpen((isOpen) => !isOpen)}>Options</button>
+        <button onClick={() => setIsOpen(isOpen => !isOpen)}>Options</button>
 
-        <div className={isOpen ? "open" : "d-none"}>
+        <div className={isOpen ? 'open' : 'd-none'}>
           <p>One</p>
           <p>One</p>
           <p>One</p>
@@ -40,7 +40,7 @@ function App() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

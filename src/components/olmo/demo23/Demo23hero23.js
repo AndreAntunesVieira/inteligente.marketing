@@ -1,4 +1,4 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo23hero23 = () => {
   return (
@@ -9,36 +9,30 @@ const Demo23hero23 = () => {
           <div className="col-lg-6">
             <div className="hero-23-txt white-color wow fadeInRight">
               {/* Title */}
-              <h2 className="h2-sm">
-                We craft marketing and digital products that grow business
-              </h2>
+              <h2 className="h2-sm">We craft marketing and digital products that grow business</h2>
               {/* Text */}
               <p className="p-xl">
-                Feugiat primis and ligula laoreet auctor mauris auctor laoreet
-                and pretium augue cubilia
+                Feugiat primis and ligula laoreet auctor mauris auctor laoreet and pretium augue cubilia
               </p>
               {/* Button */}
               <a href="#" className="btn btn-violet-red tra-white-hover">
                 Find Out More
               </a>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
           {/* HERO IMAGE */}
           <div className="col-lg-6">
             <div className="hero-23-img video-preview wow fadeInLeft">
-              <VideoImage
-                img="images/hero-23-img.jpg"
-                extraClass="video-btn video-btn-xl bg-violet-red ico-90"
-              />
+              <VideoImage img="images/hero-23-img.jpg" extraClass="video-btn video-btn-xl bg-violet-red ico-90" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo23hero23;
+export default Demo23hero23

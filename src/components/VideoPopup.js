@@ -1,50 +1,45 @@
-import React, { Fragment, useContext, useEffect, useRef } from "react";
-import { VideoContext } from "../context/video";
+import React, { Fragment, useContext, useEffect, useRef } from 'react'
+import { VideoContext } from '../context/video'
 
-let useClickOutside = (handler) => {
-  let domNode = useRef();
+let useClickOutside = handler => {
+  let domNode = useRef()
 
   useEffect(() => {
-    let maybeHandler = (event) => {
+    let maybeHandler = event => {
       if (!domNode.current.contains(event.target)) {
-        handler();
+        handler()
       }
-    };
+    }
 
-    document.addEventListener("mousedown", maybeHandler);
+    document.addEventListener('mousedown', maybeHandler)
 
     return () => {
-      document.removeEventListener("mousedown", maybeHandler);
-    };
-  });
+      document.removeEventListener('mousedown', maybeHandler)
+    }
+  })
 
-  return domNode;
-};
+  return domNode
+}
 
 const VideoPopup = () => {
-  const videoContext = useContext(VideoContext);
-  const { video, hideVideo } = videoContext;
+  const videoContext = useContext(VideoContext)
+  const { video, hideVideo } = videoContext
 
   let domNode = useClickOutside(() => {
-    hideVideo();
-  });
+    hideVideo()
+  })
   return (
     <Fragment>
       <div className="mfp-bg mfp-ready" onClick={() => hideVideo()}></div>
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"
         tabIndex={-1}
-        style={{ overflow: "hidden auto" }}
+        style={{ overflow: 'hidden auto' }}
       >
         <div className="mfp-container mfp-s-ready mfp-iframe-holder">
           <div className="mfp-content" ref={domNode}>
             <div className="mfp-iframe-scaler">
-              <button
-                title="Close (Esc)"
-                type="button"
-                className="mfp-close"
-                onClick={() => hideVideo()}
-              >
+              <button title="Close (Esc)" type="button" className="mfp-close" onClick={() => hideVideo()}>
                 ×
               </button>
               <iframe
@@ -52,7 +47,7 @@ const VideoPopup = () => {
                 src={
                   video.id
                     ? `//www.youtube.com/embed/${video.id}?autoplay=1`
-                    : "//www.youtube.com/embed/Y6MlVop80y0?autoplay=1"
+                    : '//www.youtube.com/embed/Y6MlVop80y0?autoplay=1'
                 }
                 frameBorder={0}
                 allowFullScreen
@@ -63,7 +58,7 @@ const VideoPopup = () => {
         </div>
       </div>
     </Fragment>
-  );
-};
+  )
+}
 
-export default VideoPopup;
+export default VideoPopup

@@ -1,14 +1,9 @@
-import Link from "next/dist/client/link";
-import Layout from "../layout/Layout";
+import Link from 'next/dist/client/link'
+import Layout from '../layout/Layout'
 
 const faqs = () => {
   return (
-    <Layout
-      navLight
-      whiteLogo
-      btnCustomHover="btn btn-skyblue tra-white-hover last-link"
-      singlePage
-    >
+    <Layout navLight whiteLogo btnCustomHover="btn btn-skyblue tra-white-hover last-link" singlePage>
       <div id="faqs-page" className="page-hero-section division">
         <div className="page-hero-overlay division">
           <div className="container">
@@ -19,16 +14,16 @@ const faqs = () => {
                   <h2 className="h2-xs">Frequently Asked Questions</h2>
                   {/* Text */}
                   <p className="p-xl">
-                    Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                    dolor primis libero tempus, blandit and cursus varius
+                    Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit and
+                    cursus varius
                   </p>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* End container */}
-        </div>{" "}
+        </div>{' '}
         {/* End hero-overlay */}
         {/* WAVE SHAPE BOTTOM */}
         <div className="wave-shape-bottom">
@@ -40,7 +35,7 @@ const faqs = () => {
             />
           </svg>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* END PAGE HERO */}
       {/* FAQs-2
 			============================================= */}
@@ -55,54 +50,45 @@ const faqs = () => {
                   {/* QUESTION #1 */}
                   <div className="question wow fadeInUp">
                     {/* Question */}
-                    <h5 className="h5-md">
-                      Can I see OLMO in action before purchasing?
-                    </h5>
+                    <h5 className="h5-md">Can I see OLMO in action before purchasing?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      Etiam amet mauris suscipit in odio integer congue metus
-                      vitae arcu mollis blandit ultrice ligula egestas and magna
-                      suscipit lectus magna suscipit luctus blandit vitae
+                      Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula
+                      egestas and magna suscipit lectus magna suscipit luctus blandit vitae
                     </p>
                   </div>
                   {/* QUESTION #2 */}
                   <div className="question wow fadeInUp">
                     {/* Question */}
-                    <h5 className="h5-md">
-                      What are the requirements for using OLMO?
-                    </h5>
+                    <h5 className="h5-md">What are the requirements for using OLMO?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      An enim nullam tempor sapien gravida a donec ipsum enim an
-                      porta justo integer at velna vitae auctor integer congue
-                      undo magna at pretium purus pretium
+                      An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae
+                      auctor integer congue undo magna at pretium purus pretium
                     </p>
                   </div>
                   {/* QUESTION #3 */}
                   <div className="question wow fadeInUp">
                     {/* Question */}
-                    <h5 className="h5-md">
-                      Can I use OLMO on different devices?
-                    </h5>
+                    <h5 className="h5-md">Can I use OLMO on different devices?</h5>
                     {/* Answer */}
                     <ul className="simple-list">
                       <li className="list-item">
                         <p className="p-lg">
-                          Fringilla risus, luctus mauris orci auctor purus
-                          ligula euismod pretium purus pretium rutrum tempor
-                          sapien
+                          Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum
+                          tempor sapien
                         </p>
                       </li>
                       <li className="list-item">
                         <p className="p-lg">
-                          Nemo ipsam egestas volute turpis dolores ut aliquam
-                          quaerat sodales sapien undo pretium a purus
+                          Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a
+                          purus
                         </p>
                       </li>
                     </ul>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END QUESTIONS HOLDER */}
               {/* QUESTIONS HOLDER */}
               <div className="col">
@@ -113,9 +99,8 @@ const faqs = () => {
                     <h5 className="h5-md">Do you have a free trial?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      Cubilia laoreet augue egestas and luctus donec curabite
-                      diam vitae dapibus libero and quisque gravida donec and
-                      neque. Blandit justo aliquam molestie nunc sapien
+                      Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque
+                      gravida donec and neque. Blandit justo aliquam molestie nunc sapien
                     </p>
                   </div>
                   {/* QUESTION #5 */}
@@ -124,13 +109,13 @@ const faqs = () => {
                     <h5 className="h5-md">How does OLMO handle my privacy?</h5>
                     {/* Answer */}
                     <p className="p-lg">
-                      Etiam amet mauris suscipit sit amet in odio. Integer
-                      congue leo metus. Vitae arcu mollis blandit ultrice ligula
+                      Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit
+                      ultrice ligula
                     </p>
                     {/* Answer */}
                     <p className="p-lg">
-                      An enim nullam tempor sapien gravida donec congue leo
-                      metus. Vitae arcu mollis blandit integer at velna
+                      An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at
+                      velna
                     </p>
                   </div>
                   {/* QUESTION #6 */}
@@ -140,31 +125,28 @@ const faqs = () => {
                     {/* Answer */}
                     <ul className="simple-list">
                       <li className="list-item">
-                        <p className="p-lg">
-                          Fringilla risus, luctus mauris orci auctor purus
-                        </p>
+                        <p className="p-lg">Fringilla risus, luctus mauris orci auctor purus</p>
                       </li>
                       <li className="list-item">
                         <p className="p-lg">
-                          Quaerat sodales sapien euismod blandit purus and ipsum
-                          primis in cubilia laoreet augue luctus
+                          Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus
                         </p>
                       </li>
                     </ul>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END QUESTIONS HOLDER */}
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* END FAQs-2 QUESTIONS */}
           {/* MORE QUESTIONS BUTTON */}
           <div className="row">
             <div className="col">
               <div className="more-questions">
                 <h5 className="h5-sm">
-                  Have more questions?{" "}
+                  Have more questions?{' '}
                   <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/contatos">
                     <a>Ask your question here</a>
                   </Link>
@@ -172,7 +154,7 @@ const faqs = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END FAQs-2 */}
@@ -199,15 +181,15 @@ const faqs = () => {
                   </Link>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* End cta-7-wrapper */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </div>
     </Layout>
-  );
-};
+  )
+}
 
-export default faqs;
+export default faqs

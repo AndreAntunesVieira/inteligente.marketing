@@ -1,4 +1,4 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo19statistic3 = () => {
   return (
@@ -67,14 +67,14 @@ const Demo19statistic3 = () => {
                 <p className="p-lg txt-400">Tickets Closed</p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End statistic-3-wrapper */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo19statistic3;
+export default Demo19statistic3

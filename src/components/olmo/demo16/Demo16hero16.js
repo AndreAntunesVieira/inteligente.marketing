@@ -6,42 +6,27 @@ const Demo16hero16 = () => {
           {/* HERO IMAGE */}
           <div className="col-md-5 col-lg-6 order-last order-md-2">
             <div className="hero-16-img pc-25 text-center">
-              <img
-                className="img-fluid"
-                src="/images/img-02.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/img-02.png" alt="hero-image" />
             </div>
           </div>
           {/* HERO TEXT */}
           <div className="col-md-7 col-lg-6 order-first order-md-2">
             <div className="hero-16-txt">
               {/* Title */}
-              <h2 className="h2-sm">
-                Post your photos anywhere and see it everywhere
-              </h2>
+              <h2 className="h2-sm">Post your photos anywhere and see it everywhere</h2>
               {/* Text */}
               <p className="p-xl">
-                Feugiat primis ligula risus auctor egestas and augue viverra
-                mauri tortor in iaculis magna feugiat
+                Feugiat primis ligula risus auctor egestas and augue viverra mauri tortor in iaculis magna feugiat
               </p>
               {/* STORE BADGES */}
               <div className="stores-badge mb-25">
                 {/* AppStore */}
                 <a href="#" className="store">
-                  <img
-                    className="appstore"
-                    src="/images/appstore.png"
-                    alt="appstore-badge"
-                  />
+                  <img className="appstore" src="/images/appstore.png" alt="appstore-badge" />
                 </a>
                 {/* Google Play */}
                 <a href="#" className="store">
-                  <img
-                    className="googleplay"
-                    src="/images/googleplay.png"
-                    alt="googleplay-badge"
-                  />
+                  <img className="googleplay" src="/images/googleplay.png" alt="googleplay-badge" />
                 </a>
                 {/* Aamazon Market 
 									<a href="#" class="store">
@@ -55,7 +40,7 @@ const Demo16hero16 = () => {
 									<a href="#" class="store">
 										<img class="microsoft" src="/images/microsoft.png" alt="microsoft-badge" />
 									</a> */}
-              </div>{" "}
+              </div>{' '}
               {/* END STORE BADGES */}
               {/* Advantages List */}
               <ul className="advantages">
@@ -67,14 +52,14 @@ const Demo16hero16 = () => {
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo16hero16;
+export default Demo16hero16

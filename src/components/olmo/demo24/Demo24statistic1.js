@@ -1,11 +1,8 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo24statistic1 = () => {
   return (
-    <div
-      id="statistic-1"
-      className="bg-01 pt-70 pb-70 statistic-section division"
-    >
+    <div id="statistic-1" className="bg-01 pt-70 pb-70 statistic-section division">
       <div className="container white-color">
         {/* STATISTIC-1 WRAPPER */}
         <div className="statistic-1-wrapper">
@@ -22,9 +19,8 @@ const Demo24statistic1 = () => {
                 <h5 className="h5-lg">وصول أسرع</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
               </div>
             </div>
@@ -40,9 +36,8 @@ const Demo24statistic1 = () => {
                 <h5 className="h5-lg">إنتاجية</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
               </div>
             </div>
@@ -58,19 +53,18 @@ const Demo24statistic1 = () => {
                 <h5 className="h5-lg">وصول آمن</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END STATISTIC-1 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </div>
-  );
-};
+  )
+}
 
-export default Demo24statistic1;
+export default Demo24statistic1

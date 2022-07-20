@@ -1,4 +1,4 @@
-import Slider from "react-slick";
+import Slider from 'react-slick'
 
 const CustomersReviews = () => {
   const settings = {
@@ -25,12 +25,9 @@ const CustomersReviews = () => {
         },
       },
     ],
-  };
+  }
   return (
-    <section
-      id="reviews-1"
-      className="bg-whitesmoke-gradient wide-100 reviews-section division slickmargin"
-    >
+    <section id="reviews-1" className="bg-whitesmoke-gradient wide-100 reviews-section division slickmargin">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -40,9 +37,8 @@ const CustomersReviews = () => {
               <h2 className="h2-md">Stories From Our Customers</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -62,17 +58,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      Etiam sapien sagittis congue augue massa varius egestas
-                      ultrice varius magna a tempus aliquet undo cursus suscipit
+                      Etiam sapien sagittis congue augue massa varius egestas ultrice varius magna a tempus aliquet undo
+                      cursus suscipit
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-1.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-1.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -103,19 +96,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      At sagittis congue augue and egestas magna ipsum vitae a
-                      purus ipsum primis in cubilia laoreet augue egestas luctus
-                      and donec diam ultrice ligula magna suscipit lectus gestas
-                      augue into cubilia
+                      At sagittis congue augue and egestas magna ipsum vitae a purus ipsum primis in cubilia laoreet
+                      augue egestas luctus and donec diam ultrice ligula magna suscipit lectus gestas augue into cubilia
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-2.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-2.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -146,18 +134,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      Mauris donec magnis sapien etiam sapien congue augue
-                      egestas et ultrice vitae purus diam integer a congue magna
-                      ligula undo egestas magna at suscipit feugiat primis
+                      Mauris donec magnis sapien etiam sapien congue augue egestas et ultrice vitae purus diam integer a
+                      congue magna ligula undo egestas magna at suscipit feugiat primis
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-3.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-3.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -188,18 +172,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      Mauris donec a magnis sapien etiam sapien congue augue
-                      pretium ligula lectus aenean a magna undo mauris lectus
-                      laoreet tempor egestas
+                      Mauris donec a magnis sapien etiam sapien congue augue pretium ligula lectus aenean a magna undo
+                      mauris lectus laoreet tempor egestas
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-4.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-4.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -230,19 +210,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      An augue cubilia laoreet magna suscipit egestas and ipsum
-                      a lectus purus ipsum primis and augue ultrice ligula and
-                      egestas a suscipit lectus gestas undo auctor tempus
-                      feugiat impedit
+                      An augue cubilia laoreet magna suscipit egestas and ipsum a lectus purus ipsum primis and augue
+                      ultrice ligula and egestas a suscipit lectus gestas undo auctor tempus feugiat impedit
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-5.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-5.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -273,18 +248,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      An augue cubilia laoreet undo magna ipsum semper suscipit
-                      egestas magna ipsum ligula a vitae purus and ipsum primis
-                      cubilia magna suscipit
+                      An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna ipsum ligula a vitae purus
+                      and ipsum primis cubilia magna suscipit
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-6.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-6.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -315,18 +286,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      Augue egestas diam tempus volutpat egestas augue in
-                      cubilia laoreet magna suscipit luctus dolor and blandit
-                      vitae purus diam tempus an aliquet porta rutrum gestas
+                      Augue egestas diam tempus volutpat egestas augue in cubilia laoreet magna suscipit luctus dolor
+                      and blandit vitae purus diam tempus an aliquet porta rutrum gestas
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-7.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-7.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -357,18 +324,14 @@ const CustomersReviews = () => {
                   <div className="review-1-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      Augue at vitae purus tempus egestas volutpat augue undo
-                      cubilia laoreet magna suscipit luctus dolor blandit at
-                      purus tempus feugiat impedit
+                      Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet magna suscipit luctus
+                      dolor blandit at purus tempus feugiat impedit
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-8.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-8.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -397,7 +360,7 @@ const CustomersReviews = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default CustomersReviews;
+export default CustomersReviews

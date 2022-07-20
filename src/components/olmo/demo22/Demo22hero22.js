@@ -13,38 +13,32 @@ const Demo22hero22 = () => {
                 <ul className="simple-list">
                   <li className="list-item">
                     <p className="p-lg">
-                      Fringilla risus, luctus mauris auctor euismod an iaculis
-                      luctus magna purus pretium ligula purus and quaerat sapien
-                      rutrum mauris auctor
+                      Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus
+                      and quaerat sapien rutrum mauris auctor
                     </p>
                   </li>
                   <li className="list-item">
                     <p className="p-lg">
-                      Nemo ipsam egestas volute turpis dolores ligula and
-                      aliquam quaerat at sodales sapien purus
+                      Nemo ipsam egestas volute turpis dolores ligula and aliquam quaerat at sodales sapien purus
                     </p>
                   </li>
                 </ul>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TEXT BLOCK */}
             {/* IMAGE BLOCK */}
             <div className="col-md-5 col-lg-6">
               <div className="img-block right-column wow fadeInLeft">
-                <img
-                  className="img-fluid"
-                  src="/images/hero-22-img.png"
-                  alt="content-image"
-                />
+                <img className="img-fluid" src="/images/hero-22-img.png" alt="content-image" />
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo22hero22;
+export default Demo22hero22

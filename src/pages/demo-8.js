@@ -1,20 +1,20 @@
-import FaqSection from "../components/sections/FaqSection";
-import Demo8brands2 from "../components/olmo/demo8/Demo8brands2";
-import Demo8content1 from "../components/olmo/demo8/Demo8content1";
-import Demo8content10 from "../components/olmo/demo8/Demo8content10";
-import Demo8content2 from "../components/olmo/demo8/Demo8content2";
-import Demo8content2a from "../components/olmo/demo8/Demo8content2a";
-import Demo8content3 from "../components/olmo/demo8/Demo8content3";
-import Demo8content5 from "../components/olmo/demo8/Demo8content5";
-import Demo8cta3 from "../components/olmo/demo8/Demo8cta3";
-import Demo8features4 from "../components/olmo/demo8/Demo8features4";
-import Demo8features5 from "../components/olmo/demo8/Demo8features5";
-import Demo8Hero from "../components/olmo/demo8/Demo8Hero";
-import Demo8pricing3 from "../components/olmo/demo8/Demo8pricing3";
-import Demo8reviews1 from "../components/olmo/demo8/Demo8reviews1";
-import Demo8statistic4 from "../components/olmo/demo8/Demo8statistic4";
-import Democontent6 from "../components/olmo/demo8/Democontent6";
-import Layout from "../layout/Layout";
+import FaqSection from '../components/sections/FaqSection'
+import Demo8brands2 from '../components/olmo/demo8/Demo8brands2'
+import Demo8content1 from '../components/olmo/demo8/Demo8content1'
+import Demo8content10 from '../components/olmo/demo8/Demo8content10'
+import Demo8content2 from '../components/olmo/demo8/Demo8content2'
+import Demo8content2a from '../components/olmo/demo8/Demo8content2a'
+import Demo8content3 from '../components/olmo/demo8/Demo8content3'
+import Demo8content5 from '../components/olmo/demo8/Demo8content5'
+import Demo8cta3 from '../components/olmo/demo8/Demo8cta3'
+import Demo8features4 from '../components/olmo/demo8/Demo8features4'
+import Demo8features5 from '../components/olmo/demo8/Demo8features5'
+import Demo8Hero from '../components/olmo/demo8/Demo8Hero'
+import Demo8pricing3 from '../components/olmo/demo8/Demo8pricing3'
+import Demo8reviews1 from '../components/olmo/demo8/Demo8reviews1'
+import Demo8statistic4 from '../components/olmo/demo8/Demo8statistic4'
+import Democontent6 from '../components/olmo/demo8/Democontent6'
+import Layout from '../layout/Layout'
 
 const Demo8 = () => {
   return (
@@ -39,7 +39,7 @@ const Demo8 = () => {
       <FaqSection />
       <Demo8cta3 />
     </Layout>
-  );
-};
+  )
+}
 
-export default Demo8;
+export default Demo8

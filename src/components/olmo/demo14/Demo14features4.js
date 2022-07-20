@@ -10,9 +10,8 @@ const Demo14features4 = () => {
               <h2 className="h2-md">We’re Better. Here’s Why…</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -35,9 +34,8 @@ const Demo14features4 = () => {
                   <h5 className="h5-md">Prepaid Visa Card</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -57,9 +55,8 @@ const Demo14features4 = () => {
                   <h5 className="h5-md">Virtual Wallet</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -79,9 +76,8 @@ const Demo14features4 = () => {
                   <h5 className="h5-md">Mobile Banking</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -101,9 +97,8 @@ const Demo14features4 = () => {
                   <h5 className="h5-md">Send &amp; Receive Money</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -123,9 +118,8 @@ const Demo14features4 = () => {
                   <h5 className="h5-md">Payments Activity</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -145,20 +139,19 @@ const Demo14features4 = () => {
                   <h5 className="h5-md">Card Lock &amp; Unlock</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-4 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo14features4;
+export default Demo14features4

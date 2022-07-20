@@ -1,4 +1,4 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo25hero10 = () => {
   return (
@@ -9,21 +9,13 @@ const Demo25hero10 = () => {
             {/* HERO TEXT */}
             <div className="hero-10-txt">
               {/* Title */}
-              <h2 className="h2-md wow fadeInUp">
-                تكامل المعلومات والتصميم والتكنولوجيا
-              </h2>
+              <h2 className="h2-md wow fadeInUp">تكامل المعلومات والتصميم والتكنولوجيا</h2>
               {/* Buttons Group */}
               <div className="btns-group wow fadeInUp">
-                <a
-                  href="#content-3"
-                  className="btn btn-violet-red tra-violet-red-hover mr-15"
-                >
+                <a href="#content-3" className="btn btn-violet-red tra-violet-red-hover mr-15">
                   اكتشف المزيد
                 </a>
-                <a
-                  href="#features-4"
-                  className="btn btn-tra-black tra-violet-red-hover"
-                >
+                <a href="#features-4" className="btn btn-tra-black tra-violet-red-hover">
                   الميزات الأساسية
                 </a>
               </div>
@@ -33,12 +25,12 @@ const Demo25hero10 = () => {
               <VideoImage extraClass="video-btn video-btn-xl bg-violet-red ico-90" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo25hero10;
+export default Demo25hero10

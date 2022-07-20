@@ -6,42 +6,27 @@ const Demo2Hero2 = () => {
           {/* HERO IMAGE */}
           <div className="col-md-5 col-lg-6 order-last order-md-2">
             <div className="hero-2-img pc-30 wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/img-12.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/img-12.png" alt="hero-image" />
             </div>
           </div>
           {/* HERO TEXT */}
           <div className="col-md-7 col-lg-6 order-first order-md-2">
             <div className="hero-2-txt white-color wow fadeInLeft">
               {/* Title */}
-              <h2 className="h2-xl">
-                Manage all your media files using only OLMO
-              </h2>
+              <h2 className="h2-xl">Manage all your media files using only OLMO</h2>
               {/* Text */}
               <p className="p-xl">
-                Feugiat primis a ligula sapien mauris an auctor laoreet and
-                pretium augue egestas cubilia
+                Feugiat primis a ligula sapien mauris an auctor laoreet and pretium augue egestas cubilia
               </p>
               {/* STORE BADGES */}
               <div className="stores-badge">
                 {/* AppStore */}
                 <a href="#" className="store">
-                  <img
-                    className="appstore"
-                    src="/images/appstore.png"
-                    alt="appstore-badge"
-                  />
+                  <img className="appstore" src="/images/appstore.png" alt="appstore-badge" />
                 </a>
                 {/* Google Play */}
                 <a href="#" className="store">
-                  <img
-                    className="googleplay"
-                    src="/images/googleplay.png"
-                    alt="googleplay-badge"
-                  />
+                  <img className="googleplay" src="/images/googleplay.png" alt="googleplay-badge" />
                 </a>
                 {/* Aamazon Market 
                                                <a href="#" class="store">
@@ -84,7 +69,7 @@ const Demo2Hero2 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo2Hero2;
+export default Demo2Hero2

@@ -7,28 +7,18 @@ const Demo24hero6 = () => {
           <div className="col-lg-6">
             <div className="hero-6-txt">
               {/* Title */}
-              <h2 className="h2-md">
-                أفكار جديدة. تصميم مدروس. نتائج قابلة للقياس
-              </h2>
+              <h2 className="h2-md">أفكار جديدة. تصميم مدروس. نتائج قابلة للقياس</h2>
               {/* Text */}
               <p className="p-lg">
-                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
-                ولايزال المعيار للنص الشكلي منذ القرن الخامس
+                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
               </p>
               {/* HERO QUICK FORM */}
-              <form
-                name="quickform"
-                className="quick-form shadow-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="quickform" className="quick-form shadow-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Inputs */}
                 <div className="input-group">
                   <span className="input-group-btn form-btn">
-                    <button
-                      type="submit"
-                      className="btn btn-md btn-stateblue black-hover submit"
-                    >
+                    <button type="submit" className="btn btn-md btn-stateblue black-hover submit">
                       البدء
                     </button>
                   </span>
@@ -47,21 +37,17 @@ const Demo24hero6 = () => {
                 </div>
               </form>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
           {/* HERO IMAGE */}
           <div className="col-lg-6">
             <div className="hero-6-img text-center">
-              <img
-                className="img-fluid"
-                src="/images/img-06.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/img-06.png" alt="hero-image" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
       {/* WAVE SHAPE BOTTOM */}
       <div className="wave-shape-bottom">
@@ -74,7 +60,7 @@ const Demo24hero6 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo24hero6;
+export default Demo24hero6

@@ -1,11 +1,8 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo6content2 = () => {
   return (
-    <section
-      id="content-2"
-      className="content-2 wide-60 content-section division"
-    >
+    <section id="content-2" className="content-2 wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* IMAGE BLOCK */}
@@ -23,10 +20,9 @@ const Demo6content2 = () => {
                 <h5 className="h5-lg">All Tools in One Place</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                  undo and cubilia laoreet augue and luctus magna dolor luctus
-                  at egestas sapien vitae nemo egestas volute and turpis dolores
-                  aliquam quaerat sodales a sapien
+                  Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat
+                  sodales a sapien
                 </p>
               </div>
               <hr />
@@ -36,9 +32,7 @@ const Demo6content2 = () => {
                   <span className="flaticon-check purple-color" />
                 </div>
                 <div className="cbox-3-txt">
-                  <h6 className="h6-lg">
-                    Egestas volute turpis dolores ultrice
-                  </h6>
+                  <h6 className="h6-lg">Egestas volute turpis dolores ultrice</h6>
                 </div>
               </div>
               {/* CONTENT BOX #2 */}
@@ -47,9 +41,7 @@ const Demo6content2 = () => {
                   <span className="flaticon-check purple-color" />
                 </div>
                 <div className="cbox-3-txt">
-                  <h6 className="h6-lg">
-                    Quaerat sodales sapien euismod purus
-                  </h6>
+                  <h6 className="h6-lg">Quaerat sodales sapien euismod purus</h6>
                 </div>
               </div>
               {/* CONTENT BOX #3 */}
@@ -78,7 +70,7 @@ const Demo6content2 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo6content2;
+export default Demo6content2

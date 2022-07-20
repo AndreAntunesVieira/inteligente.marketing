@@ -10,9 +10,8 @@ const Demo25features8 = () => {
               <h2 className="h2-md">نحن أفضل. هنا لماذا ...</h2>
               {/* Text */}
               <p className="p-xl">
-                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
-                ولايزال المعيار للنص الشكلي منذ القرن الخامس
+                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
               </p>
             </div>
           </div>
@@ -25,19 +24,14 @@ const Demo25features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-21.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-21.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">واجهة ودية</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
               </div>
             </div>
@@ -46,19 +40,14 @@ const Demo25features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-22.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-22.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">مرنة للغاية</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
               </div>
             </div>
@@ -67,30 +56,25 @@ const Demo25features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-24.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-24.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-md">سهل التخصيص</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-8 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo25features8;
+export default Demo25features8

@@ -8,17 +8,12 @@ const Demo7newsletter1 = () => {
             <div className="col">
               <div className="newsletter-txt pr-20">
                 {/* Title */}
-                <h4 className="h4-lg">
-                  Stay up to date with our news, ideas and updates
-                </h4>
+                <h4 className="h4-lg">Stay up to date with our news, ideas and updates</h4>
               </div>
             </div>
             {/* NEWSLETTER FORM */}
             <div className="col">
-              <form
-                className="newsletter-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form className="newsletter-form" onSubmit={e => e.preventDefault()}>
                 <div className="input-group">
                   <input
                     type="email"
@@ -29,10 +24,7 @@ const Demo7newsletter1 = () => {
                     id="s-email"
                   />
                   <span className="input-group-btn">
-                    <button
-                      type="submit"
-                      className="btn btn-md btn-pink tra-grey-hover"
-                    >
+                    <button type="submit" className="btn btn-md btn-pink tra-grey-hover">
                       Subscribe Now
                     </button>
                   </span>
@@ -49,7 +41,7 @@ const Demo7newsletter1 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo7newsletter1;
+export default Demo7newsletter1

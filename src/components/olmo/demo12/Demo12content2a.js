@@ -1,19 +1,12 @@
 const Demo12content2a = () => {
   return (
-    <section
-      id="content-2a"
-      className="content-2 pb-60 content-section division"
-    >
+    <section id="content-2a" className="content-2 pb-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* IMAGE BLOCK */}
           <div className="col-md-5 col-lg-6">
             <div className="rel img-block left-column wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/img-10.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/img-10.png" alt="content-image" />
             </div>
           </div>
           {/* TEXT BLOCK */}
@@ -25,10 +18,9 @@ const Demo12content2a = () => {
                 <h5 className="h5-lg">Editing Tools and Exports</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                  undo and cubilia laoreet augue and luctus magna dolor luctus
-                  at egestas sapien vitae nemo egestas volute and turpis dolores
-                  aliquam quaerat sodales a sapien
+                  Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat
+                  sodales a sapien
                 </p>
               </div>
               {/* TEXT BOX */}
@@ -39,28 +31,27 @@ const Demo12content2a = () => {
                 <ul className="simple-list">
                   <li className="list-item">
                     <p className="p-lg">
-                      Fringilla risus, luctus mauris auctor euismod an iaculis
-                      luctus magna purus pretium ligula purus and quaerat
+                      Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus
+                      and quaerat
                     </p>
                   </li>
                   <li className="list-item">
                     <p className="p-lg">
-                      Nemo ipsam egestas volute turpis dolores undo ultrice
-                      aliquam quaerat at sodales sapien purus
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
                     </p>
                   </li>
                 </ul>
-              </div>{" "}
+              </div>{' '}
               {/* END TEXT BOX */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo12content2a;
+export default Demo12content2a

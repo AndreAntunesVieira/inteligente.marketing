@@ -6,10 +6,7 @@ const Demo24brands2 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="brands-title text-center">
-              <p className="p-xl">
-                هؤلاء الرجال يستخدمون OLMO وهم أكثر سعادة من أي وقت مضىسريع وسهل
-                وآمن
-              </p>
+              <p className="p-xl">هؤلاء الرجال يستخدمون OLMO وهم أكثر سعادة من أي وقت مضىسريع وسهل وآمن</p>
             </div>
           </div>
         </div>
@@ -20,11 +17,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-1.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-1.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -32,11 +25,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-2.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -44,11 +33,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-3.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-3.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -56,11 +41,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-4.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-4.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -68,11 +49,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-5.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -80,11 +57,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-8.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-8.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -92,11 +65,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-7.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-7.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -104,11 +73,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-5.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-5.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -116,11 +81,7 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-8.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-8.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
@@ -128,21 +89,17 @@ const Demo24brands2 = () => {
             <div className="col">
               <div className="brand-logo">
                 <a href="#">
-                  <img
-                    className="img-fluid"
-                    src="/images/brand-2.png"
-                    alt="brand-logo"
-                  />
+                  <img className="img-fluid" src="/images/brand-2.png" alt="brand-logo" />
                 </a>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END BRANDS-2 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </div>
-  );
-};
+  )
+}
 
-export default Demo24brands2;
+export default Demo24brands2

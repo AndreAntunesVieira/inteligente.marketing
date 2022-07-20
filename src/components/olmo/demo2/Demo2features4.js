@@ -10,9 +10,8 @@ const Demo2features4 = () => {
               <h2 className="h2-md">We’re Better. Here’s Why…</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -26,11 +25,7 @@ const Demo2features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-double-click" />
                   </div>
                 </div>
@@ -40,9 +35,8 @@ const Demo2features4 = () => {
                   <h5 className="h5-md">Quick Access</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -53,11 +47,7 @@ const Demo2features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-folder-3" />
                   </div>
                 </div>
@@ -67,9 +57,8 @@ const Demo2features4 = () => {
                   <h5 className="h5-md">File Manager</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -80,11 +69,7 @@ const Demo2features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-puzzle" />
                   </div>
                 </div>
@@ -94,9 +79,8 @@ const Demo2features4 = () => {
                   <h5 className="h5-md">Convert Media Files</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -107,11 +91,7 @@ const Demo2features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-share" />
                   </div>
                 </div>
@@ -121,9 +101,8 @@ const Demo2features4 = () => {
                   <h5 className="h5-md">Files Sharing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -134,11 +113,7 @@ const Demo2features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-server-1" />
                   </div>
                 </div>
@@ -148,9 +123,8 @@ const Demo2features4 = () => {
                   <h5 className="h5-md">Storage &amp; Backup</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -161,11 +135,7 @@ const Demo2features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-shield" />
                   </div>
                 </div>
@@ -175,9 +145,8 @@ const Demo2features4 = () => {
                   <h5 className="h5-md">Spam Protection</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -188,7 +157,7 @@ const Demo2features4 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo2features4;
+export default Demo2features4

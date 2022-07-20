@@ -1,9 +1,6 @@
 const Demo24content6 = () => {
   return (
-    <section
-      id="content-6"
-      className="content-6 wide-60 content-section division"
-    >
+    <section id="content-6" className="content-6 wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
@@ -15,9 +12,8 @@ const Demo24content6 = () => {
                 <h5 className="h5-lg">إبداعي وعملي</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                  المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم
-                  إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
+                  لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                  النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
                 </p>
               </div>
               {/* TEXT BOX */}
@@ -28,38 +24,30 @@ const Demo24content6 = () => {
                 <ul className="simple-list">
                   <li className="list-item">
                     <p className="p-lg">
-                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                      الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو
-                      الكلمات العشوائية إلى النص.
+                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال
+                      بعض النوادر أو الكلمات العشوائية إلى النص.
                     </p>
                   </li>
                   <li className="list-item">
-                    <p className="p-lg">
-                      وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على
-                      الإنترنت.
-                    </p>
+                    <p className="p-lg">وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.</p>
                   </li>
                 </ul>
-              </div>{" "}
+              </div>{' '}
               {/* END TEXT BOX */}
             </div>
           </div>
           {/* IMAGE BLOCK */}
           <div className="col-md-6 col-lg-7">
             <div className="img-block right-column wow fadeInLeft">
-              <img
-                className="img-fluid"
-                src="/images/img-19.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/img-19.png" alt="content-image" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo24content6;
+export default Demo24content6

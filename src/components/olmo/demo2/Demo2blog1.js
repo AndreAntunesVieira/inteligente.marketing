@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 const Demo2blog1 = () => {
   return (
@@ -12,9 +12,8 @@ const Demo2blog1 = () => {
               <h2 className="h2-md">Our Stories &amp; Latest News</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -27,11 +26,7 @@ const Demo2blog1 = () => {
               {/* BLOG POST IMAGE */}
               <div className="blog-post-img">
                 <div className="hover-overlay">
-                  <img
-                    className="img-fluid"
-                    src="/images/blog/post-1-img.jpg"
-                    alt="blog-post-image"
-                  />
+                  <img className="img-fluid" src="/images/blog/post-1-img.jpg" alt="blog-post-image" />
                   <div className="item-overlay" />
                 </div>
               </div>
@@ -46,10 +41,7 @@ const Demo2blog1 = () => {
                   </Link>
                 </h5>
                 {/* Text */}
-                <p className="p-lg">
-                  Donec sapien augue integer turpis urna cursus porta, mauris
-                  augue...
-                </p>
+                <p className="p-lg">Donec sapien augue integer turpis urna cursus porta, mauris augue...</p>
                 {/* Post Meta */}
                 <div className="post-meta">
                   <p className="p-md">9 Comments</p>
@@ -65,11 +57,7 @@ const Demo2blog1 = () => {
               {/* BLOG POST IMAGE */}
               <div className="blog-post-img">
                 <div className="hover-overlay">
-                  <img
-                    className="img-fluid"
-                    src="/images/blog/post-5-img.jpg"
-                    alt="blog-post-image"
-                  />
+                  <img className="img-fluid" src="/images/blog/post-5-img.jpg" alt="blog-post-image" />
                   <div className="item-overlay" />
                 </div>
               </div>
@@ -84,10 +72,7 @@ const Demo2blog1 = () => {
                   </Link>
                 </h5>
                 {/* Text */}
-                <p className="p-lg">
-                  Donec sapien augue integer turpis urna cursus porta a mauris
-                  dolor...
-                </p>
+                <p className="p-lg">Donec sapien augue integer turpis urna cursus porta a mauris dolor...</p>
                 {/* Post Meta */}
                 <div className="post-meta">
                   <p className="p-md">12 Comments</p>
@@ -103,11 +88,7 @@ const Demo2blog1 = () => {
               {/* BLOG POST IMAGE */}
               <div className="blog-post-img">
                 <div className="hover-overlay">
-                  <img
-                    className="img-fluid"
-                    src="/images/blog/post-2-img.jpg"
-                    alt="blog-post-image"
-                  />
+                  <img className="img-fluid" src="/images/blog/post-2-img.jpg" alt="blog-post-image" />
                   <div className="item-overlay" />
                 </div>
               </div>
@@ -118,16 +99,11 @@ const Demo2blog1 = () => {
                 {/* Post Link */}
                 <h5 className="h5-md">
                   <Link href="/single-post">
-                    <a>
-                      Donec sapien augue integer turpis at cursus porta mauris
-                    </a>
+                    <a>Donec sapien augue integer turpis at cursus porta mauris</a>
                   </Link>
                 </h5>
                 {/* Text */}
-                <p className="p-lg">
-                  Donec sapien augue integer turpis urna cursus porta, mauris
-                  augue...
-                </p>
+                <p className="p-lg">Donec sapien augue integer turpis urna cursus porta, mauris augue...</p>
                 {/* Post Meta */}
                 <div className="post-meta">
                   <p className="p-md">3 Comments</p>
@@ -142,7 +118,7 @@ const Demo2blog1 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo2blog1;
+export default Demo2blog1

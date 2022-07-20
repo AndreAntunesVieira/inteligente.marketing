@@ -20,9 +20,8 @@ const Demo16features4 = () => {
                   <h5 className="h5-md">Quick Access</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -42,9 +41,8 @@ const Demo16features4 = () => {
                   <h5 className="h5-md">Convert Media Files</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -64,9 +62,8 @@ const Demo16features4 = () => {
                   <h5 className="h5-md">Extensions &amp; Addons</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -86,20 +83,19 @@ const Demo16features4 = () => {
                   <h5 className="h5-md">Files Sharing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-4 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo16features4;
+export default Demo16features4

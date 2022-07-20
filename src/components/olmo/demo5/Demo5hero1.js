@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Demo5hero1 = () => {
   return (
     <section id="hero-5" className="bg-snow hero-section division">
@@ -7,11 +7,7 @@ const Demo5hero1 = () => {
           {/* HERO IMAGE */}
           <div className="col-md-7 col-lg-7">
             <div className="hero-5-img">
-              <img
-                className="img-fluid"
-                src="/images/hero-5-img.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/hero-5-img.png" alt="hero-image" />
             </div>
           </div>
           {/* HERO TEXT */}
@@ -45,7 +41,7 @@ const Demo5hero1 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo5hero1;
+export default Demo5hero1

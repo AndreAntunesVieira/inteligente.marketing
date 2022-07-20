@@ -1,9 +1,6 @@
 const Demo3features4 = () => {
   return (
-    <section
-      id="features-4"
-      className="wide-60 bg-snow features-section division"
-    >
+    <section id="features-4" className="wide-60 bg-snow features-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -13,9 +10,8 @@ const Demo3features4 = () => {
               <h2 className="h2-md">We’re Better. Here’s Why…</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -38,9 +34,8 @@ const Demo3features4 = () => {
                   <h5 className="h5-md">Market Research</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -60,9 +55,8 @@ const Demo3features4 = () => {
                   <h5 className="h5-md">User Experience</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -82,9 +76,8 @@ const Demo3features4 = () => {
                   <h5 className="h5-md">Web Development</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -104,9 +97,8 @@ const Demo3features4 = () => {
                   <h5 className="h5-md">Digital Marketing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -126,9 +118,8 @@ const Demo3features4 = () => {
                   <h5 className="h5-md">Brand Design Identity</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -148,9 +139,8 @@ const Demo3features4 = () => {
                   <h5 className="h5-md">SEO &amp; SMM Services</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
+                    auctor felis augue mauris aoreet tempor
                   </p>
                 </div>
               </div>
@@ -161,7 +151,7 @@ const Demo3features4 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo3features4;
+export default Demo3features4

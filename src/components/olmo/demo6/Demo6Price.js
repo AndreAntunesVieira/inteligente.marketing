@@ -1,9 +1,6 @@
 const Demo6Price = () => {
   return (
-    <section
-      id="pricing-2"
-      className="bg-whitesmoke-gradient wide-60 pricing-section division"
-    >
+    <section id="pricing-2" className="bg-whitesmoke-gradient wide-60 pricing-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -12,9 +9,7 @@ const Demo6Price = () => {
               {/* Title */}
               <h2 className="h2-md">Simple And Flexible Pricing</h2>
               {/* Text */}
-              <p className="p-xl">
-                No credit card required. Change or cancel your plan anytime
-              </p>
+              <p className="p-xl">No credit card required. Change or cancel your plan anytime</p>
             </div>
           </div>
         </div>
@@ -63,14 +58,11 @@ const Demo6Price = () => {
                   </li>
                 </ul>
                 {/* Pricing Plan Button */}
-                <a
-                  href="#"
-                  className="btn btn-sm btn-tra-grey tra-stateblue-hover"
-                >
+                <a href="#" className="btn btn-sm btn-tra-grey tra-stateblue-hover">
                   Select Plan
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END BASIC PLAN */}
             {/* AGENCY PLAN */}
             <div className="col">
@@ -114,14 +106,11 @@ const Demo6Price = () => {
                   </li>
                 </ul>
                 {/* Pricing Plan Button */}
-                <a
-                  href="#"
-                  className="btn btn-sm btn-tra-grey tra-stateblue-hover"
-                >
+                <a href="#" className="btn btn-sm btn-tra-grey tra-stateblue-hover">
                   Select Plan
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END AGENCY PLAN  */}
             {/* ADVANCED PLAN */}
             <div className="col">
@@ -169,19 +158,18 @@ const Demo6Price = () => {
                   Select Plan
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END ADVANCED PLAN */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PRICING TABLES */}
         {/* PRICING NOTICE TEXT */}
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <div className="pricing-notice text-center mb-40">
               <p className="p-md">
-                The above prices do not include applicable taxes based on your
-                billing address. The final price will be displayed on the
-                checkout page, before the payment is completed
+                The above prices do not include applicable taxes based on your billing address. The final price will be
+                displayed on the checkout page, before the payment is completed
               </p>
             </div>
           </div>
@@ -203,25 +191,16 @@ const Demo6Price = () => {
                     <img src="/images/png-icons/am.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/discover.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/discover.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/paypal.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/paypal.png" alt="payment-icon" />
                   </li>
                   <li>
                     <img src="/images/png-icons/jcb.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/shopify.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/shopify.png" alt="payment-icon" />
                   </li>
                 </ul>
               </div>
@@ -232,10 +211,7 @@ const Demo6Price = () => {
                 {/* Title */}
                 <h6 className="h6-md">Money Back Guarantee</h6>
                 {/* Text */}
-                <p>
-                  Explore OLMO Premium for 14 days. If it’s not a perfect fit,
-                  receive a full refund.
-                </p>
+                <p>Explore OLMO Premium for 14 days. If it’s not a perfect fit, receive a full refund.</p>
               </div>
             </div>
             {/* Payment Encrypted */}
@@ -248,12 +224,12 @@ const Demo6Price = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PAYMENT METHODS */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo6Price;
+export default Demo6Price

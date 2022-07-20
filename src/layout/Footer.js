@@ -5,15 +5,10 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="footer-info mb-40">
-              <img
-                className="footer-logo mb-25"
-                src="/images/logo-01.png"
-                alt="footer-logo"
-              />
+              <img className="footer-logo mb-25" src="/images/logo-01.png" alt="footer-logo" />
               <p className="p-md">
-                Aliquam nullam tempor sapien donec and gravida congue an ipsum
-                porta justo velna auctor magna and laoreet augue an auctor
-                gravida donec
+                Aliquam nullam tempor sapien donec and gravida congue an ipsum porta justo velna auctor magna and
+                laoreet augue an auctor gravida donec
               </p>
             </div>
           </div>
@@ -131,9 +126,7 @@ const Footer = () => {
           <div className="row row-cols-1 row-cols-md-2 d-flex align-items-center">
             <div className="col">
               <div className="footer-copyright">
-                <p>
-                  © 2010 - {new Date().getFullYear()} OLMO. All Rights Reserved
-                </p>
+                <p>© 2010 - {new Date().getFullYear()} OLMO. All Rights Reserved</p>
               </div>
             </div>
             <div className="col">
@@ -164,7 +157,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

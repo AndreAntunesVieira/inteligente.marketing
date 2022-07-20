@@ -1,20 +1,14 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo24content2 = () => {
   return (
-    <section
-      id="content-2"
-      className="content-2 wide-60 content-section division"
-    >
+    <section id="content-2" className="content-2 wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* IMAGE BLOCK */}
           <div className="col-md-5 col-lg-6">
             <div className="rel img-block left-column video-preview wow fadeInRight">
-              <VideoImage
-                img="images/img-08.png"
-                extraClass="video-btn video-btn-xl bg-pink ico-90"
-              />
+              <VideoImage img="images/img-08.png" extraClass="video-btn video-btn-xl bg-pink ico-90" />
             </div>
           </div>
           {/* TEXT BLOCK */}
@@ -26,11 +20,9 @@ const Demo24content2 = () => {
                 <h5 className="h5-lg">جميع الأدوات في مكان واحد</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم
-                  لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال في
-                  أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج
-                  البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم
-                  إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض
+                  العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن
+                  النص، وإذا قمت بإدخال في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى
+                  السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض
                   العبارات الفكاهية إليها.
                 </p>
               </div>
@@ -72,14 +64,14 @@ const Demo24content2 = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo24content2;
+export default Demo24content2

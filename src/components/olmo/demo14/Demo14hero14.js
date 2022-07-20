@@ -7,33 +7,20 @@ const Demo14hero14 = () => {
           <div className="col-sm-9 col-md-7 col-lg-5">
             <div className="hero-14-txt white-color wow fadeInRight">
               {/* Section ID */}
-              <span className="section-id txt-upcase">
-                Secure Every Transaction
-              </span>
+              <span className="section-id txt-upcase">Secure Every Transaction</span>
               {/* Title */}
               <h2 className="h2-xl">Smart &amp; Secure Mobile Banking</h2>
               {/* Text */}
-              <p className="p-xl">
-                Feugiat primis a ligula auctor mauris auctor laoreet and pretium
-                augue an egestas
-              </p>
+              <p className="p-xl">Feugiat primis a ligula auctor mauris auctor laoreet and pretium augue an egestas</p>
               {/* STORE BADGES */}
               <div className="stores-badge">
                 {/* AppStore */}
                 <a href="#" className="store">
-                  <img
-                    className="appstore"
-                    src="/images/appstore.png"
-                    alt="appstore-badge"
-                  />
+                  <img className="appstore" src="/images/appstore.png" alt="appstore-badge" />
                 </a>
                 {/* Google Play */}
                 <a href="#" className="store">
-                  <img
-                    className="googleplay"
-                    src="/images/googleplay.png"
-                    alt="googleplay-badge"
-                  />
+                  <img className="googleplay" src="/images/googleplay.png" alt="googleplay-badge" />
                 </a>
                 {/* Aamazon Market 
 									<a href="#" class="store">
@@ -47,17 +34,17 @@ const Demo14hero14 = () => {
 									<a href="#" class="store">
 										<img class="microsoft" src="/images/microsoft.png" alt="microsoft-badge" />
 									</a> */}
-              </div>{" "}
+              </div>{' '}
               {/* END STORE BADGES */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo14hero14;
+export default Demo14hero14

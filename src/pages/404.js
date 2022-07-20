@@ -1,5 +1,5 @@
-import Link from "next/dist/client/link";
-import Layout from "../layout/Layout";
+import Link from 'next/dist/client/link'
+import Layout from '../layout/Layout'
 const Page404 = () => {
   return (
     <Layout btnCustomHover="btn-skyblue tra-grey-hover">
@@ -12,34 +12,29 @@ const Page404 = () => {
                 {/* Image */}
                 <div className="rel hero-24-img">
                   {/* Image */}
-                  <img
-                    className="img-fluid"
-                    src="/images/error-404.png"
-                    alt="error-404-img"
-                  />
+                  <img className="img-fluid" src="/images/error-404.png" alt="error-404-img" />
                   {/* Transparent Header */}
                   <h2 className="tra-header">404</h2>
                 </div>
                 {/* Text */}
                 <h2 className="h2-md">Page Not Found</h2>
                 <h5 className="h5-md">
-                  The page you are looking for might have been moved , renamed
-                  or might never existed{" "}
+                  The page you are looking for might have been moved , renamed or might never existed{' '}
                 </h5>
                 {/* Button */}
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-1">
                   <a className="btn btn-skyblue tra-grey-hover">Back To Home</a>
                 </Link>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END 404 PAGE TEXT */}
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default Page404;
+export default Page404

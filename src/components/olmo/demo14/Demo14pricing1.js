@@ -1,9 +1,6 @@
 const Demo14pricing1 = () => {
   return (
-    <section
-      id="pricing-1"
-      className="bg-snow wide-70 pricing-section division"
-    >
+    <section id="pricing-1" className="bg-snow wide-70 pricing-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -13,9 +10,8 @@ const Demo14pricing1 = () => {
               <h2 className="h2-md">Simple and Flexible Pricing</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -36,19 +32,14 @@ const Demo14pricing1 = () => {
                   <sup className="validity dark-color">
                     <span>.00</span> / month
                   </sup>
-                  <p className="p-md">
-                    The price per one user. Change or cancel your plan anytime
-                  </p>
+                  <p className="p-md">The price per one user. Change or cancel your plan anytime</p>
                   {/* Pricing Plan Button */}
-                  <a
-                    href="#"
-                    className="btn btn-sm btn-tra-grey tra-violet-red-hover"
-                  >
+                  <a href="#" className="btn btn-sm btn-tra-grey tra-violet-red-hover">
                     Select Plan
                   </a>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END FREE PLAN */}
             {/* MONTHLY PLAN */}
             <div className="col">
@@ -63,19 +54,14 @@ const Demo14pricing1 = () => {
                   <sup className="validity dark-color">
                     <span>.99</span> / month
                   </sup>
-                  <p className="p-md">
-                    The price per one user. Change or cancel your plan anytime
-                  </p>
+                  <p className="p-md">The price per one user. Change or cancel your plan anytime</p>
                   {/* Pricing Plan Button */}
-                  <a
-                    href="#"
-                    className="btn btn-sm btn-tra-grey tra-violet-red-hover"
-                  >
+                  <a href="#" className="btn btn-sm btn-tra-grey tra-violet-red-hover">
                     Select Plan
                   </a>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END MONTHLY PLAN  */}
             {/* ANNUAL PLAN */}
             <div className="col">
@@ -96,27 +82,22 @@ const Demo14pricing1 = () => {
                   <sup className="validity dark-color">
                     <span>.75</span> / month
                   </sup>
-                  <p className="p-md">
-                    The price per one user. Change or cancel your plan anytime
-                  </p>
+                  <p className="p-md">The price per one user. Change or cancel your plan anytime</p>
                   {/* Pricing Plan Button */}
-                  <a
-                    href="#"
-                    className="btn btn-sm btn-violet-red tra-grey-hover"
-                  >
+                  <a href="#" className="btn btn-sm btn-violet-red tra-grey-hover">
                     Select Plan
                   </a>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END ANNUAL PLAN */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PRICING TABLES */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo14pricing1;
+export default Demo14pricing1

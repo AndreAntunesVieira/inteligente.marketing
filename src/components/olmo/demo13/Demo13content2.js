@@ -1,19 +1,12 @@
 const Demo13content2 = () => {
   return (
-    <section
-      id="content-2"
-      className="content-2 bg-snow wide-60 content-section division"
-    >
+    <section id="content-2" className="content-2 bg-snow wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* IMAGE BLOCK */}
           <div className="col-md-5 col-lg-6">
             <div className="rel img-block left-column wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/img-08.png"
-                alt="video-preview"
-              />
+              <img className="img-fluid" src="/images/img-08.png" alt="video-preview" />
             </div>
           </div>
           {/* TEXT BLOCK */}
@@ -27,32 +20,28 @@ const Demo13content2 = () => {
               <ul className="simple-list">
                 <li className="list-item">
                   <p className="p-lg">
-                    Fringilla risus, luctus mauris orci auctor euismod iaculis
-                    luctus magna purus pretium ligula purus undo quaerat tempor
-                    sapien rutrum mauris quaerat ultrice
+                    Fringilla risus, luctus mauris orci auctor euismod iaculis luctus magna purus pretium ligula purus
+                    undo quaerat tempor sapien rutrum mauris quaerat ultrice
                   </p>
                 </li>
                 <li className="list-item">
-                  <p className="p-lg">
-                    Quaerat sodales sapien euismod purus blandit
-                  </p>
+                  <p className="p-lg">Quaerat sodales sapien euismod purus blandit</p>
                 </li>
                 <li className="list-item">
                   <p className="p-lg">
-                    Nemo ipsam egestas volute turpis dolores undo ultrice
-                    aliquam quaerat at sodales sapien purus
+                    Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
                   </p>
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo13content2;
+export default Demo13content2

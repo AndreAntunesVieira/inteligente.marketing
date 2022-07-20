@@ -7,21 +7,14 @@ const Demo6hero6 = () => {
           <div className="col-lg-6">
             <div className="hero-6-txt">
               {/* Title */}
-              <h2 className="h2-md">
-                Fresh Ideas. Thoughtful Design. Measurable Results
-              </h2>
+              <h2 className="h2-md">Fresh Ideas. Thoughtful Design. Measurable Results</h2>
               {/* Text */}
               <p className="p-lg">
-                Feugiat primis ligula risus auctor egestas and augue viverra
-                mauri tortor in iaculis magna a feugiat mauris ipsum and
-                placerat viverra tortor gravida purus
+                Feugiat primis ligula risus auctor egestas and augue viverra mauri tortor in iaculis magna a feugiat
+                mauris ipsum and placerat viverra tortor gravida purus
               </p>
               {/* HERO QUICK FORM */}
-              <form
-                name="quickform"
-                className="quick-form shadow-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="quickform" className="quick-form shadow-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Inputs */}
                 <div className="input-group">
                   <input
@@ -33,10 +26,7 @@ const Demo6hero6 = () => {
                     required
                   />
                   <span className="input-group-btn form-btn">
-                    <button
-                      type="submit"
-                      className="btn btn-md btn-stateblue black-hover submit"
-                    >
+                    <button type="submit" className="btn btn-md btn-stateblue black-hover submit">
                       Get Started
                     </button>
                   </span>
@@ -52,11 +42,7 @@ const Demo6hero6 = () => {
           {/* HERO IMAGE */}
           <div className="col-lg-6">
             <div className="hero-6-img text-center">
-              <img
-                className="img-fluid"
-                src="/images/img-06.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/img-06.png" alt="hero-image" />
             </div>
           </div>
         </div>
@@ -74,7 +60,7 @@ const Demo6hero6 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo6hero6;
+export default Demo6hero6

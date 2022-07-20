@@ -1,15 +1,15 @@
-import Demo22brands1 from "../components/olmo/demo22/Demo22brands1";
-import Demo22content2 from "../components/olmo/demo22/Demo22content2";
-import Demo22content3 from "../components/olmo/demo22/Demo22content3";
-import Demo22content6 from "../components/olmo/demo22/Demo22content6";
-import Demo22content7 from "../components/olmo/demo22/Demo22content7";
-import Demo22cta3 from "../components/olmo/demo22/Demo22cta3";
-import Demo22faqs2 from "../components/olmo/demo22/Demo22faqs2";
-import Demo22features8 from "../components/olmo/demo22/Demo22features8";
-import Demo22hero22 from "../components/olmo/demo22/Demo22hero22";
-import Demo22reviews1 from "../components/olmo/demo22/Demo22reviews1";
-import Demo22statistic2 from "../components/olmo/demo22/Demo22statistic2";
-import Layout from "../layout/Layout";
+import Demo22brands1 from '../components/olmo/demo22/Demo22brands1'
+import Demo22content2 from '../components/olmo/demo22/Demo22content2'
+import Demo22content3 from '../components/olmo/demo22/Demo22content3'
+import Demo22content6 from '../components/olmo/demo22/Demo22content6'
+import Demo22content7 from '../components/olmo/demo22/Demo22content7'
+import Demo22cta3 from '../components/olmo/demo22/Demo22cta3'
+import Demo22faqs2 from '../components/olmo/demo22/Demo22faqs2'
+import Demo22features8 from '../components/olmo/demo22/Demo22features8'
+import Demo22hero22 from '../components/olmo/demo22/Demo22hero22'
+import Demo22reviews1 from '../components/olmo/demo22/Demo22reviews1'
+import Demo22statistic2 from '../components/olmo/demo22/Demo22statistic2'
+import Layout from '../layout/Layout'
 const Demo22 = () => {
   return (
     <Layout btnCustomHover="btn-skyblue tra-grey-hover">
@@ -28,7 +28,7 @@ const Demo22 = () => {
       <Demo22faqs2 />
       <Demo22cta3 />
     </Layout>
-  );
-};
+  )
+}
 
-export default Demo22;
+export default Demo22

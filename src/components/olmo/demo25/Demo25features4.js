@@ -10,9 +10,8 @@ const Demo25features4 = () => {
               <h2 className="h2-md">سهل الاستخدام ، سهل الحب</h2>
               {/* Text */}
               <p className="p-xl">
-                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
-                ولايزال المعيار للنص الشكلي منذ القرن الخامس
+                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
               </p>
             </div>
           </div>
@@ -26,11 +25,7 @@ const Demo25features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-dashboard" />
                   </div>
                 </div>
@@ -54,11 +49,7 @@ const Demo25features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-tool" />
                   </div>
                 </div>
@@ -82,11 +73,7 @@ const Demo25features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-increase-1" />
                   </div>
                 </div>
@@ -110,11 +97,7 @@ const Demo25features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-layers" />
                   </div>
                 </div>
@@ -138,11 +121,7 @@ const Demo25features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-album" />
                   </div>
                 </div>
@@ -166,11 +145,7 @@ const Demo25features4 = () => {
                 {/* Icon */}
                 <div className="fbox-ico">
                   <div className="ico-60 shape-ico violet-red-color">
-                    <img
-                      className="ico-bkg"
-                      src="/images/ico-bkg.png"
-                      alt="ico-bkg"
-                    />
+                    <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                     <span className="flaticon-24-hours" />
                   </div>
                 </div>
@@ -189,12 +164,12 @@ const Demo25features4 = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-4 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo25features4;
+export default Demo25features4

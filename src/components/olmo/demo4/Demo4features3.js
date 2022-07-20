@@ -10,9 +10,8 @@ const Demo4features3 = () => {
               <h2 className="h2-md">Core Features That Matters</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -33,8 +32,8 @@ const Demo4features3 = () => {
                   <h5 className="h5-md">Creative Design</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus an auctor tempus feugiat at impedit felis
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus an auctor tempus feugiat at impedit
+                    felis
                   </p>
                 </div>
               </div>
@@ -52,8 +51,8 @@ const Demo4features3 = () => {
                   <h5 className="h5-md">Fully Responsive</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus an auctor tempus feugiat at impedit felis
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus an auctor tempus feugiat at impedit
+                    felis
                   </p>
                 </div>
               </div>
@@ -71,8 +70,8 @@ const Demo4features3 = () => {
                   <h5 className="h5-md">Organized Code</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus an auctor tempus feugiat at impedit felis
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus an auctor tempus feugiat at impedit
+                    felis
                   </p>
                 </div>
               </div>
@@ -90,8 +89,8 @@ const Demo4features3 = () => {
                   <h5 className="h5-md">Easy to Customize</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus an auctor tempus feugiat at impedit felis
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus an auctor tempus feugiat at impedit
+                    felis
                   </p>
                 </div>
               </div>
@@ -109,8 +108,8 @@ const Demo4features3 = () => {
                   <h5 className="h5-md">80+ Section Blocks</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus an auctor tempus feugiat at impedit felis
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus an auctor tempus feugiat at impedit
+                    felis
                   </p>
                 </div>
               </div>
@@ -127,8 +126,8 @@ const Demo4features3 = () => {
                   <h5 className="h5-md">Working PHP Forms</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus an auctor tempus feugiat at impedit felis
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus an auctor tempus feugiat at impedit
+                    felis
                   </p>
                 </div>
               </div>
@@ -139,7 +138,7 @@ const Demo4features3 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo4features3;
+export default Demo4features3

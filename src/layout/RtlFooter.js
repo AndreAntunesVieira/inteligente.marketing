@@ -142,14 +142,10 @@ const RtlFooter = () => {
           {/* FOOTER INFO */}
           <div className="col-lg-3 order-first order-lg-2">
             <div className="footer-info mb-40">
-              <img
-                className="footer-logo"
-                src="/images/logo-01.png"
-                alt="footer-logo"
-              />
+              <img className="footer-logo" src="/images/logo-01.png" alt="footer-logo" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END FOOTER CONTENT */}
         <hr />
         {/* BOTTOM FOOTER */}
@@ -181,13 +177,13 @@ const RtlFooter = () => {
                 <p>© 2010 - 2021 أولمو. كل الحقوق محفوظة</p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* BOTTOM FOOTER */}
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default RtlFooter;
+export default RtlFooter

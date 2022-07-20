@@ -1,10 +1,10 @@
-import Link from "next/dist/client/link";
-import { useEffect } from "react";
-import { scroll } from "../utils/utils";
+import Link from 'next/dist/client/link'
+import { useEffect } from 'react'
+import { scroll } from '../utils/utils'
 const Index2 = () => {
   useEffect(() => {
-    window.addEventListener("scroll", scroll);
-  }, []);
+    window.addEventListener('scroll', scroll)
+  }, [])
   return (
     <div id="page" className="page-wrapper demo">
       {/* HEADER
@@ -32,9 +32,9 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End header-wrapper */}
-      </header>{" "}
+      </header>{' '}
       {/* END HEADER */}
       {/* HERO
 			============================================= */}
@@ -46,31 +46,22 @@ const Index2 = () => {
                 <span className="section-id">One-stop solution</span>
                 <h2>Pixel-Perfect, Lovely Design</h2>
                 <p className="p-lg">
-                  A great collection of flexible &amp; creative landing page
-                  templates to promote your Software, App, SaaS, Startup or
-                  business projects
+                  A great collection of flexible &amp; creative landing page templates to promote your Software, App,
+                  SaaS, Startup or business projects
                 </p>
-                <a
-                  href="src/pages/index2.js"
-                  className="btn btn-theme tra-white-hover"
-                  title
-                >
+                <a href="src/pages/index2.js" className="btn btn-theme tra-white-hover" title>
                   Check Demos
                 </a>
               </div>
             </div>
             <div className="col-lg-8">
               <div className="hero-img">
-                <img
-                  className="img-fluid"
-                  src="/demo/images/hero-img.png"
-                  alt="hero-image"
-                />
+                <img className="img-fluid" src="/demo/images/hero-img.png" alt="hero-image" />
               </div>
             </div>
             <h2 className="tra-title">Flexible</h2>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
         {/* WAVE SHAPE BOTTOM */}
         <div className="wave-shape-bottom">
@@ -92,46 +83,25 @@ const Index2 = () => {
             {/* FEATURE BOX #1 */}
             <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
               <div className="fbox">
-                <img
-                  className="img-fluid"
-                  src="/demo/images/responsive.png"
-                  alt="Responsive"
-                />
+                <img className="img-fluid" src="/demo/images/responsive.png" alt="Responsive" />
                 <h5>Fully Responsive</h5>
-                <p>
-                  OLMO has a fully responsive design. It fits perfectly on
-                  various displays and resolutions
-                </p>
+                <p>OLMO has a fully responsive design. It fits perfectly on various displays and resolutions</p>
               </div>
             </div>
             {/* FEATURE BOX #2 */}
             <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
               <div className="fbox">
-                <img
-                  className="img-fluid"
-                  src="/demo/images/bootstrap.png"
-                  alt="bootstrap"
-                />
+                <img className="img-fluid" src="/demo/images/bootstrap.png" alt="bootstrap" />
                 <h5>Built with Bootstrap 5.x</h5>
-                <p>
-                  The world’s most popular front-end open source toolkit for
-                  building responsive websites
-                </p>
+                <p>The world’s most popular front-end open source toolkit for building responsive websites</p>
               </div>
             </div>
             {/* FEATURE BOX #4 */}
             <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
               <div className="fbox">
-                <img
-                  className="img-fluid"
-                  src="/demo/images/customize.png"
-                  alt="customize"
-                />
+                <img className="img-fluid" src="/demo/images/customize.png" alt="customize" />
                 <h5>Easy to Customization</h5>
-                <p>
-                  Well commented and structured, easy to understand code. Spend
-                  less time for the customization
-                </p>
+                <p>Well commented and structured, easy to understand code. Spend less time for the customization</p>
               </div>
             </div>
           </div>
@@ -146,27 +116,19 @@ const Index2 = () => {
             <div className="col-lg-10 offset-lg-1 section-title">
               <h2>Stunning Home Demos</h2>
               <p>
-                27 beautiful, hand-crafted designs to get you started. Choose
-                the one you like best and start customize it to your website
+                27 beautiful, hand-crafted designs to get you started. Choose the one you like best and start customize
+                it to your website
               </p>
             </div>
           </div>
           {/* DEMOS WRAPPER */}
           <div className="row">
             {/* LAYOUT-1 */}
-            <div
-              id="l-1"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-1" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-1">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-01.jpg"
-                      alt="layout-1-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-01.jpg" alt="layout-1-preview" />
                   </a>
                 </Link>
               </div>
@@ -174,19 +136,11 @@ const Index2 = () => {
               <span>[ Demo #1 ]</span>
             </div>
             {/* LAYOUT-2 */}
-            <div
-              id="l-2"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-2" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-2">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-02.jpg"
-                      alt="layout-2-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-02.jpg" alt="layout-2-preview" />
                   </a>
                 </Link>
               </div>
@@ -194,19 +148,11 @@ const Index2 = () => {
               <span>[ Demo #2 ]</span>
             </div>
             {/* LAYOUT-3 */}
-            <div
-              id="l-3"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-3" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-3">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-03.jpg"
-                      alt="layout-3-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-03.jpg" alt="layout-3-preview" />
                   </a>
                 </Link>
               </div>
@@ -214,19 +160,11 @@ const Index2 = () => {
               <span>[ Demo #3 ]</span>
             </div>
             {/* LAYOUT-4 */}
-            <div
-              id="l-4"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-4" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-4">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-04.jpg"
-                      alt="layout-4-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-04.jpg" alt="layout-4-preview" />
                   </a>
                 </Link>
               </div>
@@ -234,19 +172,11 @@ const Index2 = () => {
               <span>[ Demo #4 ]</span>
             </div>
             {/* LAYOUT-5 */}
-            <div
-              id="l-5"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-5" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-5">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-05.jpg"
-                      alt="layout-5-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-05.jpg" alt="layout-5-preview" />
                   </a>
                 </Link>
               </div>
@@ -254,19 +184,11 @@ const Index2 = () => {
               <span>[ Demo #5 ]</span>
             </div>
             {/* LAYOUT-6 */}
-            <div
-              id="l-6"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-6" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-6">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-06.jpg"
-                      alt="layout-6-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-06.jpg" alt="layout-6-preview" />
                   </a>
                 </Link>
               </div>
@@ -274,19 +196,11 @@ const Index2 = () => {
               <span>[ Demo #6 ]</span>
             </div>
             {/* LAYOUT-7 */}
-            <div
-              id="l-7"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-7" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-7">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-07.jpg"
-                      alt="layout-7-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-07.jpg" alt="layout-7-preview" />
                   </a>
                 </Link>
               </div>
@@ -294,19 +208,11 @@ const Index2 = () => {
               <span>[ Demo #7 ]</span>
             </div>
             {/* LAYOUT-8 */}
-            <div
-              id="l-8"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-8" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-8">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-08.jpg"
-                      alt="layout-8-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-08.jpg" alt="layout-8-preview" />
                   </a>
                 </Link>
               </div>
@@ -314,19 +220,11 @@ const Index2 = () => {
               <span>[ Demo #8 ]</span>
             </div>
             {/* LAYOUT-9 */}
-            <div
-              id="l-9"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-9" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-9">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-09.jpg"
-                      alt="layout-9-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-09.jpg" alt="layout-9-preview" />
                   </a>
                 </Link>
               </div>
@@ -334,19 +232,11 @@ const Index2 = () => {
               <span>[ Demo #9 ]</span>
             </div>
             {/* LAYOUT-10 */}
-            <div
-              id="l-10"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-10" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-10">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-10.jpg"
-                      alt="layout-10-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-10.jpg" alt="layout-10-preview" />
                   </a>
                 </Link>
               </div>
@@ -354,19 +244,11 @@ const Index2 = () => {
               <span>[ Demo #10 ]</span>
             </div>
             {/* LAYOUT-11 */}
-            <div
-              id="l-11"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-11" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-11">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-11.jpg"
-                      alt="layout-11-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-11.jpg" alt="layout-11-preview" />
                   </a>
                 </Link>
               </div>
@@ -374,19 +256,11 @@ const Index2 = () => {
               <span>[ Demo #11 ]</span>
             </div>
             {/* LAYOUT-12 */}
-            <div
-              id="l-12"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-12" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-12">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-12.jpg"
-                      alt="layout-12-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-12.jpg" alt="layout-12-preview" />
                   </a>
                 </Link>
               </div>
@@ -394,19 +268,11 @@ const Index2 = () => {
               <span>[ Demo #12 ]</span>
             </div>
             {/* LAYOUT-13 */}
-            <div
-              id="l-13"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-13" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-13">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-13.jpg"
-                      alt="layout-13-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-13.jpg" alt="layout-13-preview" />
                   </a>
                 </Link>
               </div>
@@ -414,19 +280,11 @@ const Index2 = () => {
               <span>[ Demo #13 ]</span>
             </div>
             {/* LAYOUT-14 */}
-            <div
-              id="l-14"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-14" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-14">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-14.jpg"
-                      alt="layout-14-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-14.jpg" alt="layout-14-preview" />
                   </a>
                 </Link>
               </div>
@@ -434,19 +292,11 @@ const Index2 = () => {
               <span>[ Demo #14 ]</span>
             </div>
             {/* LAYOUT-15 */}
-            <div
-              id="l-15"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-15" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-15">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-15.jpg"
-                      alt="layout-15-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-15.jpg" alt="layout-15-preview" />
                   </a>
                 </Link>
               </div>
@@ -454,19 +304,11 @@ const Index2 = () => {
               <span>[ Demo #15 ]</span>
             </div>
             {/* LAYOUT-16 */}
-            <div
-              id="l-16"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-16" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-16">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-16.jpg"
-                      alt="layout-16-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-16.jpg" alt="layout-16-preview" />
                   </a>
                 </Link>
               </div>
@@ -474,19 +316,11 @@ const Index2 = () => {
               <span>[ Demo #16 ]</span>
             </div>
             {/* LAYOUT-17 */}
-            <div
-              id="l-17"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-17" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-17">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-17.jpg"
-                      alt="layout-17-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-17.jpg" alt="layout-17-preview" />
                   </a>
                 </Link>
               </div>
@@ -494,19 +328,11 @@ const Index2 = () => {
               <span>[ Demo #17 ]</span>
             </div>
             {/* LAYOUT-18 */}
-            <div
-              id="l-18"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-18" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-18">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-18.jpg"
-                      alt="layout-18-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-18.jpg" alt="layout-18-preview" />
                   </a>
                 </Link>
               </div>
@@ -514,19 +340,11 @@ const Index2 = () => {
               <span>[ Demo #18 ]</span>
             </div>
             {/* LAYOUT-19 */}
-            <div
-              id="l-19"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-19" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-19">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-19.jpg"
-                      alt="layout-19-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-19.jpg" alt="layout-19-preview" />
                   </a>
                 </Link>
               </div>
@@ -534,19 +352,11 @@ const Index2 = () => {
               <span>[ Demo #19 ]</span>
             </div>
             {/* LAYOUT-20 */}
-            <div
-              id="l-20"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-20" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-20">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-20.jpg"
-                      alt="layout-20-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-20.jpg" alt="layout-20-preview" />
                   </a>
                 </Link>
               </div>
@@ -554,19 +364,11 @@ const Index2 = () => {
               <span>[ Demo #20 ]</span>
             </div>
             {/* LAYOUT-21 */}
-            <div
-              id="l-21"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-21" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-21">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-21.jpg"
-                      alt="layout-21-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-21.jpg" alt="layout-21-preview" />
                   </a>
                 </Link>
               </div>
@@ -576,19 +378,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* LAYOUT-22 */}
-            <div
-              id="l-22"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-22" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-22">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-22.jpg"
-                      alt="layout-22-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-22.jpg" alt="layout-22-preview" />
                   </a>
                 </Link>
               </div>
@@ -598,19 +392,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* LAYOUT-23 */}
-            <div
-              id="l-23"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-23" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-23">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-23.jpg"
-                      alt="layout-23-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-23.jpg" alt="layout-23-preview" />
                   </a>
                 </Link>
               </div>
@@ -620,19 +406,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* PAGE 404 */}
-            <div
-              id="p-404"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="p-404" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/404" ti>
                   <a tle target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/404.jpg"
-                      alt="layout-24-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/404.jpg" alt="layout-24-preview" />
                   </a>
                 </Link>
               </div>
@@ -642,19 +420,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* LAYOUT-24 */}
-            <div
-              id="l-24"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="l-24" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-24">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-24.jpg"
-                      alt="layout-24-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-24.jpg" alt="layout-24-preview" />
                   </a>
                 </Link>
               </div>
@@ -664,19 +434,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* LAYOUT-25 */}
-            <div
-              id="l-25"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div id="l-25" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-25">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-25.jpg"
-                      alt="layout-25-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-25.jpg" alt="layout-25-preview" />
                   </a>
                 </Link>
               </div>
@@ -686,19 +448,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* LAYOUT-26 */}
-            <div
-              id="l-26"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="l-26" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-26">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/layout-26.jpg"
-                      alt="layout-26-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/layout-26.jpg" alt="layout-26-preview" />
                   </a>
                 </Link>
               </div>
@@ -707,9 +461,9 @@ const Index2 = () => {
                 [ Demo #26 ]<span className="new_demo">NEW</span>
               </span>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END DEMOS WRAPPER */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END SELECT */}
@@ -722,18 +476,12 @@ const Index2 = () => {
               <div className="banner-1-txt">
                 <h2>Crafted with detail for a great start</h2>
                 <p>
-                  OLMO includes well designed components which always gives you
-                  best results as you wanted. Each content element has been
-                  crafted with terrific attention to details and offers multiple
-                  options. Combine the content elements to create unique
-                  websites in minutes. You are free to move the blocks between
-                  demos
+                  OLMO includes well designed components which always gives you best results as you wanted. Each content
+                  element has been crafted with terrific attention to details and offers multiple options. Combine the
+                  content elements to create unique websites in minutes. You are free to move the blocks between demos
                 </p>
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/demo-1">
-                  <a
-                    className="btn btn-md btn-theme tra-white-hover"
-                    target="_blank"
-                  >
+                  <a className="btn btn-md btn-theme tra-white-hover" target="_blank">
                     See All Pages In Action
                   </a>
                 </Link>
@@ -741,11 +489,7 @@ const Index2 = () => {
             </div>
             <div className="col-lg-6">
               <div className="banner-1-img">
-                <img
-                  className="img-fluid"
-                  src="/demo/images/banner-1-img.png"
-                  alt="banner-image"
-                />
+                <img className="img-fluid" src="/demo/images/banner-1-img.png" alt="banner-image" />
               </div>
             </div>
           </div>
@@ -761,63 +505,40 @@ const Index2 = () => {
             <div className="col-lg-10 offset-lg-1 section-title">
               <h2>Practical Inner Pages</h2>
               <p>
-                OLMO offers a vast number of pre-made inner pages which will
-                save your time when building a website. Select a page and check
-                it out!
+                OLMO offers a vast number of pre-made inner pages which will save your time when building a website.
+                Select a page and check it out!
               </p>
             </div>
           </div>
           <div className="row">
             {/* ABOUT PAGE */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/about">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/about.jpg"
-                      alt="about-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/about.jpg" alt="about-preview" />
                   </a>
                 </Link>
               </div>
               <h4>About Page</h4>
             </div>
             {/* FEATURES PAGE */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/features">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/features.jpg"
-                      alt="features-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/features.jpg" alt="features-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Features Page</h4>
             </div>
             {/* PROJECTS PAGE */}
-            <div
-              id="pts"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div id="pts" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/projects">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/projects.jpg"
-                      alt="projects-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/projects.jpg" alt="projects-preview" />
                   </a>
                 </Link>
               </div>
@@ -827,19 +548,11 @@ const Index2 = () => {
               </span>
             </div>
             {/* SINGLE PROJECT */}
-            <div
-              id="pd"
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div id="pd" className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/projects">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/project-details.jpg"
-                      alt="project-details-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/project-details.jpg" alt="project-details-preview" />
                   </a>
                 </Link>
               </div>
@@ -849,152 +562,96 @@ const Index2 = () => {
               </span>
             </div>
             {/* PRICING PLANS */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/pricing">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/pricing.jpg"
-                      alt="pricing-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/pricing.jpg" alt="pricing-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Pricing Page</h4>
             </div>
             {/* TEAM PAGE */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/team" t>
                   <a itle target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/team.jpg"
-                      alt="team-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/team.jpg" alt="team-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Team Page</h4>
             </div>
             {/* DOWNLOAD PAGE */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/download">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/download.jpg"
-                      alt="download-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/download.jpg" alt="download-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Download Page</h4>
             </div>
             {/* FAQs PAGE */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/faqs" t>
                   <a itle target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/faqs.jpg"
-                      alt="faqs-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/faqs.jpg" alt="faqs-preview" />
                   </a>
                 </Link>
               </div>
               <h4>FAQs Page</h4>
             </div>
             {/* TERMS & PRIVACY */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/terms">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/terms.jpg"
-                      alt="terms-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/terms.jpg" alt="terms-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Terms &amp; Privacy</h4>
             </div>
             {/* BLOG LISTING */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.4s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/blog-listing">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/blog-listing.jpg"
-                      alt="blog-listing-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/blog-listing.jpg" alt="blog-listing-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Blog Listing</h4>
             </div>
             {/* SINGLE POST */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.6s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/single-post">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/single-post.jpg"
-                      alt="single-post-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/single-post.jpg" alt="single-post-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Single Post</h4>
             </div>
             {/* CONTACTS PAGE */}
-            <div
-              className="col-md-6 col-lg-4 select_link wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+            <div className="col-md-6 col-lg-4 select_link wow fadeInUp" data-wow-delay="0.8s">
               <div className="hover-overlay">
                 <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/contatos">
                   <a title target="_blank">
-                    <img
-                      className="img-fluid"
-                      src="/demo/images/contacts.jpg"
-                      alt="contacts-preview"
-                    />
+                    <img className="img-fluid" src="/demo/images/contacts.jpg" alt="contacts-preview" />
                   </a>
                 </Link>
               </div>
               <h4>Contacts Page</h4>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END INNER PAGES */}
@@ -1007,9 +664,8 @@ const Index2 = () => {
               <div className="banner-2-txt text-center">
                 <h2>Create your amazing website with OLMO</h2>
                 <p>
-                  Mix and match from over 70 exclusive section UI blocks. Create
-                  something unique and beautifully tailored to your needs in
-                  only a few minutes
+                  Mix and match from over 70 exclusive section UI blocks. Create something unique and beautifully
+                  tailored to your needs in only a few minutes
                 </p>
                 <h2 className="tra-title">Creative</h2>
                 <a href="src/pages/index#index2.js" className="btn btn-md btn-theme tra-theme-hover">
@@ -1018,7 +674,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END BANNER-2 */}
@@ -1037,7 +693,7 @@ const Index2 = () => {
         </div>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Index2;
+export default Index2

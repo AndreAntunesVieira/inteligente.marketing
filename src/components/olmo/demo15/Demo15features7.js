@@ -17,10 +17,7 @@ const Demo15features7 = () => {
                     {/* Title */}
                     <h5 className="h5-sm">Friendly Interface</h5>
                     {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus and cursus feugiat at primis ultrice a
-                      ligula auctor
-                    </p>
+                    <p className="p-lg">Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                   </div>
                   {/* FEATURE BOX #2 */}
                   <div id="fb-7-2" className="fbox-7 mb-30 wow fadeInUp">
@@ -31,10 +28,7 @@ const Demo15features7 = () => {
                     {/* Title */}
                     <h5 className="h5-sm">Powerful Options</h5>
                     {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus and cursus feugiat at primis ultrice a
-                      ligula auctor
-                    </p>
+                    <p className="p-lg">Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -47,10 +41,7 @@ const Demo15features7 = () => {
                     {/* Title */}
                     <h5 className="h5-sm">Extensions &amp; Addons</h5>
                     {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus and cursus feugiat at primis ultrice a
-                      ligula auctor
-                    </p>
+                    <p className="p-lg">Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                   </div>
                   {/* FEATURE BOX #4 */}
                   <div id="fb-7-4" className="fbox-7 mb-30 wow fadeInUp">
@@ -61,46 +52,39 @@ const Demo15features7 = () => {
                     {/* Title */}
                     <h5 className="h5-sm">Easy To Customize</h5>
                     {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus and cursus feugiat at primis ultrice a
-                      ligula auctor
-                    </p>
+                    <p className="p-lg">Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* END FEATURES-7 WRAPPER */}
           {/* TEXT BLOCK */}
           <div className="col-md-12 col-lg-5 order-first order-lg-2">
             <div className="txt-block right-column wow fadeInLeft">
               {/* Section ID */}
-              <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">
-                Total Control
-              </span>
+              <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">Total Control</span>
               {/* Title */}
               <h2 className="h2-xs">Work smarter with powerful features</h2>
               {/* Text */}
               <p className="p-lg">
-                Semper lacus cursus porta, feugiat and primis donec ultrice
-                ligula tempus an auctor ipsum nihil mauris lectus enim ipsum
-                sagittis congue
+                Semper lacus cursus porta, feugiat and primis donec ultrice ligula tempus an auctor ipsum nihil mauris
+                lectus enim ipsum sagittis congue
               </p>
               {/* Text */}
               <p className="p-lg">
-                Gravida porta velna vitae auctor congue donec nihil impedit
-                ligula risus mauris donec ligula
+                Gravida porta velna vitae auctor congue donec nihil impedit ligula risus mauris donec ligula
               </p>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END TEXT BLOCK */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo15features7;
+export default Demo15features7

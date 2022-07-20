@@ -1,4 +1,4 @@
-import Slider from "react-slick";
+import Slider from 'react-slick'
 
 const Demo25reviews4 = () => {
   const settings = {
@@ -25,12 +25,9 @@ const Demo25reviews4 = () => {
         },
       },
     ],
-  };
+  }
   return (
-    <section
-      id="reviews-4"
-      className="rel pt-100 reviews-section division slickmargin"
-    >
+    <section id="reviews-4" className="rel pt-100 reviews-section division slickmargin">
       {/* SECTION TITLE */}
       <div className="container">
         <div className="row justify-content-center">
@@ -40,9 +37,8 @@ const Demo25reviews4 = () => {
               <h2 className="h2-md">قصص من عملائنا</h2>
               {/* Text */}
               <p className="p-xl">
-                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
-                ولايزال المعيار للنص الشكلي منذ القرن الخامس
+                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
               </p>
             </div>
           </div>
@@ -53,30 +49,22 @@ const Demo25reviews4 = () => {
           <div className="row">
             {/* TESTIMONIALS CAROUSEL */}
             <div className="col-md-12">
-              <Slider
-                {...settings}
-                className="owl-carousel owl-theme reviews-4-wrapper"
-              >
+              <Slider {...settings} className="owl-carousel owl-theme reviews-4-wrapper">
                 {/* TESTIMONIAL #1 */}
                 <div className="review-4">
                   {/* Text */}
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                      الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو
-                      الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم
-                      إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو
-                      عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال
+                      بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق
+                      أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-1.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-1.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -91,11 +79,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #1 */}
                 {/* TESTIMONIAL #2 */}
                 <div className="review-4">
@@ -103,19 +91,14 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن
-                      الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
-                      ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي
-                      منذ القرن الخامس عشر
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                      صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-2.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-2.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -130,11 +113,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #2 */}
                 {/* TESTIMONIAL #3 */}
                 <div className="review-4">
@@ -142,20 +125,15 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                      الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو
-                      الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم
-                      إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو
-                      عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال
+                      بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق
+                      أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-3.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-3.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -170,11 +148,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #3 */}
                 {/* TESTIMONIAL #4 */}
                 <div className="review-4">
@@ -182,19 +160,14 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن
-                      الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
-                      ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي
-                      منذ القرن الخامس عشر
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                      صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-4.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-4.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -209,11 +182,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #4 */}
                 {/* TESTIMONIAL #5 */}
                 <div className="review-4">
@@ -221,19 +194,14 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن
-                      الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
-                      ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي
-                      منذ القرن الخامس عشر
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                      صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-5.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-5.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -248,11 +216,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #5 */}
                 {/* TESTIMONIAL #6 */}
                 <div className="review-4">
@@ -260,20 +228,15 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                      الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو
-                      الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم
-                      إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو
-                      عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال
+                      بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق
+                      أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-6.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-6.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -288,11 +251,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #6 */}
                 {/* TESTIMONIAL #7 */}
                 <div className="review-4">
@@ -300,19 +263,14 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن
-                      الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
-                      ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي
-                      منذ القرن الخامس عشر
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                      صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-7.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-7.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -327,11 +285,11 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #7 */}
                 {/* TESTIMONIAL #8 */}
                 <div className="review-4">
@@ -339,20 +297,15 @@ const Demo25reviews4 = () => {
                   <div className="review-4-txt">
                     {/* Text */}
                     <p className="p-lg">
-                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                      الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو
-                      الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم
-                      إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو
-                      عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+                      هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال
+                      بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق
+                      أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
                     </p>
                     {/* Testimonial Author */}
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-8.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/images/review-author-8.jpg" alt="review-avatar" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -367,21 +320,21 @@ const Demo25reviews4 = () => {
                           <span className="flaticon-star-half-empty" />
                         </div>
                       </div>
-                    </div>{" "}
+                    </div>{' '}
                     {/* End Testimonial Author */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Text */}
-                </div>{" "}
+                </div>{' '}
                 {/* END TESTIMONIAL #8 */}
               </Slider>
-            </div>{" "}
+            </div>{' '}
             {/* END TESTIMONIALS CAROUSEL */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo25reviews4;
+export default Demo25reviews4

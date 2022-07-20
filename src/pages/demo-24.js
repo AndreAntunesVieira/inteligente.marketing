@@ -1,20 +1,20 @@
-import Demo24brands2 from "../components/olmo/demo24/Demo24brands2";
-import Demo24content10 from "../components/olmo/demo24/Demo24content10";
-import Demo24content2 from "../components/olmo/demo24/Demo24content2";
-import Demo24content3 from "../components/olmo/demo24/Demo24content3";
-import Demo24content6 from "../components/olmo/demo24/Demo24content6";
-import Demo24content7 from "../components/olmo/demo24/Demo24content7";
-import Demo24cta11 from "../components/olmo/demo24/Demo24cta11";
-import Demo24faqs2 from "../components/olmo/demo24/Demo24faqs2";
-import Demo24features4 from "../components/olmo/demo24/Demo24features4";
-import Demo24features8 from "../components/olmo/demo24/Demo24features8";
-import Demo24hero6 from "../components/olmo/demo24/Demo24hero6";
-import Demo24pricing2 from "../components/olmo/demo24/Demo24pricing2";
-import Demo24projects2 from "../components/olmo/demo24/Demo24projects2";
-import Demo24reviews4 from "../components/olmo/demo24/Demo24reviews4";
-import Demo24statistic1 from "../components/olmo/demo24/Demo24statistic1";
-import Demo24statistic2 from "../components/olmo/demo24/Demo24statistic2";
-import RtlLayout from "../layout/RtlLayout";
+import Demo24brands2 from '../components/olmo/demo24/Demo24brands2'
+import Demo24content10 from '../components/olmo/demo24/Demo24content10'
+import Demo24content2 from '../components/olmo/demo24/Demo24content2'
+import Demo24content3 from '../components/olmo/demo24/Demo24content3'
+import Demo24content6 from '../components/olmo/demo24/Demo24content6'
+import Demo24content7 from '../components/olmo/demo24/Demo24content7'
+import Demo24cta11 from '../components/olmo/demo24/Demo24cta11'
+import Demo24faqs2 from '../components/olmo/demo24/Demo24faqs2'
+import Demo24features4 from '../components/olmo/demo24/Demo24features4'
+import Demo24features8 from '../components/olmo/demo24/Demo24features8'
+import Demo24hero6 from '../components/olmo/demo24/Demo24hero6'
+import Demo24pricing2 from '../components/olmo/demo24/Demo24pricing2'
+import Demo24projects2 from '../components/olmo/demo24/Demo24projects2'
+import Demo24reviews4 from '../components/olmo/demo24/Demo24reviews4'
+import Demo24statistic1 from '../components/olmo/demo24/Demo24statistic1'
+import Demo24statistic2 from '../components/olmo/demo24/Demo24statistic2'
+import RtlLayout from '../layout/RtlLayout'
 const Demo24 = () => {
   return (
     <RtlLayout>
@@ -38,7 +38,7 @@ const Demo24 = () => {
       <Demo24pricing2 />
       <Demo24cta11 />
     </RtlLayout>
-  );
-};
+  )
+}
 
-export default Demo24;
+export default Demo24

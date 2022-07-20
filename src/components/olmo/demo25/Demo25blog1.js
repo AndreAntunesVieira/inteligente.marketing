@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Demo25blog1 = () => {
   return (
     <section id="blog-1" className="wide-60 blog-section division">
@@ -11,9 +11,8 @@ const Demo25blog1 = () => {
               <h2 className="h2-md">قصصنا وآخر الأخبار</h2>
               {/* Text */}
               <p className="p-xl">
-                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
-                المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
-                ولايزال المعيار للنص الشكلي منذ القرن الخامس
+                لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور
+                النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس
               </p>
             </div>
           </div>
@@ -26,11 +25,7 @@ const Demo25blog1 = () => {
               {/* BLOG POST IMAGE */}
               <div className="blog-post-img">
                 <div className="hover-overlay">
-                  <img
-                    className="img-fluid"
-                    src="/images/blog/post-1-img.jpg"
-                    alt="blog-post-image"
-                  />
+                  <img className="img-fluid" src="/images/blog/post-1-img.jpg" alt="blog-post-image" />
                   <div className="item-overlay" />
                 </div>
               </div>
@@ -40,24 +35,21 @@ const Demo25blog1 = () => {
                 <p className="p-md post-tag">أخبار OLMO  |  12 يونيو 2021</p>
                 {/* Post Link */}
                 <h5 className="h5-md">
-                  <Link href="/single-post">
-                    هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولك
-                  </Link>
+                  <Link href="/single-post">هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولك</Link>
                 </h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
                 {/* Post Meta */}
                 <div className="post-meta">
                   <p className="p-md">9 تعليقات</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END BLOG POST TEXT */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END  BLOG POST #1 */}
           {/* BLOG POST #2 */}
           <div className="col">
@@ -65,11 +57,7 @@ const Demo25blog1 = () => {
               {/* BLOG POST IMAGE */}
               <div className="blog-post-img">
                 <div className="hover-overlay">
-                  <img
-                    className="img-fluid"
-                    src="/images/blog/post-5-img.jpg"
-                    alt="blog-post-image"
-                  />
+                  <img className="img-fluid" src="/images/blog/post-5-img.jpg" alt="blog-post-image" />
                   <div className="item-overlay" />
                 </div>
               </div>
@@ -79,22 +67,18 @@ const Demo25blog1 = () => {
                 <p className="p-md post-tag">دروس  |  3 يونيو 2021</p>
                 {/* Post Link */}
                 <h5 className="h5-md">
-                  <Link href="/single-post">
-                    هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولك
-                  </Link>
+                  <Link href="/single-post">هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولك</Link>
                 </h5>
                 {/* Text */}
-                <p className="p-lg">
-                  وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.
-                </p>
+                <p className="p-lg">وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.</p>
                 {/* Post Meta */}
                 <div className="post-meta">
                   <p className="p-md">12 تعليقات</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END BLOG POST TEXT */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END  BLOG POST #2 */}
           {/* BLOG POST #3 */}
           <div className="col">
@@ -102,11 +86,7 @@ const Demo25blog1 = () => {
               {/* BLOG POST IMAGE */}
               <div className="blog-post-img">
                 <div className="hover-overlay">
-                  <img
-                    className="img-fluid"
-                    src="/images/blog/post-2-img.jpg"
-                    alt="blog-post-image"
-                  />
+                  <img className="img-fluid" src="/images/blog/post-2-img.jpg" alt="blog-post-image" />
                   <div className="item-overlay" />
                 </div>
               </div>
@@ -116,31 +96,28 @@ const Demo25blog1 = () => {
                 <p className="p-md post-tag">إلهام  |  18 مايو 2021</p>
                 {/* Post Link */}
                 <h5 className="h5-md">
-                  <Link href="/single-post">
-                    هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولك
-                  </Link>
+                  <Link href="/single-post">هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولك</Link>
                 </h5>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
                 {/* Post Meta */}
                 <div className="post-meta">
                   <p className="p-md">4 تعليقات</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END BLOG POST TEXT */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END  BLOG POST #3 */}
-        </div>{" "}
+        </div>{' '}
         {/* END BLOG POSTS */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo25blog1;
+export default Demo25blog1

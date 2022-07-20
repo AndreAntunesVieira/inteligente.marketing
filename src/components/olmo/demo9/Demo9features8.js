@@ -6,9 +6,7 @@ const Demo9features8 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10 col-xl-8">
             <div className="section-title title-02 mb-85">
-              <h3 className="h3-xl">
-                Integrated marketing solutions that fuel business growth
-              </h3>
+              <h3 className="h3-xl">Integrated marketing solutions that fuel business growth</h3>
             </div>
           </div>
         </div>
@@ -20,18 +18,14 @@ const Demo9features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-22.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-22.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-sm">Extremely Flexible</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -40,18 +34,14 @@ const Demo9features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-24.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-24.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-sm">Easy To Customize</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
@@ -60,29 +50,25 @@ const Demo9features8 = () => {
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
                 <div className="fbox-img bg-whitesmoke-gradient">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-23.png"
-                    alt="feature-icon"
-                  />
+                  <img className="img-fluid" src="/images/img-23.png" alt="feature-icon" />
                 </div>
                 {/* Title */}
                 <h5 className="h5-sm">Concrete Security</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Feugiat primis ultrice semper lacus cursus feugiat undo primis
-                  ultrice a ligula an auctor tempus magnis
+                  Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a ligula an auctor tempus
+                  magnis
                 </p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-8 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo9features8;
+export default Demo9features8

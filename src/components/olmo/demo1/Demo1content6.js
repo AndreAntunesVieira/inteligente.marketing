@@ -1,9 +1,6 @@
 const Demo1content6 = () => {
   return (
-    <section
-      id="content-6"
-      className="content-6 pb-60 content-section division"
-    >
+    <section id="content-6" className="content-6 pb-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
@@ -13,20 +10,15 @@ const Demo1content6 = () => {
               <h2 className="h2-xs">No collection of user data. No Ads</h2>
               {/* Text */}
               <p className="p-lg">
-                Aliqum mullam blandit tempor sapien gravida at donec ipsum porta
-                justo. Velna vitae auctor and congue magna impedit luctus dolor
-                volute
+                Aliqum mullam blandit tempor sapien gravida at donec ipsum porta justo. Velna vitae auctor and congue
+                magna impedit luctus dolor volute
               </p>
             </div>
           </div>
           {/* IMAGE BLOCK */}
           <div className="col-md-6 col-lg-7">
             <div className="img-block right-column wow fadeInLeft">
-              <img
-                className="img-fluid"
-                src="/images/img-20.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/img-20.png" alt="content-image" />
             </div>
           </div>
         </div>
@@ -34,7 +26,7 @@ const Demo1content6 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo1content6;
+export default Demo1content6

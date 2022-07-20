@@ -1,11 +1,8 @@
-import { VideoImage2 } from "../../VideoContent";
+import { VideoImage2 } from '../../VideoContent'
 
 const Demo2content3 = () => {
   return (
-    <section
-      id="content-3"
-      className="content-3 wide-60 content-section division"
-    >
+    <section id="content-3" className="content-3 wide-60 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -15,9 +12,8 @@ const Demo2content3 = () => {
               <h2 className="h2-md">Security, Simplicity, Easiness</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -34,10 +30,9 @@ const Demo2content3 = () => {
                   <h5 className="h5-lg">Advanced Performance Made Easy</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                    undo and cubilia laoreet augue and luctus magna dolor luctus
-                    at egestas sapien vitae nemo egestas volute and turpis
-                    dolores aliquam quaerat sodales a sapien
+                    Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and
+                    luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam
+                    quaerat sodales a sapien
                   </p>
                 </div>
                 {/* TEXT BOX */}
@@ -48,14 +43,13 @@ const Demo2content3 = () => {
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Fringilla risus, luctus mauris auctor euismod an iaculis
-                        luctus magna purus pretium ligula purus and quaerat
+                        Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus
+                        and quaerat
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Nemo ipsam egestas volute turpis dolores undo ultrice
-                        aliquam quaerat at sodales sapien purus
+                        Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
                       </p>
                     </li>
                   </ul>
@@ -67,11 +61,7 @@ const Demo2content3 = () => {
             {/* IMAGE BLOCK */}
             <div className="col-md-5 col-lg-6 order-first order-md-2">
               <div className="img-block left-column wow fadeInLeft">
-                <img
-                  className="img-fluid"
-                  src="/images/img-08.png"
-                  alt="content-image"
-                />
+                <img className="img-fluid" src="/images/img-08.png" alt="content-image" />
               </div>
             </div>
           </div>
@@ -90,33 +80,25 @@ const Demo2content3 = () => {
             <div className="col-md-7 col-lg-6">
               <div className="txt-block right-column wow fadeInLeft">
                 {/* Section ID */}
-                <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">
-                  Handling With Ease
-                </span>
+                <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">Handling With Ease</span>
                 {/* Title */}
                 <h2 className="h2-xs">Work smarter with powerful features</h2>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit purus a purus ipsum
-                  primis in cubilia laoreet augue luctus magna dolor luctus and
-                  egestas sapien egestas vitae nemo volute
+                  Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus
+                  magna dolor luctus and egestas sapien egestas vitae nemo volute
                 </p>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                  undo and cubilia laoreet augue and luctus magna dolor luctus
-                  at egestas sapien vitae nemo egestas
+                  Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
+                  magna dolor luctus at egestas sapien vitae nemo egestas
                 </p>
                 {/* CONTENT BOX #1 */}
                 <div className="cbox-2 mt-20">
                   {/* Icon */}
                   <div className="cbox-2-ico">
                     <div className="ico-40 shape-ico violet-red-color">
-                      <img
-                        className="ico-bkg"
-                        src="/images/ico-bkg.png"
-                        alt="ico-bkg"
-                      />
+                      <img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
                       <span className="flaticon-smartphone-1" />
                     </div>
                   </div>
@@ -135,7 +117,7 @@ const Demo2content3 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo2content3;
+export default Demo2content3

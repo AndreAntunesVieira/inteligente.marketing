@@ -16,8 +16,8 @@ const Demo17hero17 = () => {
             <div className="hero-17-txt">
               {/* Text */}
               <p className="p-xl white-color">
-                Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                undo and cubilia laoreet augue luctus magna dolor luctus sapien
+                Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue luctus magna
+                dolor luctus sapien
               </p>
               {/* DOWNLOAD BUTTON */}
               <a href="#" className="os-btn bg-white d-flex align-items-center">
@@ -34,10 +34,7 @@ const Demo17hero17 = () => {
                 </div>
               </a>
               {/* DOWNLOAD BUTTON */}
-              <a
-                href="#"
-                className="os-btn mac-os-btn bg-white d-flex align-items-center"
-              >
+              <a href="#" className="os-btn mac-os-btn bg-white d-flex align-items-center">
                 {/* Icon */}
                 <div className="os-btn-ico">
                   <div className="ico-50">
@@ -64,19 +61,15 @@ const Demo17hero17 = () => {
           {/* HERO IMAGE */}
           <div className="col-md-6 col-lg-7">
             <div className="hero-17-img video-preview">
-              <img
-                className="img-fluid"
-                src="/images/dashboard-04.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/dashboard-04.png" alt="hero-image" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo17hero17;
+export default Demo17hero17

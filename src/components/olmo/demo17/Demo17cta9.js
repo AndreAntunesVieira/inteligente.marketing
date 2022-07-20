@@ -7,12 +7,8 @@ const Demo17cta9 = () => {
           <div className="col col-lg-8">
             <div className="cta-9-txt text-center">
               {/* Title */}
-              <h2 className="h2-xs white-color">
-                Getting Started is Fast &amp; Easy
-              </h2>
-              <p className="p-xl white-color mb-35">
-                Download OLMO on your Windows or Mac and get 30 days free trial.
-              </p>
+              <h2 className="h2-xs white-color">Getting Started is Fast &amp; Easy</h2>
+              <p className="p-xl white-color mb-35">Download OLMO on your Windows or Mac and get 30 days free trial.</p>
               {/* DOWNLOAD BUTTON */}
               <a href="#" className="os-btn bg-white d-flex align-items-center">
                 {/* Icon */}
@@ -28,10 +24,7 @@ const Demo17cta9 = () => {
                 </div>
               </a>
               {/* DOWNLOAD BUTTON */}
-              <a
-                href="#"
-                className="os-btn mac-os-btn bg-white d-flex align-items-center"
-              >
+              <a href="#" className="os-btn mac-os-btn bg-white d-flex align-items-center">
                 {/* Icon */}
                 <div className="os-btn-ico">
                   <div className="ico-50">
@@ -45,14 +38,14 @@ const Demo17cta9 = () => {
                 </div>
               </a>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END CALL TO ACTION TEXT */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo17cta9;
+export default Demo17cta9

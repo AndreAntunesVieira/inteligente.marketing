@@ -7,21 +7,14 @@ const Demo21hero21 = () => {
           <div className="col-md-10 offset-md-1">
             <div className="hero-21-txt text-center">
               {/* Title */}
-              <h2 className="h2-lg">
-                Creativity never goes wrong, all you need is right direction
-              </h2>
+              <h2 className="h2-lg">Creativity never goes wrong, all you need is right direction</h2>
               {/* Text */}
               <p className="p-xl">
-                Mauris donec ociis et magnis sapien sagittis sapien tempor
-                gravida and aliquet suscipit in magna dignissim, porttitor
-                hendrerit
+                Mauris donec ociis et magnis sapien sagittis sapien tempor gravida and aliquet suscipit in magna
+                dignissim, porttitor hendrerit
               </p>
               {/* HERO QUICK FORM */}
-              <form
-                name="quickform"
-                className="quick-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="quickform" className="quick-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Inputs */}
                 <div className="input-group">
                   <input
@@ -33,10 +26,7 @@ const Demo21hero21 = () => {
                     required
                   />
                   <span className="input-group-btn form-btn">
-                    <button
-                      type="submit"
-                      className="btn btn-md btn-stateblue black-hover submit"
-                    >
+                    <button type="submit" className="btn btn-md btn-stateblue black-hover submit">
                       Get Started
                     </button>
                   </span>
@@ -56,14 +46,14 @@ const Demo21hero21 = () => {
                 </li>
               </ul>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo21hero21;
+export default Demo21hero21

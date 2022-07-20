@@ -1,17 +1,12 @@
 const Demo9pricing3 = () => {
   return (
-    <section
-      id="pricing-3"
-      className="bg-whitesmoke wide-60 pricing-section division"
-    >
+    <section id="pricing-3" className="bg-whitesmoke wide-60 pricing-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-8">
             <div className="section-title title-02 mb-85">
-              <h3 className="h3-xl">
-                Scale your business to the next level with our experts
-              </h3>
+              <h3 className="h3-xl">Scale your business to the next level with our experts</h3>
             </div>
           </div>
         </div>
@@ -64,7 +59,7 @@ const Demo9pricing3 = () => {
                   Get Started
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END STARTER PLAN */}
             {/* BASIC PLAN */}
             <div className="col">
@@ -118,7 +113,7 @@ const Demo9pricing3 = () => {
                   Get Started
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END BASIC PLAN */}
             {/* PREMIUM PLAN */}
             <div className="col">
@@ -166,27 +161,26 @@ const Demo9pricing3 = () => {
                   Get Started
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END PREMIUM PLAN */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PRICING TABLES */}
         {/* PRICING NOTICE TEXT */}
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <div className="pricing-notice text-center mb-40">
               <p className="p-md">
-                The above prices do not include applicable taxes based on your
-                billing address. The final price will be displayed on the
-                checkout page, before the payment is completed
+                The above prices do not include applicable taxes based on your billing address. The final price will be
+                displayed on the checkout page, before the payment is completed
               </p>
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo9pricing3;
+export default Demo9pricing3

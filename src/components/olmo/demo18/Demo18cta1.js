@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Demo18cta1 = () => {
   return (
     <section id="cta-1" className="bg-snow cta-section division">
@@ -8,10 +8,7 @@ const Demo18cta1 = () => {
             {/* CALL TO ACTION TEXT */}
             <div className="col-lg-8">
               <div className="cta-1-txt">
-                <h4 className="h4-xl">
-                  Try OLMO free for 14 days. Start your trial now and pick a
-                  plan later
-                </h4>
+                <h4 className="h4-xl">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
               </div>
             </div>
             {/* CALL TO ACTION BUTTON */}
@@ -19,9 +16,7 @@ const Demo18cta1 = () => {
               <div className="text-end">
                 <div className="cta-1-btn text-center">
                   <Link href="/pricing">
-                    <a className="btn btn-skyblue tra-grey-hover">
-                      Get Started Now
-                    </a>
+                    <a className="btn btn-skyblue tra-grey-hover">Get Started Now</a>
                   </Link>
                   <p>
                     <a href="#">Read The FAQs</a>
@@ -30,12 +25,12 @@ const Demo18cta1 = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo18cta1;
+export default Demo18cta1

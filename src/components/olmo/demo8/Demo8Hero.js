@@ -6,32 +6,21 @@ const Demo8Hero = () => {
           {/* HERO IMAGE */}
           <div className="col-lg-6 order-last order-lg-2">
             <div className="hero-8-img pc-20 text-center">
-              <img
-                className="img-fluid"
-                src="/images/hero-8-img.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/hero-8-img.png" alt="hero-image" />
             </div>
           </div>
           {/* HERO TEXT */}
           <div className="col-lg-6 order-first order-lg-2">
             <div className="hero-8-txt">
               {/* Title */}
-              <h2 className="h2-md">
-                Generating leads with social media marketing
-              </h2>
+              <h2 className="h2-md">Generating leads with social media marketing</h2>
               {/* Text */}
               <p className="p-lg">
-                Feugiat primis ligula risus auctor egestas and augue viverra
-                mauri tortor in iaculis magna feugiat mauris ipsum and placerat
-                viverra tortor gravida purus
+                Feugiat primis ligula risus auctor egestas and augue viverra mauri tortor in iaculis magna feugiat
+                mauris ipsum and placerat viverra tortor gravida purus
               </p>
               {/* HERO QUICK FORM */}
-              <form
-                name="quickform"
-                className="quick-form shadow-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="quickform" className="quick-form shadow-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Inputs */}
                 <div className="input-group">
                   <input
@@ -43,10 +32,7 @@ const Demo8Hero = () => {
                     required
                   />
                   <span className="input-group-btn form-btn">
-                    <button
-                      type="submit"
-                      className="btn btn-md btn-skyblue black-hover submit"
-                    >
+                    <button type="submit" className="btn btn-md btn-skyblue black-hover submit">
                       Get Started
                     </button>
                   </span>
@@ -57,11 +43,11 @@ const Demo8Hero = () => {
                 </div>
               </form>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
       {/* WAVE SHAPE BOTTOM */}
       <div className="wave-shape-bottom">
@@ -74,7 +60,7 @@ const Demo8Hero = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo8Hero;
+export default Demo8Hero

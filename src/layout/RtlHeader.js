@@ -1,41 +1,32 @@
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import { scroll } from "../utils/utils";
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { scroll } from '../utils/utils'
 
 const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
   useEffect(() => {
-    window.addEventListener("scroll", scroll);
-  }, []);
+    window.addEventListener('scroll', scroll)
+  }, [])
 
-  const [toggle, setToggle] = useState(false);
-  const [mobileMenuToggle, setMobileMenuToggle] = useState("");
+  const [toggle, setToggle] = useState(false)
+  const [mobileMenuToggle, setMobileMenuToggle] = useState('')
 
   const toggleFun = () => {
-    setToggle(!toggle);
-    document.querySelector("body").classList.toggle("wsactive");
-  };
-  const toggleMenu = (value) => {
-    setMobileMenuToggle(mobileMenuToggle !== value ? value : "");
-  };
+    setToggle(!toggle)
+    document.querySelector('body').classList.toggle('wsactive')
+  }
+  const toggleMenu = value => {
+    setMobileMenuToggle(mobileMenuToggle !== value ? value : '')
+  }
 
   return (
-    <header
-      id="header"
-      className={`header tra-menu ${
-        navLight ? "navbar-light" : "navbar-dark"
-      }  `}
-    >
+    <header id="header" className={`header tra-menu ${navLight ? 'navbar-light' : 'navbar-dark'}  `}>
       <div className="header-wrapper">
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
             <img src="/images/logo-01.png" alt="mobile-logo" />
           </span>
-          <a
-            id="wsnavtoggle"
-            onClick={() => toggleFun()}
-            className="wsanimated-arrow"
-          >
+          <a id="wsnavtoggle" onClick={() => toggleFun()} className="wsanimated-arrow">
             <span />
           </a>
         </div>
@@ -55,18 +46,12 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
             </div>
             {/* MAIN MENU */}
             <nav className="wsmenu clearfix">
-              <ul
-                className={`wsmenu-list ${
-                  navHoverColor ? navHoverColor : "nav-stateblue-hover"
-                }`}
-              >
+              <ul className={`wsmenu-list ${navHoverColor ? navHoverColor : 'nav-stateblue-hover'}`}>
                 {/* MEGAMENU */}
                 <li aria-haspopup="true" className="mg_link a ">
                   <span
-                    className={`wsmenu-click ${
-                      mobileMenuToggle === "home" ? "ws-activearrow" : ""
-                    }`}
-                    onClick={() => toggleMenu("home")}
+                    className={`wsmenu-click ${mobileMenuToggle === 'home' ? 'ws-activearrow' : ''}`}
+                    onClick={() => toggleMenu('home')}
                   >
                     <i className="wsmenu-arrow" />
                   </span>
@@ -76,7 +61,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                   <div
                     className="wsmegamenu w-75 clearfix"
                     style={{
-                      display: mobileMenuToggle === "home" ? "block" : "",
+                      display: mobileMenuToggle === 'home' ? 'block' : '',
                     }}
                   >
                     <div className="container">
@@ -129,9 +114,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                         {/* MEGAMENU LINKS */}
                         <ul className="col-md-12 col-lg-3 link-list">
                           <li className="fst-li">
-                            <Link href="/demo-8">
-                              تسويق وسائل الاعلام الاجتماعية
-                            </Link>
+                            <Link href="/demo-8">تسويق وسائل الاعلام الاجتماعية</Link>
                           </li>
                           <li>
                             <Link href="/demo-9">الوكالة الرقمية</Link>
@@ -176,21 +159,19 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                             <Link href="/demo-7">الخدمة الرقمية 1</Link>
                           </li>
                         </ul>
-                      </div>{" "}
+                      </div>{' '}
                       {/* End row */}
-                    </div>{" "}
+                    </div>{' '}
                     {/* End container */}
-                  </div>{" "}
+                  </div>{' '}
                   {/* End wsmegamenu */}
-                </li>{" "}
+                </li>{' '}
                 {/* END MEGAMENU */}
                 {/* DROPDOWN MENU */}
                 <li aria-haspopup="true" className="b">
                   <span
-                    className={`wsmenu-click ${
-                      mobileMenuToggle === "about" ? "ws-activearrow" : ""
-                    }`}
-                    onClick={() => toggleMenu("about")}
+                    className={`wsmenu-click ${mobileMenuToggle === 'about' ? 'ws-activearrow' : ''}`}
+                    onClick={() => toggleMenu('about')}
                   >
                     <i className="wsmenu-arrow" />
                   </span>
@@ -200,7 +181,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                   <ul
                     className="sub-menu"
                     style={{
-                      display: mobileMenuToggle === "about" ? "block" : "",
+                      display: mobileMenuToggle === 'about' ? 'block' : '',
                     }}
                   >
                     <li aria-haspopup="true">
@@ -229,10 +210,8 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                 {/* DROPDOWN MENU */}
                 <li aria-haspopup="true" className="c">
                   <span
-                    className={`wsmenu-click ${
-                      mobileMenuToggle === "pages" ? "ws-activearrow" : ""
-                    }`}
-                    onClick={() => toggleMenu("pages")}
+                    className={`wsmenu-click ${mobileMenuToggle === 'pages' ? 'ws-activearrow' : ''}`}
+                    onClick={() => toggleMenu('pages')}
                   >
                     <i className="wsmenu-arrow" />
                   </span>
@@ -241,7 +220,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                   </a>
                   <div
                     style={{
-                      display: mobileMenuToggle === "pages" ? "block" : "",
+                      display: mobileMenuToggle === 'pages' ? 'block' : '',
                     }}
                     className="wsmegamenu clearfix halfmenu"
                   >
@@ -292,7 +271,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                       </div>
                     </div>
                   </div>
-                </li>{" "}
+                </li>{' '}
                 {/* END DROPDOWN MENU */}
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple d" aria-haspopup="true">
@@ -310,11 +289,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                 <li className="nl-simple" aria-haspopup="true">
                   <a
                     href="#cta-11"
-                    className={
-                      btnCustomHover
-                        ? btnCustomHover
-                        : "btn btn-stateblue tra-grey-hover last-link"
-                    }
+                    className={btnCustomHover ? btnCustomHover : 'btn btn-stateblue tra-grey-hover last-link'}
                   >
                     لنبدأ
                   </a>
@@ -327,15 +302,15 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
 										<span><a href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></a></span>	
 									</li> */}
               </ul>
-            </nav>{" "}
+            </nav>{' '}
             {/* END MAIN MENU */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END NAVIGATION MENU */}
-      </div>{" "}
+      </div>{' '}
       {/* End header-wrapper */}
     </header>
-  );
-};
+  )
+}
 
-export default RtlHeader;
+export default RtlHeader

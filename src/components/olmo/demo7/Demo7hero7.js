@@ -1,4 +1,4 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Demo7hero7 = () => {
   return (
@@ -10,11 +10,7 @@ const Demo7hero7 = () => {
             <div className="hero-7-txt white-color wow fadeInLeft">
               {/* Rounded Logo */}
               <div className="hero-logo-rounded bg-tra-white mb-40">
-                <img
-                  className="img-fluid"
-                  src="/images/logo-white-sm.png"
-                  alt="hero-logo"
-                />
+                <img className="img-fluid" src="/images/logo-white-sm.png" alt="hero-logo" />
                 <span>OLMO.DESIGN</span>
               </div>
               {/* Title */}
@@ -23,23 +19,18 @@ const Demo7hero7 = () => {
               <ul className="simple-list">
                 <li className="list-item">
                   <p className="p-lg">
-                    Fringilla risus, luctus mauris orci auctor purus ligula undo
-                    euismod pretium purus pretium rutrum
+                    Fringilla risus, luctus mauris orci auctor purus ligula undo euismod pretium purus pretium rutrum
                   </p>
                 </li>
                 <li className="list-item">
                   <p className="p-lg">
-                    Nemo ipsam egestas volute turpis dolores aliquam quaerat
-                    sodales sapien undo pretium a purus
+                    Nemo ipsam egestas volute turpis dolores aliquam quaerat sodales sapien undo pretium a purus
                   </p>
                 </li>
               </ul>
               {/* Buttons Group */}
               <div className="btns-group mt-35">
-                <a
-                  href="#content-3"
-                  className="btn btn-pink tra-white-hover mr-15"
-                >
+                <a href="#content-3" className="btn btn-pink tra-white-hover mr-15">
                   Learn More
                 </a>
                 <VideoWithBtn
@@ -54,11 +45,7 @@ const Demo7hero7 = () => {
           {/* HERO IMAGE */}
           <div className="col-lg-6">
             <div className="hero-7-img text-center wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/dashboard-06.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/dashboard-06.png" alt="hero-image" />
             </div>
           </div>
         </div>
@@ -66,7 +53,7 @@ const Demo7hero7 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo7hero7;
+export default Demo7hero7

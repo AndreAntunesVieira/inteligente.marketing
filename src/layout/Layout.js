@@ -1,10 +1,10 @@
-import { Fragment, useContext, useEffect } from "react";
-import VideoPopup from "../components/VideoPopup";
-import { VideoContext } from "../context/video";
-import { aTagClick } from "../utils/utils";
-import Footer from "./Footer";
-import Header from "./Header";
-import ScrollTop from "./ScrollTop";
+import { Fragment, useContext, useEffect } from 'react'
+import VideoPopup from '../components/VideoPopup'
+import { VideoContext } from '../context/video'
+import { aTagClick } from '../utils/utils'
+import Footer from './Footer'
+import Header from './Header'
+import ScrollTop from './ScrollTop'
 
 const Layout = ({
   children,
@@ -15,11 +15,11 @@ const Layout = ({
   getStartText = null,
   singlePage = null,
 }) => {
-  const videoContext = useContext(VideoContext);
-  const { video } = videoContext;
+  const videoContext = useContext(VideoContext)
+  const { video } = videoContext
   useEffect(() => {
-    aTagClick();
-  }, []);
+    aTagClick()
+  }, [])
 
   return (
     <Fragment>
@@ -38,7 +38,7 @@ const Layout = ({
       </div>
       <ScrollTop />
     </Fragment>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

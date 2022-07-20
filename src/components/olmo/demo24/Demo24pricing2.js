@@ -1,9 +1,6 @@
 const Demo24pricing2 = () => {
   return (
-    <section
-      id="pricing-2"
-      className="bg-whitesmoke-gradient wide-60 pricing-section division"
-    >
+    <section id="pricing-2" className="bg-whitesmoke-gradient wide-60 pricing-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -12,9 +9,7 @@ const Demo24pricing2 = () => {
               {/* Title */}
               <h2 className="h2-md">تسعير بسيط ومرن</h2>
               {/* Text */}
-              <p className="p-xl">
-                بطاقة الإئتمان غير مطالب بها. تغيير أو إلغاء خطتك في أي وقت
-              </p>
+              <p className="p-xl">بطاقة الإئتمان غير مطالب بها. تغيير أو إلغاء خطتك في أي وقت</p>
             </div>
           </div>
         </div>
@@ -55,14 +50,11 @@ const Demo24pricing2 = () => {
                   </li>
                 </ul>
                 {/* Pricing Plan Button */}
-                <a
-                  href="#"
-                  className="btn btn-sm btn-tra-grey tra-stateblue-hover"
-                >
+                <a href="#" className="btn btn-sm btn-tra-grey tra-stateblue-hover">
                   اختر خطة
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END BASIC PLAN */}
             {/* AGENCY PLAN */}
             <div className="col">
@@ -98,14 +90,11 @@ const Demo24pricing2 = () => {
                   </li>
                 </ul>
                 {/* Pricing Plan Button */}
-                <a
-                  href="#"
-                  className="btn btn-sm btn-tra-grey tra-stateblue-hover"
-                >
+                <a href="#" className="btn btn-sm btn-tra-grey tra-stateblue-hover">
                   اختر خطة
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END AGENCY PLAN  */}
             {/* ADVANCED PLAN */}
             <div className="col">
@@ -145,19 +134,18 @@ const Demo24pricing2 = () => {
                   اختر خطة
                 </a>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END ADVANCED PLAN */}
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PRICING TABLES */}
         {/* PRICING NOTICE TEXT */}
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <div className="pricing-notice text-center mb-40">
               <p className="p-md">
-                الأسعار المذكورة أعلاه لا تشمل الضرائب المطبقة بناءً على عنوان
-                إرسال الفواتير الخاص بك. سيتم عرض السعر النهائي على صفحة الخروج
-                ، قبل إتمام الدفع
+                الأسعار المذكورة أعلاه لا تشمل الضرائب المطبقة بناءً على عنوان إرسال الفواتير الخاص بك. سيتم عرض السعر
+                النهائي على صفحة الخروج ، قبل إتمام الدفع
               </p>
             </div>
           </div>
@@ -179,25 +167,16 @@ const Demo24pricing2 = () => {
                     <img src="/images/png-icons/am.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/discover.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/discover.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/paypal.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/paypal.png" alt="payment-icon" />
                   </li>
                   <li>
                     <img src="/images/png-icons/jcb.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/shopify.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/shopify.png" alt="payment-icon" />
                   </li>
                 </ul>
               </div>
@@ -208,10 +187,7 @@ const Demo24pricing2 = () => {
                 {/* Title */}
                 <h6 className="h6-md">ضمان استعادة الاموال</h6>
                 {/* Text */}
-                <p>
-                  استكشف OLMO Premium لمدة 14 يومًا. إذا لم يكن ذلك مناسبًا
-                  تمامًا ، فاسترد أموالك بالكامل.
-                </p>
+                <p>استكشف OLMO Premium لمدة 14 يومًا. إذا لم يكن ذلك مناسبًا تمامًا ، فاسترد أموالك بالكامل.</p>
               </div>
             </div>
             {/* Payment Encrypted */}
@@ -224,12 +200,12 @@ const Demo24pricing2 = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PAYMENT METHODS */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo24pricing2;
+export default Demo24pricing2

@@ -1,46 +1,32 @@
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import { scroll } from "../utils/utils";
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { scroll } from '../utils/utils'
 
-const Header = ({
-  navLight,
-  whiteLogo,
-  getStartText,
-  btnCustomHover,
-  navHoverColor,
-  singlePage,
-}) => {
+const Header = ({ navLight, whiteLogo, getStartText, btnCustomHover, navHoverColor, singlePage }) => {
   useEffect(() => {
-    window.addEventListener("scroll", scroll);
-  }, []);
+    window.addEventListener('scroll', scroll)
+  }, [])
 
-  const [toggle, setToggle] = useState(false);
-  const [mobileMenuToggle, setMobileMenuToggle] = useState("");
+  const [toggle, setToggle] = useState(false)
+  const [mobileMenuToggle, setMobileMenuToggle] = useState('')
 
   const toggleFun = () => {
-    setToggle(!toggle);
-    document.querySelector("body").classList.toggle("wsactive");
-  };
-  const toggleMenu = (value) => {
-    setMobileMenuToggle(mobileMenuToggle !== value ? value : "");
-  };
+    setToggle(!toggle)
+    document.querySelector('body').classList.toggle('wsactive')
+  }
+  const toggleMenu = value => {
+    setMobileMenuToggle(mobileMenuToggle !== value ? value : '')
+  }
 
   return (
-    <header
-      id="header"
-      className={`header tra-menu ${navLight ? "navbar-light" : "navbar-dark"}`}
-    >
+    <header id="header" className={`header tra-menu ${navLight ? 'navbar-light' : 'navbar-dark'}`}>
       <div className="header-wrapper">
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
             <img src="/logo/colorido-transparente-semborda-520.png" alt="mobile-logo" height={50} width={50} />
           </span>
-          <a
-            id="wsnavtoggle"
-            onClick={() => toggleFun()}
-            className="wsanimated-arrow"
-          >
+          <a id="wsnavtoggle" onClick={() => toggleFun()} className="wsanimated-arrow">
             <span />
           </a>
         </div>
@@ -62,8 +48,8 @@ const Header = ({
                   <img
                     src={`${
                       whiteLogo
-                        ? "/logo/colorido-transparente-semborda-520.png"
-                        : "/logo/colorido-transparente-semborda-520.png"
+                        ? '/logo/colorido-transparente-semborda-520.png'
+                        : '/logo/colorido-transparente-semborda-520.png'
                     }`}
                     alt="header-logo"
                   />
@@ -74,11 +60,7 @@ const Header = ({
             <nav className="wsmenu clearfix">
               <div className="overlapblackbg" onClick={() => toggleFun()} />
 
-              <ul
-                className={`wsmenu-list ${
-                  navHoverColor ? navHoverColor : "nav-skyblue-hover"
-                }`}
-              >
+              <ul className={`wsmenu-list ${navHoverColor ? navHoverColor : 'nav-skyblue-hover'}`}>
                 {/*<li className="mg_link">*/}
                 {/*  <span*/}
                 {/*    className={`wsmenu-click ${*/}
@@ -209,11 +191,7 @@ const Header = ({
                 {/* HEADER BUTTON */}
                 <li className="nl-simple">
                   <Link href="/contatos">
-                    <a
-                      className={`btn btn-tra-white green-hover`}
-                    >
-                      Peça um orçamento
-                    </a>
+                    <a className={`btn btn-tra-white green-hover`}>Peça um orçamento</a>
                   </Link>
                 </li>
                 {/* HEADER SOCIAL LINKS 													
@@ -229,7 +207,7 @@ const Header = ({
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

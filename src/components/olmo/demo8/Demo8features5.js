@@ -16,8 +16,7 @@ const Demo8features5 = () => {
                 <h5 className="h5-sm">Digital Marketing</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -32,8 +31,7 @@ const Demo8features5 = () => {
                 <h5 className="h5-sm">SEO Services</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
@@ -48,19 +46,18 @@ const Demo8features5 = () => {
                 <h5 className="h5-sm">Business Analytics</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Porta semper lacus and cursus blandit at feugiat primis
-                  ultrice a purus euismod neque
+                  Porta semper lacus and cursus blandit at feugiat primis ultrice a purus euismod neque
                 </p>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* END FEATURES-5 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo8features5;
+export default Demo8features5

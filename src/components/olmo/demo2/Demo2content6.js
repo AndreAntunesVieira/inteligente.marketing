@@ -1,9 +1,6 @@
 const Demo2content6 = () => {
   return (
-    <section
-      id="content-6"
-      className="content-6 wide-60 content-section division"
-    >
+    <section id="content-6" className="content-6 wide-60 content-section division">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
@@ -15,9 +12,8 @@ const Demo2content6 = () => {
                 <h5 className="h5-lg">Editing Tools and Exports</h5>
                 {/* Text */}
                 <p className="p-lg">
-                  Quaerat sodales sapien euismod blandit undo vitae ipsum primis
-                  and cubilia a laoreet augue and luctus magna dolor egestas
-                  luctus
+                  Quaerat sodales sapien euismod blandit undo vitae ipsum primis and cubilia a laoreet augue and luctus
+                  magna dolor egestas luctus
                 </p>
               </div>
               {/* TEXT BOX */}
@@ -28,15 +24,13 @@ const Demo2content6 = () => {
                 <ul className="simple-list">
                   <li className="list-item">
                     <p className="p-lg">
-                      Fringilla risus, luctus mauris an auctor purus euismod
-                      iaculis luctus magna purus pretium ligula and quaerat
-                      luctus magna
+                      Fringilla risus, luctus mauris an auctor purus euismod iaculis luctus magna purus pretium ligula
+                      and quaerat luctus magna
                     </p>
                   </li>
                   <li className="list-item">
                     <p className="p-lg">
-                      Nemo ipsam egestas volute turpis dolores undo ultrice
-                      aliquam quaerat sodales
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat sodales
                     </p>
                   </li>
                 </ul>
@@ -47,11 +41,7 @@ const Demo2content6 = () => {
           {/* IMAGE BLOCK */}
           <div className="col-md-6 col-lg-7">
             <div className="img-block right-column wow fadeInLeft">
-              <img
-                className="img-fluid"
-                src="/images/img-20.png"
-                alt="content-image"
-              />
+              <img className="img-fluid" src="/images/img-20.png" alt="content-image" />
             </div>
           </div>
         </div>
@@ -59,7 +49,7 @@ const Demo2content6 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo2content6;
+export default Demo2content6

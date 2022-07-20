@@ -1,4 +1,4 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo15statistic2 = () => {
   return (
@@ -8,10 +8,7 @@ const Demo15statistic2 = () => {
           {/* TEXT BLOCK */}
           <div className="col-lg-6">
             <div className="txt-block right-column wow fadeInLeft">
-              <h3 className="h3-xs">
-                More than 65,000 users around the world are already using OLMO
-                actively
-              </h3>
+              <h3 className="h3-xs">More than 65,000 users around the world are already using OLMO actively</h3>
             </div>
           </div>
           {/* STATISTIC BLOCK #1 */}
@@ -44,12 +41,12 @@ const Demo15statistic2 = () => {
               <p className="p-lg txt-400">8,376 Rating</p>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo15statistic2;
+export default Demo15statistic2

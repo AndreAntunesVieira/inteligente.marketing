@@ -9,16 +9,9 @@ const Demo9hero9 = () => {
               {/* Title */}
               <h4 className="h4-xs">Create the effect of presence with OLMO</h4>
               {/* Text */}
-              <p className="p-md">
-                Feugiat primis ligula risus auctor purus laoreet augue mauris
-                viverra tortor
-              </p>
+              <p className="p-md">Feugiat primis ligula risus auctor purus laoreet augue mauris viverra tortor</p>
               {/* Form */}
-              <form
-                name="requestForm"
-                className="row request-form"
-                onSubmit={(e) => e.preventDefault()}
-              >
+              <form name="requestForm" className="row request-form" onSubmit={e => e.preventDefault()}>
                 {/* Form Input */}
                 <div className="col-md-12">
                   <input
@@ -43,10 +36,7 @@ const Demo9hero9 = () => {
                 </div>
                 {/* Form Button */}
                 <div className="col-md-12 form-btn mt-5">
-                  <button
-                    type="submit"
-                    className="btn btn-md btn-skyblue tra-grey-hover submit"
-                  >
+                  <button type="submit" className="btn btn-md btn-skyblue tra-grey-hover submit">
                     Get Started Now
                   </button>
                 </div>
@@ -55,13 +45,13 @@ const Demo9hero9 = () => {
                   <span className="loading" />
                 </div>
               </form>
-            </div>{" "}
+            </div>{' '}
             {/* END FORM */}
-          </div>{" "}
+          </div>{' '}
           {/* END HERO REQUEST FORM */}
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
       {/* WAVE SHAPE BOTTOM */}
       <div className="wave-shape-bottom">
@@ -74,7 +64,7 @@ const Demo9hero9 = () => {
         </svg>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Demo9hero9;
+export default Demo9hero9

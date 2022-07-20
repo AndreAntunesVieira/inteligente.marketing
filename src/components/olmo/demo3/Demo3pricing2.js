@@ -1,9 +1,6 @@
 const Demo3pricing2 = () => {
   return (
-    <section
-      id="pricing-2"
-      className="bg-whitesmoke wide-60 pricing-section division"
-    >
+    <section id="pricing-2" className="bg-whitesmoke wide-60 pricing-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -12,9 +9,7 @@ const Demo3pricing2 = () => {
               {/* Title */}
               <h2 className="h2-md">Simple And Flexible Pricing</h2>
               {/* Text */}
-              <p className="p-xl">
-                No credit card required. Change or cancel your plan anytime
-              </p>
+              <p className="p-xl">No credit card required. Change or cancel your plan anytime</p>
             </div>
           </div>
         </div>
@@ -173,9 +168,8 @@ const Demo3pricing2 = () => {
           <div className="col-lg-10 offset-lg-1">
             <div className="pricing-notice text-center mb-40">
               <p className="p-md">
-                The above prices do not include applicable taxes based on your
-                billing address. The final price will be displayed on the
-                checkout page, before the payment is completed
+                The above prices do not include applicable taxes based on your billing address. The final price will be
+                displayed on the checkout page, before the payment is completed
               </p>
             </div>
           </div>
@@ -197,25 +191,16 @@ const Demo3pricing2 = () => {
                     <img src="/images/png-icons/am.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/discover.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/discover.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/paypal.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/paypal.png" alt="payment-icon" />
                   </li>
                   <li>
                     <img src="/images/png-icons/jcb.png" alt="payment-icon" />
                   </li>
                   <li>
-                    <img
-                      src="/images/png-icons/shopify.png"
-                      alt="payment-icon"
-                    />
+                    <img src="/images/png-icons/shopify.png" alt="payment-icon" />
                   </li>
                 </ul>
               </div>
@@ -226,10 +211,7 @@ const Demo3pricing2 = () => {
                 {/* Title */}
                 <h6 className="h6-md">Money Back Guarantee</h6>
                 {/* Text */}
-                <p>
-                  Explore OLMO Premium for 14 days. If it’s not a perfect fit,
-                  receive a full refund.
-                </p>
+                <p>Explore OLMO Premium for 14 days. If it’s not a perfect fit, receive a full refund.</p>
               </div>
             </div>
             {/* Payment Encrypted */}
@@ -247,7 +229,7 @@ const Demo3pricing2 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo3pricing2;
+export default Demo3pricing2

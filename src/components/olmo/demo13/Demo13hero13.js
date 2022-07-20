@@ -1,4 +1,4 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo13hero13 = () => {
   return (
@@ -8,9 +8,7 @@ const Demo13hero13 = () => {
         <div className="row">
           <div className="col-md-9 col-lg-8">
             <div className="hero-13-title mb-40">
-              <h2 className="h2-lg">
-                Convert your ideas into workable solutions
-              </h2>
+              <h2 className="h2-lg">Convert your ideas into workable solutions</h2>
             </div>
           </div>
         </div>
@@ -35,23 +33,20 @@ const Demo13hero13 = () => {
                 <span className="flaticon-diamond-1" />
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END HERO TEXT */}
           {/* HERO IMAGE */}
           <div className="col-md-6 col-lg-7">
             <div className="hero-13-img video-preview">
-              <VideoImage
-                img="images/dashboard-04.png"
-                extraClass="video-btn video-btn-xl bg-violet-red ico-90"
-              />
+              <VideoImage img="images/dashboard-04.png" extraClass="video-btn video-btn-xl bg-violet-red ico-90" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo13hero13;
+export default Demo13hero13

@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Demo24cta11 = () => {
   return (
     <section id="cta-11" className="cta-section division">
@@ -12,15 +12,12 @@ const Demo24cta11 = () => {
                 <h2 className="h2-xs">هل أنت جاهز للانضمام إلى OLMO؟</h2>
                 {/* Text */}
                 <p className="p-lg">
-                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
-                  الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
-                  العشوائية إلى النص.
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض
+                  النوادر أو الكلمات العشوائية إلى النص.
                 </p>
                 {/* Button */}
                 <Link href="/pricing">
-                  <a className="btn btn-stateblue tra-stateblue-hover">
-                    نبدأ الآن
-                  </a>
+                  <a className="btn btn-stateblue tra-stateblue-hover">نبدأ الآن</a>
                 </Link>
               </div>
             </div>
@@ -28,21 +25,17 @@ const Demo24cta11 = () => {
             <div className="col-lg-5">
               <div className="text-end">
                 <div className="cta-11-img text-center">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-25.png"
-                    alt="cta-image"
-                  />
+                  <img className="img-fluid" src="/images/img-25.png" alt="cta-image" />
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo24cta11;
+export default Demo24cta11

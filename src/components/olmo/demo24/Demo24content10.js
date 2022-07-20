@@ -1,11 +1,8 @@
-import { VideoImage } from "../../VideoContent";
+import { VideoImage } from '../../VideoContent'
 
 const Demo24content10 = () => {
   return (
-    <section
-      id="content-10"
-      className="content-10 wide-100 content-section division"
-    >
+    <section id="content-10" className="content-10 wide-100 content-section division">
       <div className="container">
         {/* SECTION TITLE */}
         <div className="row justify-content-center">
@@ -26,10 +23,10 @@ const Demo24content10 = () => {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo24content10;
+export default Demo24content10

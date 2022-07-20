@@ -1,10 +1,10 @@
-import Link from "next/dist/client/link";
-import { useEffect } from "react";
-import { isotopLayout } from "../../../utils/utils";
+import Link from 'next/dist/client/link'
+import { useEffect } from 'react'
+import { isotopLayout } from '../../../utils/utils'
 const Demo15projects2 = () => {
   useEffect(() => {
-    isotopLayout();
-  }, []);
+    isotopLayout()
+  }, [])
   return (
     <section id="projects-2" className="pb-60 projects-section division">
       <div className="container">
@@ -16,9 +16,8 @@ const Demo15projects2 = () => {
               <h2 className="h2-md">We Care About The Details</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -32,11 +31,7 @@ const Demo15projects2 = () => {
                 {/* Image */}
                 <div className="project-preview rel">
                   <div className="hover-overlay">
-                    <img
-                      className="img-fluid"
-                      src="/images/projects/project-05.jpg"
-                      alt="project-preview"
-                    />
+                    <img className="img-fluid" src="/images/projects/project-05.jpg" alt="project-preview" />
                     <div className="item-overlay" />
                   </div>
                 </div>
@@ -51,18 +46,14 @@ const Demo15projects2 = () => {
                   {/* Text */}
                   <p className="p-md grey-color">Graphic Design</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END PROJECT #1 */}
               {/* PROJECT #2 */}
               <div className="project-details masonry-image">
                 {/* Image */}
                 <div className="project-preview rel">
                   <div className="hover-overlay">
-                    <img
-                      className="img-fluid"
-                      src="/images/projects/project-02.jpg"
-                      alt="project-preview"
-                    />
+                    <img className="img-fluid" src="/images/projects/project-02.jpg" alt="project-preview" />
                     <div className="item-overlay" />
                   </div>
                 </div>
@@ -77,18 +68,14 @@ const Demo15projects2 = () => {
                   {/* Text */}
                   <p className="p-md grey-color">UI, Interaction Design</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END PROJECT #2 */}
               {/* PROJECT #3 */}
               <div className="project-details masonry-image">
                 {/* Image */}
                 <div className="project-preview rel">
                   <div className="hover-overlay">
-                    <img
-                      className="img-fluid"
-                      src="/images/projects/project-04.jpg"
-                      alt="project-preview"
-                    />
+                    <img className="img-fluid" src="/images/projects/project-04.jpg" alt="project-preview" />
                     <div className="item-overlay" />
                   </div>
                 </div>
@@ -103,18 +90,14 @@ const Demo15projects2 = () => {
                   {/* Text */}
                   <p className="p-md grey-color">UX, Illustration</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END PROJECT #3 */}
               {/* PROJECT #4 */}
               <div className="project-details masonry-image">
                 {/* Image */}
                 <div className="project-preview rel">
                   <div className="hover-overlay">
-                    <img
-                      className="img-fluid"
-                      src="/images/projects/project-01.jpg"
-                      alt="project-preview"
-                    />
+                    <img className="img-fluid" src="/images/projects/project-01.jpg" alt="project-preview" />
                     <div className="item-overlay" />
                   </div>
                 </div>
@@ -129,18 +112,14 @@ const Demo15projects2 = () => {
                   {/* Text */}
                   <p className="p-md grey-color">Web Design</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END PROJECT #4 */}
               {/* PROJECT #5 */}
               <div className="project-details masonry-image">
                 {/* Image */}
                 <div className="project-preview rel">
                   <div className="hover-overlay">
-                    <img
-                      className="img-fluid"
-                      src="/images/projects/project-03.jpg"
-                      alt="project-preview"
-                    />
+                    <img className="img-fluid" src="/images/projects/project-03.jpg" alt="project-preview" />
                     <div className="item-overlay" />
                   </div>
                 </div>
@@ -155,18 +134,14 @@ const Demo15projects2 = () => {
                   {/* Text */}
                   <p className="p-md grey-color">Web Design</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END PROJECT #5 */}
               {/* PROJECT #6 */}
               <div className="project-details masonry-image">
                 {/* Image */}
                 <div className="project-preview rel">
                   <div className="hover-overlay">
-                    <img
-                      className="img-fluid"
-                      src="/images/projects/project-06.jpg"
-                      alt="project-preview"
-                    />
+                    <img className="img-fluid" src="/images/projects/project-06.jpg" alt="project-preview" />
                     <div className="item-overlay" />
                   </div>
                 </div>
@@ -181,29 +156,27 @@ const Demo15projects2 = () => {
                   {/* Text */}
                   <p className="p-md grey-color">UI, Interaction Design</p>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END PROJECT #6 */}
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END PROJECTS-1 WRAPPER */}
         {/* MORE PROJECTS */}
         <div className="row">
           <div className="col">
             <div className="more-btn mt-20">
               <Link href="/projects">
-                <a className="btn btn-orange-red tra-grey-hover">
-                  View More Projects
-                </a>
+                <a className="btn btn-orange-red tra-grey-hover">View More Projects</a>
               </Link>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END DOWNLOAD BUTTON */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo15projects2;
+export default Demo15projects2

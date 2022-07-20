@@ -1,4 +1,4 @@
-import { VideoWithBtn } from "../../VideoContent";
+import { VideoWithBtn } from '../../VideoContent'
 
 const Demo15hero15 = () => {
   return (
@@ -9,15 +9,10 @@ const Demo15hero15 = () => {
             {/* HERO TEXT */}
             <div className="hero-15-txt white-color">
               {/* Title */}
-              <h2 className="h2-lg wow fadeInUp">
-                We turn the best ideas into excellent products
-              </h2>
+              <h2 className="h2-lg wow fadeInUp">We turn the best ideas into excellent products</h2>
               {/* Buttons Group */}
               <div className="btns-group wow fadeInUp">
-                <a
-                  href="#features-7"
-                  className="btn btn-md btn-orange-red tra-white-hover mr-15"
-                >
+                <a href="#features-7" className="btn btn-md btn-orange-red tra-white-hover mr-15">
                   Core Features
                 </a>
                 <VideoWithBtn
@@ -26,23 +21,19 @@ const Demo15hero15 = () => {
                   extraClass="video-popup2 btn btn-md btn-transparent ico-20 ico-left"
                 />
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END HERO TEXT */}
             {/* HERO IMAGE */}
             <div className="hero-15-img wow fadeInUp">
-              <img
-                className="img-fluid"
-                src="/images/dashboard-03.png"
-                alt="hero-image"
-              />
+              <img className="img-fluid" src="/images/dashboard-03.png" alt="hero-image" />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo15hero15;
+export default Demo15hero15

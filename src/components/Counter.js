@@ -1,12 +1,8 @@
-import CountUp from "react-countup";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import CountUp from 'react-countup'
+import ReactVisibilitySensor from 'react-visibility-sensor'
 const Counter = ({ end, decimals }) => {
   return (
-    <CountUp
-      end={end ? end : 100}
-      duration={1}
-      decimals={decimals ? decimals : 0}
-    >
+    <CountUp end={end ? end : 100} duration={1} decimals={decimals ? decimals : 0}>
       {({ countUpRef, start }) => (
         <ReactVisibilitySensor onChange={start} delayedCall>
           <span className="count-element" ref={countUpRef}>
@@ -15,7 +11,7 @@ const Counter = ({ end, decimals }) => {
         </ReactVisibilitySensor>
       )}
     </CountUp>
-  );
-};
+  )
+}
 
-export default Counter;
+export default Counter

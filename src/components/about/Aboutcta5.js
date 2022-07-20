@@ -15,21 +15,18 @@ const Aboutcta5 = () => {
                     freelance designers who use OLMO to present their work`}
                 </p>
                 {/* Button */}
-                <a
-                  href="#pricing-2"
-                  className="btn btn-skyblue tra-white-hover"
-                >
+                <a href="#pricing-2" className="btn btn-skyblue tra-white-hover">
                   Get Started Now
                 </a>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Aboutcta5;
+export default Aboutcta5

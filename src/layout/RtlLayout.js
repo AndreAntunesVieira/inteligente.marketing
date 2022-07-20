@@ -1,22 +1,16 @@
-import { useContext, useEffect } from "react";
-import VideoPopup from "../components/VideoPopup";
-import { VideoContext } from "../context/video";
-import { aTagClick } from "../utils/utils";
-import RtlFooter from "./RtlFooter";
-import RtlHeader from "./RtlHeader";
+import { useContext, useEffect } from 'react'
+import VideoPopup from '../components/VideoPopup'
+import { VideoContext } from '../context/video'
+import { aTagClick } from '../utils/utils'
+import RtlFooter from './RtlFooter'
+import RtlHeader from './RtlHeader'
 
-const RtlLayout = ({
-  children,
-  btnCustomHover,
-  navHoverColor,
-  navLight,
-  whiteLogo,
-}) => {
-  const videoContext = useContext(VideoContext);
-  const { video } = videoContext;
+const RtlLayout = ({ children, btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
+  const videoContext = useContext(VideoContext)
+  const { video } = videoContext
   useEffect(() => {
-    aTagClick();
-  }, []);
+    aTagClick()
+  }, [])
   return (
     <div className="wsmenucontainer">
       {video.show && <VideoPopup />}
@@ -31,7 +25,7 @@ const RtlLayout = ({
         <RtlFooter />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default RtlLayout;
+export default RtlLayout

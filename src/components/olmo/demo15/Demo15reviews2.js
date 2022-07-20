@@ -10,9 +10,8 @@ const Demo15reviews2 = () => {
               <h2 className="h2-md">Stories From Our Customers</h2>
               {/* Text */}
               <p className="p-xl">
-                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                primis a libero tempus, blandit and cursus varius and magnis
-                sapien
+                Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                cursus varius and magnis sapien
               </p>
             </div>
           </div>
@@ -31,17 +30,14 @@ const Demo15reviews2 = () => {
                 <div className="review-2-txt">
                   {/* Text */}
                   <p className="p-lg">
-                    Etiam sapien sagittis congue augue massa varius egestas
-                    ultrice varius magna a tempus aliquet undo cursus suscipit
+                    Etiam sapien sagittis congue augue massa varius egestas ultrice varius magna a tempus aliquet undo
+                    cursus suscipit
                   </p>
                   {/* Testimonial Author */}
                   <div className="author-data clearfix">
                     {/* Testimonial Avatar */}
                     <div className="review-avatar">
-                      <img
-                        src="/images/review-author-2.jpg"
-                        alt="review-avatar"
-                      />
+                      <img src="/images/review-author-2.jpg" alt="review-avatar" />
                     </div>
                     {/* Testimonial Author */}
                     <div className="review-author">
@@ -56,12 +52,12 @@ const Demo15reviews2 = () => {
                         <span className="flaticon-star-half-empty" />
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Testimonial Author */}
-                </div>{" "}
+                </div>{' '}
                 {/* End Text */}
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TESTIMONIAL #1 */}
             {/* TESTIMONIAL #2 */}
             <div className="col">
@@ -74,19 +70,14 @@ const Demo15reviews2 = () => {
                 <div className="review-2-txt">
                   {/* Text */}
                   <p className="p-lg">
-                    At sagittis congue augue and egestas magna ipsum vitae a
-                    purus ipsum primis in cubilia laoreet augue egestas luctus
-                    and donec diam ultrice ligula magna suscipit lectus gestas
-                    augue into cubilia
+                    At sagittis congue augue and egestas magna ipsum vitae a purus ipsum primis in cubilia laoreet augue
+                    egestas luctus and donec diam ultrice ligula magna suscipit lectus gestas augue into cubilia
                   </p>
                   {/* Testimonial Author */}
                   <div className="author-data clearfix">
                     {/* Testimonial Avatar */}
                     <div className="review-avatar">
-                      <img
-                        src="/images/review-author-6.jpg"
-                        alt="review-avatar"
-                      />
+                      <img src="/images/review-author-6.jpg" alt="review-avatar" />
                     </div>
                     {/* Testimonial Author */}
                     <div className="review-author">
@@ -101,12 +92,12 @@ const Demo15reviews2 = () => {
                         <span className="flaticon-star-half-empty" />
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Testimonial Author */}
-                </div>{" "}
+                </div>{' '}
                 {/* End Text */}
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TESTIMONIAL #2 */}
             {/* TESTIMONIAL #3 */}
             <div className="col">
@@ -119,18 +110,14 @@ const Demo15reviews2 = () => {
                 <div className="review-2-txt">
                   {/* Text */}
                   <p className="p-lg">
-                    Mauris donec magnis sapien etiam sapien congue augue egestas
-                    et ultrice vitae purus diam integer congue magna ligula undo
-                    egestas magna at suscipit feugiat primis
+                    Mauris donec magnis sapien etiam sapien congue augue egestas et ultrice vitae purus diam integer
+                    congue magna ligula undo egestas magna at suscipit feugiat primis
                   </p>
                   {/* Testimonial Author */}
                   <div className="author-data clearfix">
                     {/* Testimonial Avatar */}
                     <div className="review-avatar">
-                      <img
-                        src="/images/review-author-5.jpg"
-                        alt="review-avatar"
-                      />
+                      <img src="/images/review-author-5.jpg" alt="review-avatar" />
                     </div>
                     {/* Testimonial Author */}
                     <div className="review-author">
@@ -145,21 +132,21 @@ const Demo15reviews2 = () => {
                         <span className="flaticon-star-half-empty" />
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>{' '}
                   {/* End Testimonial Author */}
-                </div>{" "}
+                </div>{' '}
                 {/* End Text */}
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TESTIMONIAL #3 */}
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* END TESTIMONIALS-2 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo15reviews2;
+export default Demo15reviews2

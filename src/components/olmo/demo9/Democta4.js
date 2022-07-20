@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+import Link from 'next/dist/client/link'
 const Democta4 = () => {
   return (
     <section id="cta-4" className="cta-section division">
@@ -9,10 +9,7 @@ const Democta4 = () => {
               {/* CALL TO ACTION TEXT */}
               <div className="col-lg-7 col-lg-8">
                 <div className="cta-4-txt">
-                  <h4 className="h4-lg">
-                    Try OLMO free for 14 days. Start your trial now and pick a
-                    plan later
-                  </h4>
+                  <h4 className="h4-lg">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
                 </div>
               </div>
               {/* CALL TO ACTION BUTTON */}
@@ -20,9 +17,7 @@ const Democta4 = () => {
                 <div className="text-end">
                   <div className="cta-4-btn text-center">
                     <Link href="/pricing">
-                      <a className="btn btn-skyblue tra-grey-hover">
-                        Get Started Now
-                      </a>
+                      <a className="btn btn-skyblue tra-grey-hover">Get Started Now</a>
                     </Link>
                     <p>
                       <Link href="/faqs">
@@ -33,13 +28,13 @@ const Democta4 = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Democta4;
+export default Democta4

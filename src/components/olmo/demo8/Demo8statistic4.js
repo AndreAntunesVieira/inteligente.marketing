@@ -1,4 +1,4 @@
-import Counter from "../../Counter";
+import Counter from '../../Counter'
 
 const Demo8statistic4 = () => {
   return (
@@ -18,9 +18,7 @@ const Demo8statistic4 = () => {
                 </div>
                 {/* Text */}
                 <div className="statistic-block-txt grey-color">
-                  <h6 className="h6-md">
-                    Porta justo integer and velna vitae auctor
-                  </h6>
+                  <h6 className="h6-md">Porta justo integer and velna vitae auctor</h6>
                 </div>
               </div>
             </div>
@@ -35,9 +33,7 @@ const Demo8statistic4 = () => {
                 </div>
                 {/* Text */}
                 <div className="statistic-block-txt grey-color">
-                  <h6 className="h6-md">
-                    Ligula magna suscipit vitae and rutrum
-                  </h6>
+                  <h6 className="h6-md">Ligula magna suscipit vitae and rutrum</h6>
                 </div>
               </div>
             </div>
@@ -53,19 +49,17 @@ const Demo8statistic4 = () => {
                 </div>
                 {/* Text */}
                 <div className="statistic-block-txt grey-color">
-                  <h6 className="h6-md">
-                    Sagittis congue augue egestas an egestas
-                  </h6>
+                  <h6 className="h6-md">Sagittis congue augue egestas an egestas</h6>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* END STATISTIC-4 WRAPPER */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </div>
-  );
-};
+  )
+}
 
-export default Demo8statistic4;
+export default Demo8statistic4

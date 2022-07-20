@@ -1,29 +1,23 @@
-import Link from "next/dist/client/link";
-import { useEffect, useState } from "react";
-import Layout from "../layout/Layout";
-import { getPagination, isotopLayout, pagination } from "../utils/utils";
+import Link from 'next/dist/client/link'
+import { useEffect, useState } from 'react'
+import Layout from '../layout/Layout'
+import { getPagination, isotopLayout, pagination } from '../utils/utils'
 
 const Projects = () => {
-  let sort = 2;
-  const [active, setActive] = useState(1);
-  const [state, setstate] = useState([]);
+  let sort = 2
+  const [active, setActive] = useState(1)
+  const [state, setstate] = useState([])
   useEffect(() => {
-    isotopLayout();
-    pagination(".masonry-image", sort, active);
-    let list = document.querySelectorAll(".masonry-image");
-    setstate(getPagination(list.length, sort));
-  }, [active]);
+    isotopLayout()
+    pagination('.masonry-image', sort, active)
+    let list = document.querySelectorAll('.masonry-image')
+    setstate(getPagination(list.length, sort))
+  }, [active])
   return (
-    <Layout
-      btnCustomHover="btn btn-skyblue tra-grey-hover last-link"
-      singlePage
-    >
+    <Layout btnCustomHover="btn btn-skyblue tra-grey-hover last-link" singlePage>
       {/* PROJECTS-1
 			============================================= */}
-      <section
-        id="projects-1"
-        className="wide-50 inner-page-hero projects-section division"
-      >
+      <section id="projects-1" className="wide-50 inner-page-hero projects-section division">
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">
@@ -33,9 +27,8 @@ const Projects = () => {
                 <h2 className="h2-md">We Care About The Details</h2>
                 {/* Text */}
                 <p className="p-xl">
-                  Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                  primis a libero tempus, blandit and cursus varius and magnis
-                  sapien
+                  Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and
+                  cursus varius and magnis sapien
                 </p>
               </div>
             </div>
@@ -49,11 +42,7 @@ const Projects = () => {
                   {/* Image */}
                   <div className="project-preview rel">
                     <div className="hover-overlay">
-                      <img
-                        className="img-fluid"
-                        src="/images/projects/project-05.jpg"
-                        alt="project-preview"
-                      />
+                      <img className="img-fluid" src="/images/projects/project-05.jpg" alt="project-preview" />
                       <div className="item-overlay" />
                     </div>
                   </div>
@@ -77,18 +66,14 @@ const Projects = () => {
                       4.69 (173)
                     </div>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END PROJECT #1 */}
                 {/* PROJECT #2 */}
                 <div className="project-details masonry-image">
                   {/* Image */}
                   <div className="project-preview rel">
                     <div className="hover-overlay">
-                      <img
-                        className="img-fluid"
-                        src="/images/projects/project-02.jpg"
-                        alt="project-preview"
-                      />
+                      <img className="img-fluid" src="/images/projects/project-02.jpg" alt="project-preview" />
                       <div className="item-overlay" />
                     </div>
                   </div>
@@ -112,18 +97,14 @@ const Projects = () => {
                       5.0 (48)
                     </div>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END PROJECT #2 */}
                 {/* PROJECT #3 */}
                 <div className="project-details masonry-image">
                   {/* Image */}
                   <div className="project-preview rel">
                     <div className="hover-overlay">
-                      <img
-                        className="img-fluid"
-                        src="/images/projects/project-04.jpg"
-                        alt="project-preview"
-                      />
+                      <img className="img-fluid" src="/images/projects/project-04.jpg" alt="project-preview" />
                       <div className="item-overlay" />
                     </div>
                   </div>
@@ -147,18 +128,14 @@ const Projects = () => {
                       4.39 (87)
                     </div>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END PROJECT #3 */}
                 {/* PROJECT #4 */}
                 <div className="project-details masonry-image">
                   {/* Image */}
                   <div className="project-preview rel">
                     <div className="hover-overlay">
-                      <img
-                        className="img-fluid"
-                        src="/images/projects/project-03.jpg"
-                        alt="project-preview"
-                      />
+                      <img className="img-fluid" src="/images/projects/project-03.jpg" alt="project-preview" />
                       <div className="item-overlay" />
                     </div>
                   </div>
@@ -182,18 +159,14 @@ const Projects = () => {
                       4.87 (284)
                     </div>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END PROJECT #4 */}
                 {/* PROJECT #2 */}
                 <div className="project-details masonry-image">
                   {/* Image */}
                   <div className="project-preview rel">
                     <div className="hover-overlay">
-                      <img
-                        className="img-fluid"
-                        src="/images/projects/project-06.jpg"
-                        alt="project-preview"
-                      />
+                      <img className="img-fluid" src="/images/projects/project-06.jpg" alt="project-preview" />
                       <div className="item-overlay" />
                     </div>
                   </div>
@@ -217,18 +190,14 @@ const Projects = () => {
                       4.87 (68)
                     </div>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END PROJECT #2 */}
                 {/* PROJECT #2 */}
                 <div className="project-details masonry-image">
                   {/* Image */}
                   <div className="project-preview rel">
                     <div className="hover-overlay">
-                      <img
-                        className="img-fluid"
-                        src="/images/projects/project-07.jpg"
-                        alt="project-preview"
-                      />
+                      <img className="img-fluid" src="/images/projects/project-07.jpg" alt="project-preview" />
                       <div className="item-overlay" />
                     </div>
                   </div>
@@ -252,13 +221,13 @@ const Projects = () => {
                       4.53 (70)
                     </div>
                   </div>
-                </div>{" "}
+                </div>{' '}
                 {/* END PROJECT #2 */}
               </div>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* END PROJECTS-1 WRAPPER */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END PROJECTS-1 */}
@@ -274,9 +243,9 @@ const Projects = () => {
                     <a
                       className="page-link"
                       href="src/pages/projects#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setActive(active === 1 ? 1 : active - 1);
+                      onClick={e => {
+                        e.preventDefault()
+                        setActive(active === 1 ? 1 : active - 1)
                       }}
                     >
                       <span className="flaticon-back" />
@@ -284,16 +253,13 @@ const Projects = () => {
                   </li>
                   {state &&
                     state.map((s, i) => (
-                      <li
-                        className={`page-item ${active === s ? "active" : ""}`}
-                        key={i}
-                      >
+                      <li className={`page-item ${active === s ? 'active' : ''}`} key={i}>
                         <a
                           className="page-link"
                           href="src/pages/projects#"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setActive(s);
+                          onClick={e => {
+                            e.preventDefault()
+                            setActive(s)
                           }}
                         >
                           {s}
@@ -304,11 +270,9 @@ const Projects = () => {
                     <a
                       className="page-link"
                       href="src/pages/projects#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setActive(
-                          active === state.length ? state.length : active + 1
-                        );
+                      onClick={e => {
+                        e.preventDefault()
+                        setActive(active === state.length ? state.length : active + 1)
                       }}
                     >
                       <span className="flaticon-next"></span>
@@ -317,11 +281,11 @@ const Projects = () => {
                 </ul>
               </nav>
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
-      </div>{" "}
+      </div>{' '}
       {/* END PAGE PAGINATION */}
       {/* CALL TO ACTION-3
 			============================================= */}
@@ -333,10 +297,7 @@ const Projects = () => {
                 {/* CALL TO ACTION TEXT */}
                 <div className="col-lg-7 col-lg-8">
                   <div className="cta-3-txt">
-                    <h4 className="h4-xl">
-                      Try OLMO free for 14 days. Start your trial now and pick a
-                      plan later
-                    </h4>
+                    <h4 className="h4-xl">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
                   </div>
                 </div>
                 {/* CALL TO ACTION BUTTON */}
@@ -344,9 +305,7 @@ const Projects = () => {
                   <div className="text-end">
                     <div className="cta-3-btn text-center">
                       <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/pricing">
-                        <a className="btn btn-skyblue tra-grey-hover">
-                          Get Started Now
-                        </a>
+                        <a className="btn btn-skyblue tra-grey-hover">Get Started Now</a>
                       </Link>
                       <p>
                         <Link href="/Users/andre/projects/inteligente.marketing.site/src/pages/faqs">
@@ -357,14 +316,14 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* End container */}
         </div>
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

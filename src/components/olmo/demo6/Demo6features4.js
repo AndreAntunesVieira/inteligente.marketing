@@ -20,9 +20,8 @@ const Demo6features4 = () => {
                   <h5 className="h5-md">Friendly Interface</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -42,9 +41,8 @@ const Demo6features4 = () => {
                   <h5 className="h5-md">Powerful Options</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -64,9 +62,8 @@ const Demo6features4 = () => {
                   <h5 className="h5-md">File Manager</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -86,9 +83,8 @@ const Demo6features4 = () => {
                   <h5 className="h5-md">Convert Media Files</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -108,9 +104,8 @@ const Demo6features4 = () => {
                   <h5 className="h5-md">Files Sharing</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -130,9 +125,8 @@ const Demo6features4 = () => {
                   <h5 className="h5-md">Extensions &amp; Addons</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus at auctor tempus feugiat impedit felis undo auctor
-                    augue mauris
+                    Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus feugiat impedit felis
+                    undo auctor augue mauris
                   </p>
                 </div>
               </div>
@@ -143,7 +137,7 @@ const Demo6features4 = () => {
       </div>
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo6features4;
+export default Demo6features4

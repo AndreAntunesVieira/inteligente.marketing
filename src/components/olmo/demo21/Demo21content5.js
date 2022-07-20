@@ -1,9 +1,6 @@
 const Demo21content5 = () => {
   return (
-    <section
-      id="content-5"
-      className="content-5 ws-wrapper content-section division"
-    >
+    <section id="content-5" className="content-5 ws-wrapper content-section division">
       <div className="container">
         <div className="content-5-wrapper bg-whitesmoke">
           <div className="row d-flex align-items-center">
@@ -22,9 +19,8 @@ const Demo21content5 = () => {
                   <div className="cbox-txt">
                     <h5 className="h5-md">Quick Access</h5>
                     <p className="p-lg">
-                      Ligula risus auctor tempus dolor feugiat undo lacinia
-                      purus lipsum quaerat primis ultrice tellus and viverra
-                      purus suscipit
+                      Ligula risus auctor tempus dolor feugiat undo lacinia purus lipsum quaerat primis ultrice tellus
+                      and viverra purus suscipit
                     </p>
                   </div>
                 </div>
@@ -40,9 +36,8 @@ const Demo21content5 = () => {
                   <div className="cbox-txt">
                     <h5 className="h5-md">Fast Performance</h5>
                     <p className="p-lg">
-                      Ligula risus auctor tempus dolor feugiat undo lacinia
-                      purus lipsum quaerat primis ultrice tellus and viverra
-                      purus suscipit
+                      Ligula risus auctor tempus dolor feugiat undo lacinia purus lipsum quaerat primis ultrice tellus
+                      and viverra purus suscipit
                     </p>
                   </div>
                 </div>
@@ -58,32 +53,27 @@ const Demo21content5 = () => {
                   <div className="cbox-txt">
                     <h5 className="h5-md">Extensions &amp; Addons</h5>
                     <p className="p-lg">
-                      Ligula risus auctor tempus dolor feugiat undo lacinia
-                      purus lipsum quaerat primis ultrice tellus and viverra
-                      purus suscipit
+                      Ligula risus auctor tempus dolor feugiat undo lacinia purus lipsum quaerat primis ultrice tellus
+                      and viverra purus suscipit
                     </p>
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* END TEXT BLOCK */}
             {/* IMAGE BLOCK */}
             <div className="col-md-5 col-lg-6">
               <div className="img-block right-column wow fadeInLeft">
-                <img
-                  className="img-fluid"
-                  src="/images/img-07.png"
-                  alt="content-image"
-                />
+                <img className="img-fluid" src="/images/img-07.png" alt="content-image" />
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* End row */}
-      </div>{" "}
+      </div>{' '}
       {/* End container */}
     </section>
-  );
-};
+  )
+}
 
-export default Demo21content5;
+export default Demo21content5

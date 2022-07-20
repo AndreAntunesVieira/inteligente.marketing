@@ -1,13 +1,8 @@
-import Link from "next/dist/client/link";
-import Layout from "../layout/Layout";
+import Link from 'next/dist/client/link'
+import Layout from '../layout/Layout'
 const download = () => {
   return (
-    <Layout
-      navLight
-      whiteLogo
-      btnCustomHover="btn btn-skyblue tra-white-hover last-link"
-      singlePage
-    >
+    <Layout navLight whiteLogo btnCustomHover="btn btn-skyblue tra-white-hover last-link" singlePage>
       <div id="download-page" className="page-hero-section division">
         <div className="page-hero-overlay division">
           <div className="container">
@@ -15,21 +10,19 @@ const download = () => {
               <div className="col-lg-10 col-xl-8">
                 <div className="hero-txt text-center white-color">
                   {/* Title */}
-                  <h2 className="h2-xs">
-                    Ready to try OLMO 2.10.074? Select the version you need
-                  </h2>
+                  <h2 className="h2-xs">Ready to try OLMO 2.10.074? Select the version you need</h2>
                   {/* Text */}
                   <p className="p-xl">
-                    Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                    dolor primis libero tempus, blandit and cursus varius
+                    Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit and
+                    cursus varius
                   </p>
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
             {/* End row */}
-          </div>{" "}
+          </div>{' '}
           {/* End container */}
-        </div>{" "}
+        </div>{' '}
         {/* End hero-overlay */}
         {/* WAVE SHAPE BOTTOM */}
         <div className="wave-shape-bottom">
@@ -41,14 +34,11 @@ const download = () => {
             />
           </svg>
         </div>
-      </div>{" "}
+      </div>{' '}
       {/* END PAGE HERO */}
       {/* DOWNLOAD-1
 			============================================= */}
-      <section
-        id="download-1"
-        className="bg-snow wide-20 download-section division"
-      >
+      <section id="download-1" className="bg-snow wide-20 download-section division">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-10">
@@ -87,21 +77,18 @@ const download = () => {
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        <b>Windows 64 bit</b> - also available as a portable
-                        version
+                        <b>Windows 64 bit</b> - also available as a portable version
                       </p>
                     </li>
                     <li className="list-item">
-                      <p className="p-lg">
-                        {`Fixed Bug: "Euismod purus and blandit"`}
-                      </p>
+                      <p className="p-lg">{`Fixed Bug: "Euismod purus and blandit"`}</p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">Fixed Crash#4680682692</p>
                     </li>
                   </ul>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END VERSION RELEASE */}
               {/* VERSION RELEASE */}
               <div className="version-release">
@@ -128,20 +115,15 @@ const download = () => {
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Quaerat sodales sapien undo euismod purus and blandit
-                        egestas magna on macOS 10.12.*
+                        Quaerat sodales sapien undo euismod purus and blandit egestas magna on macOS 10.12.*
                       </p>
                     </li>
                     <li className="list-item">
-                      <p className="p-lg">
-                        Fixed suscipit lectus auctor integer cursus orci vitae
-                        auctor integer
-                      </p>
+                      <p className="p-lg">Fixed suscipit lectus auctor integer cursus orci vitae auctor integer</p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Fixed Fringilla risus nec, luctus mauris auctor integer
-                        an auctor cursus euismod
+                        Fixed Fringilla risus nec, luctus mauris auctor integer an auctor cursus euismod
                       </p>
                     </li>
                     <li className="list-item">
@@ -149,7 +131,7 @@ const download = () => {
                     </li>
                   </ul>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END VERSION RELEASE */}
               {/* VERSION RELEASE */}
               <div className="version-release">
@@ -174,34 +156,21 @@ const download = () => {
                 <div className="release-highlights">
                   <ul className="simple-list">
                     <li className="list-item">
-                      <p className="p-lg">
-                        Quaerat sodales sapien undo euismod magna on 10.12
-                        (Sierra)
-                      </p>
+                      <p className="p-lg">Quaerat sodales sapien undo euismod magna on 10.12 (Sierra)</p>
+                    </li>
+                    <li className="list-item">
+                      <p className="p-lg">Fixed suscipit lectus auctor integer cursus orci vitae auctor integer</p>
+                    </li>
+                    <li className="list-item">
+                      <p className="p-lg">Fixed risus nec luctus mauris auctor integer an integera congue magna</p>
+                    </li>
+                    <li className="list-item">
+                      <p className="p-lg">Fixed cubilia laoreet magna at auctor integer congue egestas</p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Fixed suscipit lectus auctor integer cursus orci vitae
-                        auctor integer
-                      </p>
-                    </li>
-                    <li className="list-item">
-                      <p className="p-lg">
-                        Fixed risus nec luctus mauris auctor integer an integera
-                        congue magna
-                      </p>
-                    </li>
-                    <li className="list-item">
-                      <p className="p-lg">
-                        Fixed cubilia laoreet magna at auctor integer congue
-                        egestas
-                      </p>
-                    </li>
-                    <li className="list-item">
-                      <p className="p-lg">
-                        Fringilla risus nec, luctus mauris auctor integer an
-                        auctor cursus euismod purus pretium efficitur ipsum
-                        ligula undo cubilia laoreet magna and dolor suscipit
+                        Fringilla risus nec, luctus mauris auctor integer an auctor cursus euismod purus pretium
+                        efficitur ipsum ligula undo cubilia laoreet magna and dolor suscipit
                       </p>
                     </li>
                     <li className="list-item">
@@ -209,7 +178,7 @@ const download = () => {
                     </li>
                   </ul>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END VERSION RELEASE */}
               {/* VERSION RELEASE */}
               <div className="version-release">
@@ -234,14 +203,10 @@ const download = () => {
                 <div className="release-highlights">
                   <ul className="simple-list">
                     <li className="list-item">
-                      <p className="p-lg">
-                        Fixes integer cursus orci bugs on 10.13 (High Sierra)
-                      </p>
+                      <p className="p-lg">Fixes integer cursus orci bugs on 10.13 (High Sierra)</p>
                     </li>
                     <li className="list-item">
-                      <p className="p-lg">
-                        Fixed auctor integer cursus orci vitae auctor integer
-                      </p>
+                      <p className="p-lg">Fixed auctor integer cursus orci vitae auctor integer</p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">Fixed Crash#8341689840</p>
@@ -251,12 +216,12 @@ const download = () => {
                     </li>
                   </ul>
                 </div>
-              </div>{" "}
+              </div>{' '}
               {/* END VERSION RELEASE */}
             </div>
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END DOWNLOAD-1 */}
@@ -285,14 +250,13 @@ const download = () => {
                         <h5 className="h5-md">View Pricing</h5>
                         {/* Text */}
                         <p className="p-lg">
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus at auctor tempus
+                          Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus
                         </p>
                       </div>
                     </div>
                   </a>
                 </Link>
-              </div>{" "}
+              </div>{' '}
               {/* END BOX #1 */}
               {/* BOX #2 */}
               <div className="col">
@@ -311,27 +275,26 @@ const download = () => {
                         <h5 className="h5-md">Read the FAQs</h5>
                         {/* Text */}
                         <p className="p-lg">
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus at auctor tempus
+                          Porta semper lacus cursus feugiat primis ultrice ligula risus at auctor tempus
                         </p>
                       </div>
                     </div>
                   </a>
                 </Link>
-              </div>{" "}
+              </div>{' '}
               {/* END BOX #2 */}
-            </div>{" "}
+            </div>{' '}
             {/* End cta-8-wrapper */}
-          </div>{" "}
+          </div>{' '}
           {/* End row */}
-        </div>{" "}
+        </div>{' '}
         {/* End container */}
       </section>
       {/* END CALL TO ACTION-8 */}
       {/* DIVIDER LINE */}
       <hr className="divider" />
     </Layout>
-  );
-};
+  )
+}
 
-export default download;
+export default download
