@@ -22,12 +22,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: Get runtime build variables
-        id: localvars
-        run: |
-          echo "::set-output name=APP_NAME::$(echo $GITHUB_JOB)-$(echo $GITHUB_ACTION_REPOSITORY)-$(echo $GITHUB_REF_NAME)-$(echo $GITHUB_REPOSITORY)"
-          echo "::set-output name=PULL_NUMBER::main"
-          echo "::set-output name=IMAGE_TAG::${{ env.APP_NAME }}-main-${{ env.RUN_NUMBER }}"
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -40,14 +34,12 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Install
-        id: build-image
         env:
           NODE_ENV: development
         run: |
           npm install
 
       - name: Build, and export
-        id: build-image
         env:
           NODE_ENV: production
         run: |
