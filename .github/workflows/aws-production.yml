@@ -50,4 +50,4 @@ jobs:
       - name: AWS CLI Upload version file
         run: |
           aws s3 cp out s3://${{ env.AWS_S3_BUCKET }} --recursive
-#          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT }} --paths "/*"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_AGENCIA_CLOUDFRONT }} --paths "/*"
