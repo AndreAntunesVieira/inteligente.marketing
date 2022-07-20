@@ -1,0 +1,55 @@
+name: Deploy to Elastic Beanstalk
+
+on:
+  push:
+    branches: [main]
+
+env:
+  RUN_NUMBER: ${{ github.run_number }}
+  AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
+  AWS_SECRET_KEY_ID: ${{ secrets.AWS_AGENCIA_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_AGENCIA_SECRET_ACCESS_KEY }}
+  AWS_REGION: ${{ secrets.AWS_AGENCIA_REGION }}
+
+jobs:
+  deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - name: Use node 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Get runtime build variables
+        id: localvars
+        run: |
+          echo "::set-output name=APP_NAME::$(echo $GITHUB_JOB)-$(echo $GITHUB_ACTION_REPOSITORY)-$(echo $GITHUB_REF_NAME)-$(echo $GITHUB_REPOSITORY)"
+          echo "::set-output name=PULL_NUMBER::main"
+          echo "::set-output name=IMAGE_TAG::${{ env.APP_NAME }}-main-${{ env.RUN_NUMBER }}"
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_SECRET_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Build, tag, and push image to Amazon ECR
+        id: build-image
+        env:
+          IMAGE_TAG: ${{ steps.localvars.outputs.IMAGE_TAG }}
+          NODE_ENV: production
+        run: |
+          NODE_ENV=development npm install --legacy-peer-deps
+          npm run build
+          npm run export
+
+      - name: AWS CLI Upload version file
+        run: |
+          aws s3 cp homepage s3://${{ env.AWS_S3_BUCKET }}/homepage --recursive
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT }} --paths "/*"
