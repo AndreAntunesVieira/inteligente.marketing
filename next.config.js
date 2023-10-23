@@ -1,15 +1,27 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
 
+/**
+ * @type {import('next').NextConfig}
+ **/
 const nextConfig = {
-  reactStrictMode: true,
-  compiler: {
-    styledComponents: true,
-  },
-  exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
-    return {
-      '/': { page: '/' },
-    }
-  }
+    experimental: {
+        images: {
+            unoptimized: true,
+        },
+    },
+    exportPathMap: async function (
+      defaultPathMap,
+      { dev, dir, outDir, distDir, buildId }
+    ) {
+        return {
+            '/': { page: '/' },
+            '/events/teste': { page: '/events/[eventSlug]', query: { title: 'teste' } },
+        }
+    },
+    i18n: {
+        locales: ['en', 'pt', 'nl'],
+        defaultLocale: 'pt',
+    },
 }
 
 module.exports = nextConfig
