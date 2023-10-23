@@ -15,11 +15,10 @@ const nextConfig = {
     ) {
         return {
             '/': { page: '/' },
-            '/events/teste': { page: '/events/[eventSlug]', query: { title: 'teste' } },
         }
     },
     i18n: {
-        locales: ['en', 'pt', 'nl'],
+        locales: ['pt'],
         defaultLocale: 'pt',
     },
 }
